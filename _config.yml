@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Andre Nogueira Souza"
   avatar           : "/img/andre_souza_spain.png"
-  bio              : "An Applied Mathematician"
+  bio              : # "An Applied Mathematician"
   location         : "Cambridge, MA"
   links:
     - label: "Email"
