@@ -34,9 +34,7 @@ of x-ray scattering spectra for warm dense matter, Phys. Rev. E 89,
 # Reports
 
 0. 2015 GFD report: Instantons as a Means to Probe Chaotic Attractors with R. R. Kerswell
-
 0. 2013 LANL report: Modeling X-Ray Thomson Scattering Spectra of Warm Dense Matter, with D.J. Perkins, D. Saumon, and C. Starrett
-
 {: reversed="reversed"}
 
 # Thesis
