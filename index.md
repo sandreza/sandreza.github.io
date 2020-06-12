@@ -1,5 +1,5 @@
 ---
-title: Me: human and scientist
+title: Applied Mathematician
 ---
 
 I'm an applied mathematician working on the [CLIMA] project.
