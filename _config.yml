@@ -97,7 +97,6 @@ author:
   avatar           : "/img/andre_souza_spain.png"
   bio              : "An Applied Mathematician"
   location         : "Cambridge, MA"
-  email            : "andrenogueirasouza@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
