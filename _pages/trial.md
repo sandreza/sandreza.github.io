@@ -6,4 +6,5 @@ layout: single
 author_profile: true
 ---
 
-## Placeholder
+## Education
+PhD University of Michigan 2016

@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal Webpage"
+title                    : "Home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Andre Nogueira de Souza"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Andre Nogueira Souza"
+  name             : "Andre Nogueira de Souza"
   avatar           : "/img/me.png"
   bio              : " "
   location         : "Cambridge, MA"
