@@ -4,7 +4,7 @@ permalink: /publications/
 layout: single # splash
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cog"
+author_profile: true
 ---
 
 ## In Review
