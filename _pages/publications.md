@@ -1,7 +1,7 @@
 ---
 title: Publications
 permalink: /publications/
-layout: splash
+layout: single # splash
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "cog"
