@@ -2,7 +2,7 @@
 layout: home
 author_profile: true
 header:
-  image: /img/clima_group_photo.jpg
+  image: /img/eel_pond.jpg
 ---
 
 I'm an applied mathematician working on the [CLIMA] project.
