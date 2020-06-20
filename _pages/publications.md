@@ -17,7 +17,7 @@ author_profile: true
 
 ## Published
 
-0. Bhamidipati, **N., Souza, A. N.**, and Flierl, G. R. (2020). [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling, 149:101615.
+0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. (2020). [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling, 149:101615.
 0. **Souza, A.**, Tobasco, I., & Doering, C. (2020). [Wall-to-wall optimal transport in two dimensions]. Journal of Fluid Mechanics, 889, A34.
 0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?], European Journal of Applied
 Mathematics (2018)
