@@ -22,7 +22,7 @@ author_profile: true
 0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?], European Journal of Applied
 Mathematics (2018)
 0. **A. N. Souza** and C.R. Doering, [Transport bounds for a truncated model of Rayleigh-Bénard convection], Physica D (2015)
-0. **A. N. Souza** and C.R. Doering**, [Maximal transport in the Lorenz equations],
+0. **A. N. Souza** and C.R. Doering, [Maximal transport in the Lorenz equations],
 Physics Letters A (2014)
 0. **A. N. Souza**, D.J. Perkins, C.E. Starrett, D. Saumon, and S.B. Hansen, [Predictions of x-ray scattering spectra for warm dense matter], Phys. Rev. E 89,
 023108 (2014)
