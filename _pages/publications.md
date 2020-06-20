@@ -52,7 +52,7 @@ Physics Letters A (2014)
 <!-- Report -->
 [Instantons as a Means to Probe Chaotic Attractors]: https://gfd.whoi.edu/wp-content/uploads/sites/18/2018/03/Andre_Souza_x_243644.pdf
 
-[Modeling X-Ray Thomson Scattering Spectra of Warm Dense Matter]: https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-13-28028
+[Modeling X-Ray Thomson Scattering Spectra of Warm Dense Matter]: https://www.lanl.gov/org/padwp/adx/computational-physics/summer-workshop/report-archive.php
 
 <!-- Thesis -->
 [An Optimal Control Approach to Bounding Transport Properties of Thermal Convection]: https://deepblue.lib.umich.edu/handle/2027.42/133426
