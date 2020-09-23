@@ -17,6 +17,7 @@ author_profile: true
 
 ## Published
 
+0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, Andre Souza, Alan Edelman, Raffaele Ferrari, and John Marshall [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
 0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. (2020). [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling, 149:101615.
 0. **Souza, A.**, Tobasco, I., & Doering, C. (2020). [Wall-to-wall optimal transport in two dimensions]. Journal of Fluid Mechanics, 889, A34.
 0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?], European Journal of Applied
@@ -42,6 +43,7 @@ Physics Letters A (2014)
 [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://www.essoar.org/doi/abs/10.1002/essoar.10502546.1
 
 <!-- Published -->
+[Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]: https://joss.theoj.org/papers/10.21105/joss.02018
 [Turbulent mixing of a passive scalar in the ocean mixed layer]: https://www.sciencedirect.com/science/article/abs/pii/S1463500319302665
 [Wall-to-wall optimal transport in two dimensions]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/walltowall-optimal-transport-in-two-dimensions/14BBFC698F9BFFEA72FB463E3CB86B36
 [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?]: https://www.cambridge.org/core/journals/european-journal-of-applied-mathematics/article/metastable-transitions-in-inertial-langevin-systems-what-can-be-different-from-the-overdamped-case/6B0F1CB2386E57DC94418858FD81F554
