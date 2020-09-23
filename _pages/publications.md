@@ -12,15 +12,15 @@ author_profile: true
 0.  [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]
     **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
     Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari
-    **in review with the Journal of Advances in Modeling Earth Systems**, *2020*
+    **in review with the Journal of Advances in Modeling Earth Systems** (*2020*) [uq video presentation]
 {: reversed="reversed"}
 
 ## Published
 
-0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, Andre Souza, Alan Edelman, Raffaele Ferrari, and John Marshall [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
-0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. (2020). [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling, 149:101615.
-0. **Souza, A.**, Tobasco, I., & Doering, C. (2020). [Wall-to-wall optimal transport in two dimensions]. Journal of Fluid Mechanics, 889, A34.
-0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?], European Journal of Applied
+0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
+0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling (2020)
+0. **Souza, A.**, Tobasco, I., & Doering, C. [Wall-to-wall optimal transport in two dimensions]. Journal of Fluid Mechanics (2020)
+0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?]. European Journal of Applied
 Mathematics (2018)
 0. **A. N. Souza** and C.R. Doering, [Transport bounds for a truncated model of Rayleigh-Bénard convection], Physica D (2015)
 0. **A. N. Souza** and C.R. Doering, [Maximal transport in the Lorenz equations],
@@ -38,6 +38,9 @@ Physics Letters A (2014)
 ## Thesis
 
 0. 2016 PhD Thesis: [An Optimal Control Approach to Bounding Transport Properties of Thermal Convection]
+
+<!-- Youtube -->
+[uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
 [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://www.essoar.org/doi/abs/10.1002/essoar.10502546.1
