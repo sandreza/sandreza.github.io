@@ -43,7 +43,7 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
-[Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://www.essoar.org/doi/abs/10.1002/essoar.10502546.1
+[Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://www.essoar.org/doi/abs/10.1002/essoar.10502546.3
 
 <!-- Published -->
 [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]: https://joss.theoj.org/papers/10.21105/joss.02018
