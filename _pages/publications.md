@@ -7,15 +7,12 @@ toc_label: "Table of Contents"
 author_profile: true
 ---
 
-## In Review
+## Published
 
 0.  [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]
     **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
     Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari
     **in review with the Journal of Advances in Modeling Earth Systems** (*2020*) [uq video presentation]
-{: reversed="reversed"}
-
-## Published
 
 0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
 0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling (2020)
@@ -43,9 +40,9 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
-[Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://www.essoar.org/doi/abs/10.1002/essoar.10502546.3
 
 <!-- Published -->
+[Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002108
 [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]: https://joss.theoj.org/papers/10.21105/joss.02018
 [Turbulent mixing of a passive scalar in the ocean mixed layer]: https://www.sciencedirect.com/science/article/abs/pii/S1463500319302665
 [Wall-to-wall optimal transport in two dimensions]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/walltowall-optimal-transport-in-two-dimensions/14BBFC698F9BFFEA72FB463E3CB86B36
