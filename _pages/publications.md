@@ -12,7 +12,7 @@ author_profile: true
 0.  [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]
     **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
     Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari
-    **in review with the Journal of Advances in Modeling Earth Systems** (*2020*) [uq video presentation]
+    Journal of Advances in Modeling Earth Systems (2020) [uq video presentation]
 
 0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
 0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling (2020)
