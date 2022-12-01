@@ -11,7 +11,8 @@ author_profile: true
 ## Preprints
 0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Submitted to JAMES
 
-0. Ali Ramadhan, John C Marshall, ***A. N. Souza***, Xin Kai Lee, Ulyana Piterbarg, Adeline Hillier, Gregory LeClaire Wagner, Christopher Rackauckas, Chris Hill, Jean-Michel Campin, and Raffaele Ferrari. [Capturing missing physics in climate model parameterizations using neural differential equations]. Sumbitted to JAMES
+0. Ali Ramadhan, John C Marshall, **A. N. Souza**, Xin Kai Lee, Ulyana Piterbarg, Adeline Hillier, Gregory LeClaire Wagner, Christopher Rackauckas, Chris Hill, Jean-Michel Campin, and Raffaele Ferrari. [Capturing missing physics in climate model parameterizations using neural differential equations]. Submitted to JAMES
+
 ## Published
 
 0.  [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]
