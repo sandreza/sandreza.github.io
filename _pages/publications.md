@@ -9,7 +9,7 @@ author_profile: true
 
 
 ## Preprints
-0. **A. N. Souza**, Tyler Lutz, Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Preprint for JFM
+0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Preprint for JFM
 
 0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Submitted to JAMES
 
