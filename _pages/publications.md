@@ -49,8 +49,8 @@ Physics Letters A (2014)
 
 <!-- Unpublished -->
 [Statistical Nonlocality of Dynamically Coherent Structures]: https://arxiv.org/abs/2211.16608
-[The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://www.essoar.org/doi/10.1002/essoar.10512731.2
-[Capturing missing physics in climate model parameterizations using neural differential equations]: https://www.essoar.org/doi/abs/10.1002/essoar.10512533.1
+[The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://essopenarchive.org/doi/full/10.1002/essoar.10512731.2
+[Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
 <!-- Published -->
 [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002108
