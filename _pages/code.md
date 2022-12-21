@@ -14,7 +14,7 @@ The following is a list of codes that I am actively developing
 
 
 ## CliMA Code
-The overall list of packages developd by [CliMA](https://clima.caltech.edu/) is found [here](https://github.com/CliMA). 
+The overall list of packages developed by [CliMA](https://clima.caltech.edu/) is found [here](https://github.com/CliMA). 
 In particular, I'd like to highlight the following packages:
 
 * [Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl)
