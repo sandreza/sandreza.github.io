@@ -7,9 +7,11 @@ toc_label: "Table of Contents"
 author_profile: true
 ---
 
+## Preprint 
+0. **A. N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]. Preprint
 
-## Preprints
-0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Preprint for JFM
+## In Review
+0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Submitted to JFM
 
 0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Submitted to JAMES
 
@@ -48,6 +50,7 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
+[Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]: https://arxiv.org/abs/2304.03362
 [Statistical Nonlocality of Dynamically Coherent Structures]: https://arxiv.org/abs/2211.16608
 [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://essopenarchive.org/doi/full/10.1002/essoar.10512731.2
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
