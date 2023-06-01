@@ -20,9 +20,8 @@ author_profile: true
 
 0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Journal of Advances in Modeling Earth Systems (2023)
 
-0.  [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]
-    **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
-    Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari.
+0.  **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
+    Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari. [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection].
     Journal of Advances in Modeling Earth Systems (2020) [uq video presentation]
 
 0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
