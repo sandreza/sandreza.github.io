@@ -12,11 +12,12 @@ author_profile: true
 0. **A. N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]. Preprint
 {: reversed="reversed"}
 ## In Review
-0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Submitted to JFM
 
 0. Ali Ramadhan, John C Marshall, **A. N. Souza**, Xin Kai Lee, Ulyana Piterbarg, Adeline Hillier, Gregory LeClaire Wagner, Christopher Rackauckas, Chris Hill, Jean-Michel Campin, and Raffaele Ferrari. [Capturing missing physics in climate model parameterizations using neural differential equations]. Submitted to JAMES
 {: reversed="reversed"}
 ## Published
+
+0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Journal of Fluid Mechanics (2023)
 
 0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Journal of Advances in Modeling Earth Systems (2023)
 
@@ -51,10 +52,10 @@ Physics Letters A (2014)
 
 <!-- Unpublished -->
 [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]: https://arxiv.org/abs/2304.03362
-[Statistical Nonlocality of Dynamically Coherent Structures]: https://arxiv.org/abs/2211.16608
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
 <!-- Published -->
+[Statistical Nonlocality of Dynamically Coherent Structures]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/statistical-nonlocality-of-dynamically-coherent-structures/5A7B478E2273BB159E5229EE3E6B9815
 [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003527
 [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002108
 [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]: https://joss.theoj.org/papers/10.21105/joss.02018
