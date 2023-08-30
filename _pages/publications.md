@@ -9,31 +9,29 @@ author_profile: true
 
 ## Preprint 
 
-0. **A. N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]. Preprint
+0. Ludovico T. Giorgini, **Andre N. Souza**, Peter J. Schmid. [Clustering of Dynamical Systems]
+0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]. Preprint
 {: reversed="reversed"}
-## In Review
 
-0. Ali Ramadhan, John C Marshall, **A. N. Souza**, Xin Kai Lee, Ulyana Piterbarg, Adeline Hillier, Gregory LeClaire Wagner, Christopher Rackauckas, Chris Hill, Jean-Michel Campin, and Raffaele Ferrari. [Capturing missing physics in climate model parameterizations using neural differential equations]. Submitted to JAMES
-{: reversed="reversed"}
 ## Published
 
-0. **A. N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Journal of Fluid Mechanics (2023)
+0. **Andre N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Journal of Fluid Mechanics (2023)
 
-0. **A. N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Journal of Advances in Modeling Earth Systems (2023)
+0. **Andre N. Souza**, Jia He, Tobias Bischoff, Maciej Waruszewski, Lenka Novak, Valeria Barra, Thomas Gibson, Akshay Sridhar, Sriharsha Kandala, Simon Byrne, Lucas Wilcox, Jeremy Kozdon, Frank Giraldo, Oswald Knoth, Raffaele Ferrari, John Marshall, and Tapio Schneider. [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]. Journal of Advances in Modeling Earth Systems (2023)
 
-0.  **Andre Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
+0.  **Andre N. Souza**, Gregory L Wagner, Ali Ramadhan, Brandon Allen, Valentin Churavy, James Schloss, Jean-Michel Campin, Chris Hill,
     Alan Edelman, John Marshall, Glenn Flierl, Raffaele Ferrari. [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection].
     Journal of Advances in Modeling Earth Systems (2020) [uq video presentation]
 
-0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
-0. Bhamidipati, N., **Souza, A. N.**, and Flierl, G. R. [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling (2020)
+0. Ali Ramadhan, Gregory LeClaire Wagner, Chris Hill, Jean-Michel Campin, Valentin Churavy, Tim Besard, **Andre N. Souza**, Alan Edelman, Raffaele Ferrari, and John Marshall. [Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs]. Journal of Open Source Software (2020)
+0. Bhamidipati, N., **Souza, Andre N.**, and Flierl, G. R. [Turbulent mixing of a passive scalar in the ocean mixed layer]. Ocean Modelling (2020)
 0. **Souza, A.**, Tobasco, I., & Doering, C. [Wall-to-wall optimal transport in two dimensions]. Journal of Fluid Mechanics (2020)
-0. **A. N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?]. European Journal of Applied
+0. **Andre N. Souza** and Molei Tao, [Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?]. European Journal of Applied
 Mathematics (2018)
-0. **A. N. Souza** and C.R. Doering, [Transport bounds for a truncated model of Rayleigh-Bénard convection], Physica D (2015)
-0. **A. N. Souza** and C.R. Doering, [Maximal transport in the Lorenz equations],
+0. **Andre N. Souza** and C.R. Doering, [Transport bounds for a truncated model of Rayleigh-Bénard convection], Physica D (2015)
+0. **Andre N. Souza** and C.R. Doering, [Maximal transport in the Lorenz equations],
 Physics Letters A (2014)
-0. **A. N. Souza**, D.J. Perkins, C.E. Starrett, D. Saumon, and S.B. Hansen, [Predictions of x-ray scattering spectra for warm dense matter], Phys. Rev. E 89,
+0. **Andre N. Souza**, D.J. Perkins, C.E. Starrett, D. Saumon, and S.B. Hansen, [Predictions of x-ray scattering spectra for warm dense matter], Phys. Rev. E 89,
 023108 (2014)
 {: reversed="reversed"}
 
@@ -51,6 +49,7 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
+[Clustering of Dynamical Systems]: https://arxiv.org/abs/2308.10864
 [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]: https://arxiv.org/abs/2304.03362
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
