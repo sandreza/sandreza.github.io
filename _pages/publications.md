@@ -9,11 +9,16 @@ author_profile: true
 
 ## Preprint 
 
+
+0. Ludovico T. Giorgini, Katherine Deck, Tobias Bischoff, **Andre N. Souza**. [Response Theory via Generative Score Modeling]
+0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou,Christopher N. Hill, **Andre N. Souza**, Raffaele Ferrari [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
 0. Ludovico T. Giorgini, **Andre N. Souza**, Peter J. Schmid. [Clustering of Dynamical Systems]
-0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]. Preprint
+0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]
 {: reversed="reversed"}
 
 ## Published
+
+0. Gosha Geogdzhayev, **Andre N. Souza**, and Raffaele Ferrari. [The evolving butterfly: Statistics in a changing attractor]. Physica D (2024)
 
 0. **Andre N. Souza**, Tyler Lutz, and Glenn R. Flierl. [Statistical Nonlocality of Dynamically Coherent Structures]. Journal of Fluid Mechanics (2023)
 
@@ -49,11 +54,14 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
+[A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]: https://essopenarchive.org/users/703084/articles/688784-a-new-weno-based-momentum-advection-scheme-for-simulations-of-ocean-mesoscale-turbulence
+[Response Theory via Generative Score Modeling]: https://arxiv.org/abs/2402.01029
 [Clustering of Dynamical Systems]: https://arxiv.org/abs/2308.10864
 [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]: https://arxiv.org/abs/2304.03362
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
 <!-- Published -->
+[The evolving butterfly: Statistics in a changing attractor]: https://www.sciencedirect.com/science/article/pii/S0167278924000587
 [Statistical Nonlocality of Dynamically Coherent Structures]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/statistical-nonlocality-of-dynamically-coherent-structures/5A7B478E2273BB159E5229EE3E6B9815
 [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003527
 [Uncertainty quantification of ocean parameterizations: application to the K-Profile-Parameterization for penetrative convection]: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020MS002108
