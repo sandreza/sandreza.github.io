@@ -10,9 +10,10 @@ author_profile: true
 ## Preprint 
 
 
-0. Ludovico T. Giorgini, Katherine Deck, Tobias Bischoff, **Andre N. Souza**. [Response Theory via Generative Score Modeling]
-0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou,Christopher N. Hill, **Andre N. Souza**, Raffaele Ferrari. [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
-0. Ludovico T. Giorgini, **Andre N. Souza**, Peter J. Schmid. [Clustering of Dynamical Systems]
+0. Ludovico T. Giorgini, Katherine Deck, Tobias Bischoff, and **Andre N. Souza**. [Response Theory via Generative Score Modeling]
+0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou, Christopher N. Hill, **Andre N. Souza**, and Raffaele Ferrari. [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
+0. Gregory LeClaire Wagner, Adeline Hillier, Navid C. Constantinou, Simone Silvestri, Andre Souza, Keaton Burns, Ali Ramadhan, Chris Hill, Jean-Michel Campin, John Marshall, and Raffaele Ferrari. [CATKE: a turbulent-kinetic-energy-based parameterization for ocean microturbulence with dynamic convective adjustment]
+0. Ludovico T. Giorgini, **Andre N. Souza**, and Peter J. Schmid. [Clustering of Dynamical Systems]
 0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]
 {: reversed="reversed"}
 
@@ -54,6 +55,7 @@ Physics Letters A (2014)
 [uq video presentation]: https://www.youtube.com/watch?v=PKGFkCg58fE&ab_channel=SIAMMPE
 
 <!-- Unpublished -->
+[CATKE: a turbulent-kinetic-energy-based parameterization for ocean microturbulence with dynamic convective adjustment]: https://arxiv.org/abs/2306.13204
 [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]: https://essopenarchive.org/users/703084/articles/688784-a-new-weno-based-momentum-advection-scheme-for-simulations-of-ocean-mesoscale-turbulence
 [Response Theory via Generative Score Modeling]: https://arxiv.org/abs/2402.01029
 [Clustering of Dynamical Systems]: https://arxiv.org/abs/2308.10864
