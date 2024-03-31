@@ -11,7 +11,7 @@ author_profile: true
 
 
 0. Ludovico T. Giorgini, Katherine Deck, Tobias Bischoff, **Andre N. Souza**. [Response Theory via Generative Score Modeling]
-0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou,Christopher N. Hill, **Andre N. Souza**, Raffaele Ferrari [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
+0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou,Christopher N. Hill, **Andre N. Souza**, Raffaele Ferrari. [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
 0. Ludovico T. Giorgini, **Andre N. Souza**, Peter J. Schmid. [Clustering of Dynamical Systems]
 0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]
 {: reversed="reversed"}
