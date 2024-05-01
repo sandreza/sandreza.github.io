@@ -12,12 +12,15 @@ author_profile: true
 
 0. Ludovico T. Giorgini, Katherine Deck, Tobias Bischoff, and **Andre N. Souza**. [Response Theory via Generative Score Modeling]
 0. Simone Silvestri,Gregory L. Wagner, Jean-Michel Campin,Navid C Constantinou, Christopher N. Hill, **Andre N. Souza**, and Raffaele Ferrari. [A new WENO-based momentum advection scheme for simulations of ocean mesoscale turbulence]
-0. Gregory LeClaire Wagner, Adeline Hillier, Navid C. Constantinou, Simone Silvestri, Andre Souza, Keaton Burns, Ali Ramadhan, Chris Hill, Jean-Michel Campin, John Marshall, and Raffaele Ferrari. [CATKE: a turbulent-kinetic-energy-based parameterization for ocean microturbulence with dynamic convective adjustment]
+0. Gregory LeClaire Wagner, Adeline Hillier, Navid C. Constantinou, Simone Silvestri, **Andre N. Souza**, Keaton Burns, Ali Ramadhan, Chris Hill, Jean-Michel Campin, John Marshall, and Raffaele Ferrari. [CATKE: a turbulent-kinetic-energy-based parameterization for ocean microturbulence with dynamic convective adjustment]
 0. Ludovico T. Giorgini, **Andre N. Souza**, and Peter J. Schmid. [Clustering of Dynamical Systems]
 0. **Andre N. Souza**. [Transforming Butterflies into Graphs: Statistics of Chaotic and Turbulent Systems]
 {: reversed="reversed"}
 
 ## Published
+
+0. Glenn R. Flierl and **Andre N. Souza**.
+[On the non-local nature of turbulent fluxes of passive scalars]. Journal of Fluid Mechanics (2024)
 
 0. Gosha Geogdzhayev, **Andre N. Souza**, and Raffaele Ferrari. [The evolving butterfly: Statistics in a changing attractor]. Physica D (2024)
 
@@ -63,6 +66,7 @@ Physics Letters A (2014)
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
 <!-- Published -->
+[On the non-local nature of turbulent fluxes of passive scalars]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/on-the-nonlocal-nature-of-turbulent-fluxes-of-passive-scalars/9DDA19AB9E42C5465620E558605F9986#article
 [The evolving butterfly: Statistics in a changing attractor]: https://www.sciencedirect.com/science/article/pii/S0167278924000587
 [Statistical Nonlocality of Dynamically Coherent Structures]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/statistical-nonlocality-of-dynamically-coherent-structures/5A7B478E2273BB159E5229EE3E6B9815
 [The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere]: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003527
