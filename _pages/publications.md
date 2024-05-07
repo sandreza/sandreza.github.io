@@ -7,6 +7,10 @@ toc_label: "Table of Contents"
 author_profile: true
 ---
 
+## Google Scholar
+
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=FoK_ufEAAAAJ&view_op=list_works&sortby=pubdate)
+
 ## Preprint 
 
 
