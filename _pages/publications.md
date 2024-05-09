@@ -23,6 +23,8 @@ author_profile: true
 
 ## Published
 
+0. R Oliver, Melanie Bieli, Alfredo Garbuno-Iñigo, Michael Howland, **Andre N. Souza**, Laura Anne Mansfield, Gregory L Wagner, N Efrat-Henrici. [CalibrateEmulateSample. jl: Accelerated Parametric Uncertainty Quantification]. Journal of Open Source Software (2024)
+
 0. Glenn R. Flierl and **Andre N. Souza**.
 [On the non-local nature of turbulent fluxes of passive scalars]. Journal of Fluid Mechanics (2024)
 
@@ -70,6 +72,7 @@ Physics Letters A (2014)
 [Capturing missing physics in climate model parameterizations using neural differential equations]: https://essopenarchive.org/doi/full/10.1002/essoar.10512533.1
 
 <!-- Published -->
+[CalibrateEmulateSample. jl: Accelerated Parametric Uncertainty Quantification]: https://joss.theoj.org/papers/10.21105/joss.06372
 [On the non-local nature of turbulent fluxes of passive scalars]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/on-the-nonlocal-nature-of-turbulent-fluxes-of-passive-scalars/9DDA19AB9E42C5465620E558605F9986#article
 [The evolving butterfly: Statistics in a changing attractor]: https://www.sciencedirect.com/science/article/pii/S0167278924000587
 [Statistical Nonlocality of Dynamically Coherent Structures]: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/statistical-nonlocality-of-dynamically-coherent-structures/5A7B478E2273BB159E5229EE3E6B9815
