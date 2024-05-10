@@ -8,9 +8,11 @@ author_profile: true
 ---
 
 ## Research Code 
-The following is a list of codes that I am actively developing
+The following is a list of codes that I am developing
 
 * [MarkovChainHammer.jl](https://github.com/sandreza/MarkovChainHammer.jl)
+
+* [StateSpacePartitions.jl](https://github.com/sandreza/StateSpacePartitions.jl)
 
 
 ## CliMA Code
@@ -18,4 +20,6 @@ The overall list of packages developed by [CliMA](https://clima.caltech.edu/) is
 In particular, I'd like to highlight the following packages:
 
 * [Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl)
+
+* [CalibrateEmulateSample.jl](https://github.com/CliMA/CalibrateEmulateSample.jl)
 

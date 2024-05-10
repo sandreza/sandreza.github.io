@@ -23,7 +23,7 @@ author_profile: true
 
 ## Published
 
-0. Oliver R. A. Dunbar, Melanie Bieli, Alfredo Garbuno-Iñigo, Michael Howland, **Andre Nogueira de Souza**, Laura Anne Mansfield, Gregory L. Wagner, and N. Efrat-Henrici. [CalibrateEmulateSample. jl: Accelerated Parametric Uncertainty Quantification]. Journal of Open Source Software (2024)
+0. Oliver R. A. Dunbar, Melanie Bieli, Alfredo Garbuno-Iñigo, Michael Howland, **Andre N. Souza**, Laura Anne Mansfield, Gregory L. Wagner, and N. Efrat-Henrici. [CalibrateEmulateSample. jl: Accelerated Parametric Uncertainty Quantification]. Journal of Open Source Software (2024)
 
 0. Glenn R. Flierl and **Andre N. Souza**.
 [On the non-local nature of turbulent fluxes of passive scalars]. Journal of Fluid Mechanics (2024)
