@@ -1,52 +1,51 @@
 ---
-title: "An example journal article"
+title: 'Statistical non-locality of dynamically coherent structures'
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+  - A. N. Souza 
+  - T. Lutz
+  - G. R. Flierl
+
+date: '2023-05-01T00:00:00Z'
+doi: 'https://doi.org/10.1017/jfm.2023.467'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: '2023-06-01T00:00:00Z'
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ['2']
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: '*JFM, 966, A44*'
+publication_short: ''
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
+abstract: We analyse a class of stochastic advection problems by conditionally averaging the passive tracer equation with respect to a given flow state. In doing so, we obtain expressions for the turbulent diffusivity as a function of the flow statistics spectrum. When flow statistics are given by a continuous-time Markov process with a finite state space, calculations are amenable to analytic treatment. When the flow statistics are more complex, we show how to approximate turbulent fluxes as hierarchies of finite state space continuous-time Markov processes. The ensemble average turbulent flux is expressed as a linear operator that acts on the ensemble average of the tracer. We recover the classical estimate of turbulent flux as a diffusivity tensor, the components of which are the integrated autocorrelation of the velocity field in the limit that the operator becomes local in space and time.
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+  - Source Themes
 featured: false
 
 # links:
 # - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+#   url: "https://doi.org/10.1175/MWR-D-15-0245.1"
+url_pdf: /files/statistical-non-locality-of-dynamically-coherent-structures.pdf
+url_code: ''
 url_dataset: ''
-url_poster: ''
+url_DOI: 'https://doi.org/10.1017/jfm.2023.467'
 url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
+  focal_point: ''
   preview_only: false
 
 # Associated Projects (optional).
@@ -61,15 +60,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides:
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
