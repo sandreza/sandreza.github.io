@@ -9,7 +9,6 @@ weight: 10 # Order that this section will appear.
 title: |
   Andre Souza
 hero_media: me.jpg
-# hero_media: guadeloupe_2.png
 
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
