@@ -45,8 +45,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020MS002108'
-url_code: '/files/kpp_uq_2020.pdf'
+url_pdf: '/files/kpp_uq_2020.pdf'
+url_code: ''
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1029/2020MS002108'
 url_project: ''
