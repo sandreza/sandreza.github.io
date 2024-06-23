@@ -1,16 +1,15 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-i_am_a_sponsor: true
 
 # Appearance
 
 appearance:
-  theme_day: ocean
-  theme_night: minimal
-  font: Minimal
-  font_size: M
+  theme_day: minimal
+  theme_night:
+  font: native
+  font_size: L
 
 # SEO
 
@@ -19,11 +18,13 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'Andre Nogueira de Souza'
-    twitter: ''
+    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -44,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Andre Souza. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -54,8 +55,7 @@ footer:
 # Localization
 
 locale:
-  date: "`r format(Sys.time(), '%d %B, %Y')`"
-  #date_format: 'Jul 29, 2022'
+  date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/sandreza/sandreza.github.io'
+    url: 'https://github.com/<username>/<repository>'
     content_dir: content
     branch: main
   avatar:
@@ -85,6 +85,11 @@ features:
       show_count: true
     commento:
       url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
@@ -100,7 +105,7 @@ features:
 # Extensions
 
 extensions:
-  cms:
+  decap_cms:
     branch: main
     local_backend: false
   academicons:

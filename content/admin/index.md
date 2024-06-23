@@ -1,21 +1,8 @@
 ---
-# Generate Wowchemy CMS
-type: wowchemycms
+# Generate Decap CMS
+type: decap_cms
 private: true
 outputs:
-  - wowchemycms_config
+  - decap_cms_config
   - HTML
 ---
-# Display name
-title: Andre Nogueira de Souza
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
-role: 'Research Scientist [He/Him]'
-
-# Organizations/Affiliations
-organizations:
-  - name: Massachusetts Institute of Technology
-    url: 'https://web.mit.edu/'
