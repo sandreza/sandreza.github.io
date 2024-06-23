@@ -2,7 +2,7 @@
 
 ### Clone
 ```
-git clone git@github.com:sandreza/sandreza.github.io.git
+git clone https://github.com/sandreza/sandreza.github.io.git
 cd sandreza.github.io
 ```
 
