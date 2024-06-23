@@ -20,9 +20,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: We introduce an approach for analyzing the responses of dynamical systems to external pertur-bations that combines score-based generative modeling with the Fluctuation-Dissipation Theorem
-(FDT). The methodology enables accurate estimation of system responses, notably for systems with non-Gaussian statistics, which can present challenges for conventional approximate methods. We numerically validate our approach using time-series data from a stochastic partial differential equation where the score and response functions are available analytically. Furthermore, we demonstrate the improved accuracy of our methodology over conventional methods and its potential as a versatile tool for understanding complex dynamical systems. Applications span disciplines from climate science and finance to neuroscience.
-
+abstract: 
 # Summary. An optional shortened abstract.
 summary: 
 
