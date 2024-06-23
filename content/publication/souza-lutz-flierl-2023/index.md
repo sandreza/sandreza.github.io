@@ -23,7 +23,7 @@ publication_short: ''
 
 abstract: We analyse a class of stochastic advection problems by conditionally averaging the passive tracer equation with respect to a given flow state. In doing so, we obtain expressions for the turbulent diffusivity as a function of the flow statistics spectrum. When flow statistics are given by a continuous-time Markov process with a finite state space, calculations are amenable to analytic treatment. When the flow statistics are more complex, we show how to approximate turbulent fluxes as hierarchies of finite state space continuous-time Markov processes. The ensemble average turbulent flux is expressed as a linear operator that acts on the ensemble average of the tracer. We recover the classical estimate of turbulent flux as a diffusivity tensor, the components of which are the integrated autocorrelation of the velocity field in the limit that the operator becomes local in space and time.
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags:
   - Source Themes
