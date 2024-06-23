@@ -2,8 +2,8 @@
 
 ### Clone
 ```
-git clone git@github.com:Zanna-ResearchTeam/Zanna-ResearchTeam.github.io.git
-cd Zanna-ResearchTeam.github.io
+git clone git@github.com:sandreza/sandreza.github.io.git
+cd sandreza.github.io
 ```
 
 ### Install Hugo 
