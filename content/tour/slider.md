@@ -15,39 +15,12 @@ design:
 
 content:
   slides:
-    - title: 👋 Welcome to the group
+    - title: 👋 Welcome to the website
       content: Take a look at what we're working on...
       align: center
       background:
         position: right
         color: '#666'
         brightness: 0.7
-        media: Fabrizio.png
-    - title: our group
-      content: 'Based in NYC, our group also includes researchers accross 2 continents and 3 different time zones!'
-      align: left
-      background:
-        position: center
-        color: '#555'
-        brightness: 0.7
-        media: group-2020.jpeg
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: Join Us
-        url: ../contact/
-    - title: Climate and Ocean Physics Lab
-      content: ''
-      align: right
-      background:
-        position: center
-        color: '#333'
-        brightness: 0.5
-        media: coders2.jpeg
-      link:
-        icon: 
-        icon_pack: fas
-        text: Discover our projects
-        url: ../projects/
-
+        media: me.png
 ---
