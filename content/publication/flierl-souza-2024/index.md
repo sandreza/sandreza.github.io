@@ -6,7 +6,7 @@ authors:
 
 
 date: '2024-04-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/jfm.2023.467'
+doi: 'https://doi.org/10.1017/jfm.2024.302'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-04-01T00:00:00Z'
@@ -21,7 +21,7 @@ publication_types: ['article-journal']
 publication: '*JFM, 986, A8*'
 publication_short: ''
 
-abstract: 
+abstract: The parameterization of fluxes associated with representing unresolved dynamics in turbulent flows, especially in the atmosphere and ocean (which have a vast range of scales), remains a challenging task. This is especially true for Earth system models including complex biogeochemistry and requiring very long simulations. The problem of representing the dependence of the mean flux of a passive tracer in terms of the mean has a very long history; in this study, we take a somewhat different approach. We use a formalism showing that the mean flux will be a functional of the mean gradients, a formalism that can be used to calculate the structure of the functional which is non-local in both space and time. Two-dimensional turbulent simulations are used to explore the weight of nearby (in space or time) gradients. We also use stochastic velocities and iterated maps to show that the results are similar. The functional formalism provides an understanding of when non-locality needs to be considered and when a local eddy diffusivity can be a reasonably good approximation. Furthermore, the formalism provides guidance for the development of data-driven parameterizations.
 # Summary. An optional shortened abstract.
 summary: 
 
