@@ -18,4 +18,4 @@ role: 'Research Scientist [He/Him]'
 # Organizations/Affiliations
 organizations:
   - name: Massachusetts Institute of Technology
-    url: ''
+    url: 'https://web.mit.edu/'
