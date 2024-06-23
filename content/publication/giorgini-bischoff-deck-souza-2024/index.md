@@ -5,11 +5,11 @@ authors:
 - Katherine Deck
 - Tobias Bischoff
 - Andre N. Souza
-date: "2024-03-07T00:00:00Z"
+date: "2024-06-07T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-03-01T00:00:00Z"
+publishDate: "2024-06-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -32,7 +32,7 @@ links:
 # - name: Custom Link
 #   url: https://doi.org/10.48550/arXiv.2402.01029
 url_pdf: /files/response_prl.pdf
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
 url_dataset: ''
 url_DOI: 'https://doi.org/10.48550/arXiv.2402.01029'
 url_poster: ''
@@ -61,7 +61,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: 
 ---
 
 {{% callout note %}}
