@@ -36,7 +36,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: '/files/neeraja2020.pdf'
+url_pdf: '/files/Neeraja2020.pdf'
 url_code: ''
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1016/j.ocemod.2020.101615'
