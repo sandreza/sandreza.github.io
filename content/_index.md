@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        I am an applied mathematician interested in solving challenges in modeling complex data. My research is in generative AI, scientific computing, Bayesian methods, and geophysics.
+        I am an applied mathematician interested in solving challenges in modeling complex data. My research is in generative AI, scientific computing, Bayesian methods, and geophysics. [Google Scholar]
 
   - block: collection
     content:
@@ -57,3 +57,5 @@ sections:
     design:
       columns: '1'
 ---
+
+[Google Scholar]: https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en
