@@ -25,7 +25,7 @@ publishDate: '2020-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Journal of Open Source Software, 5(53), 2018*'
+publication: 'Journal of Open Source Software, 5(53), 2018'
 publication_short: ''
 
 abstract: Oceananigans.jl is a Julia package designed for fast and user-friendly simulations of geophysical fluid dynamics on GPUs. The package leverages the power of modern GPU hardware to provide high-performance simulations, making it accessible and efficient for researchers. This tool is particularly valuable for studying oceanographic and atmospheric phenomena, offering a combination of speed and ease of use.
