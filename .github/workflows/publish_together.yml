@@ -4,6 +4,8 @@ name: Deploy website to GitHub Pages
 permissions:
   contents: write
   pull-requests: write
+  pages: write
+  id-token: write
 
 # Run workflow when a `.bib` file is added or updated in the `data/` folder
 on:
@@ -65,10 +67,6 @@ on:
   workflow_dispatch:
 
 # Provide permission to clone the repo and deploy it to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
