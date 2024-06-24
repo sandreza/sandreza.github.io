@@ -4,7 +4,7 @@ authors:
   - A. Ramadhan
   - G. L. Wagner
   - C. Hill
-  - J.-M. Campin
+  - J. Campin
   - V. Churavy
   - T. Besard
   - A. Souza
