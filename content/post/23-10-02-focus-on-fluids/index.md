@@ -1,9 +1,11 @@
 ---
 title: Focus on Fluids Highlighted Article
 date: 2023-10-02
+image:
+  focal_point: 'top'
 ---
 
-The paper [Statistical Nonlocality of Dynamically Coherent Structures] was recently highlighted in the Focus on Fluids article [Ineffective Diffusivity].
+The paper [Statistical Nonlocality of Dynamically Coherent Structures] was recently highlighted in the Focus on Fluids article [Ineffective Diffusivity]
 
 <!--more-->
 
