@@ -43,7 +43,7 @@ featured: false
 # - name: ""
 #   url: ""
 url_pdf: '/files/10.21105.joss.06372.pdf'
-url_code: ''
+url_code: 'https://github.com/CliMA/CalibrateEmulateSample.jl'
 url_dataset: ''
 url_DOI: 'https://doi.org/10.21105/joss.06372'
 url_project: ''
