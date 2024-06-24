@@ -6,7 +6,7 @@ authors:
 - Tobias Bischoff
 - Andre N. Souza
 date: "2024-06-07T00:00:00Z"
-doi: ""
+doi: 'https://doi.org/10.1029/2022MS003527'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-06-01T00:00:00Z"
@@ -20,7 +20,7 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: 
+abstract: We introduce an approach for analyzing the responses of dynamical systems to external perturbations that combines score-based generative modeling with the Fluctuation-Dissipation Theorem (FDT). The methodology enables accurate estimation of system responses, especially for systems with non-Gaussian statistics, often encountered in dynamical systems far from equilibrium. Such cases often present limitations for conventional approximate methods. We numerically validate our approach using time-series data from a stochastic partial differential equation where the score function is available analytically. Furthermore, we demonstrate the improved accuracy of our methodology over conventional methods and its potential as a versatile tool for understanding complex dynamical systems. Applications span disciplines from climate science and finance to neuroscience.
 # Summary. An optional shortened abstract.
 summary: 
 
@@ -64,8 +64,3 @@ projects:
 slides: ""
 ---
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
