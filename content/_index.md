@@ -29,6 +29,25 @@ sections:
       view: citation
       columns: '1'
 
+  - block: collection
+    content:
+      title: Latest News
+      subtitle:
+      text:
+      count: 1
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
+      
   - block: markdown
     content:
       title:
