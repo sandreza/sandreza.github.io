@@ -8,10 +8,9 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Souza Research
       image:
-        filename: welcome.jpg
+        filename: coastline.jpg
       text: |
         <br>
         
@@ -45,7 +44,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: coders.jpg
+          filename: eel_pond.jpg
           filters:
             brightness: 1
           parallax: false
