@@ -15,20 +15,7 @@ sections:
         <br>
         
         I am an applied mathematician interested in solving challenges in modeling complex data. My research is in generative AI, scientific computing, Bayesian methods, and geophysics.
- 
-   - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
+  
   - block: collection
     content:
       title: Latest News
