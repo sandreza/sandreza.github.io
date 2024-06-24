@@ -10,12 +10,25 @@ sections:
       title: |
         Souza Research
       image:
-        filename: coastline.jpg
+        filename: eel_pond.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        I am an applied mathematician interested in solving challenges in modeling complex data. My research is in generative AI, scientific computing, Bayesian methods, and geophysics.
+ 
+   - block: collection
+    content:
+      title: Latest Preprints
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - publication
+        publication_type: 'article'
+    design:
+      view: citation
+      columns: '1'
+
   - block: collection
     content:
       title: Latest News
@@ -44,7 +57,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: eel_pond.jpg
+          filename: coastline.jpg
           filters:
             brightness: 1
           parallax: false
@@ -54,19 +67,6 @@ sections:
       spacing:
         padding: ['20px', '0', '20px', '0']
       css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
 
   - block: markdown
     content:
