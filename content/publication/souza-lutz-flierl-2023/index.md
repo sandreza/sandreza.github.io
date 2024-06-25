@@ -33,7 +33,7 @@ featured: false
 # - name: ""
 #   url: "https://doi.org/10.1175/MWR-D-15-0245.1"
 url_pdf: /files/statistical-non-locality-of-dynamically-coherent-structures.pdf
-url_code: ''
+url_code: 'https://github.com/sandreza/StatisticalNonlocality'
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1017/jfm.2023.467'
 url_project: ''
