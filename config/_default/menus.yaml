@@ -6,16 +6,16 @@
 main:
   - name: News
     url: post
-    weight: 20
+    weight: 1
   - name: People
     url: people
-    weight: 30
+    weight: 2
   - name: Publications
     url: publication
-    weight: 50
+    weight: 3
   - name: Code
     url: code
-    weight: 55
+    weight: 4
   - name: Contact
     url: contact
-    weight: 60
+    weight: 5
