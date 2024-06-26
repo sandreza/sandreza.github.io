@@ -29,7 +29,7 @@ links:
 # - name: Custom Link
 #   url: https://doi.org/10.48550/arXiv.2402.01029
 url_pdf: /files/butterflies.pdf
-url_code: ''
+url_code: 'https://github.com/sandreza/MarkovianTurbulence'
 url_dataset: ''
 url_DOI: 'https://doi.org/10.48550/arXiv.2304.03362'
 url_poster: ''

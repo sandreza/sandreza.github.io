@@ -46,7 +46,7 @@ featured: false
 # - name: ""
 #   url: ""
 url_pdf: '/files/kpp_uq_2020.pdf'
-url_code: ''
+url_code: 'https://github.com/sandreza/OceanConvectionUQSupplementaryMaterials'
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1029/2020MS002108'
 url_project: ''
