@@ -3,7 +3,7 @@ title: 'A New WENO-Based Momentum Advection Scheme for Simulations of Ocean Meso
 authors:
   - S. Silvestri
   - G. L. Wagner
-  - J.-M. Campin
+  - J. Campin
   - N. C. Constantinou
   - C. N. Hill
   - A. Souza
