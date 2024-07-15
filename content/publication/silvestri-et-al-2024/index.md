@@ -1,14 +1,13 @@
 ---
-title: 'CalibrateEmulateSample.jl: Accelerated Parametric Uncertainty Quantification'
+title: 'A New WENO-Based Momentum Advection Scheme for Simulations of Ocean Mesoscale Turbulence'
 authors:
-  - O. R. a. Dunbar
-  - M. Bieli
-  - A. Garbuno-Iñigo
-  - M. Howland
-  - A. N. de Souza
-  - L. A. Mansfield
+  - S. Silvestri
   - G. L. Wagner
-  - N. Efrat-Henrici
+  - J.-M. Campin
+  - N. C. Constantinou
+  - C. N. Hill
+  - A. Souza
+  - R. Ferrari
 
 date: '2024-01-01T00:00:00Z'
 doi: 'https://doi.org/10.21105/joss.06372'
