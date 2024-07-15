@@ -10,7 +10,7 @@ authors:
   - R. Ferrari
 
 date: '2024-01-01T00:00:00Z'
-doi: 'https://doi.org/10.21105/joss.06372'
+doi: 'https://doi.org/10.1029/2023MS004130'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-01-01T00:00:00Z'
@@ -22,29 +22,27 @@ publishDate: '2024-01-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Journal of Open Source Software, 9(97), 6372*'
+publication: '*Journal of Advances in Modeling Earth Systems, 16(7), e2023MS004130*'
 publication_short: ''
 
-abstract: The paper presents CalibrateEmulateSample.jl, a Julia package designed to accelerate parametric uncertainty quantification. The package leverages advanced techniques to calibrate, emulate, and sample parameters efficiently, significantly reducing computational costs while maintaining high accuracy. This tool is essential for applications requiring rigorous uncertainty quantification, particularly in fields like climate modeling, engineering, and applied sciences.
+abstract: 
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-  - Parametric Uncertainty Quantification
-  - Julia Package
-  - Calibration
-  - Emulation
-  - Sampling
+  - Numerical Modeling
+  - Mesoscale Ocean Turbulence
+  - Eddy-Permitting Simulations
 featured: false
 
 # links:
 # - name: ""
 #   url: ""
 url_pdf: '/files/oceananigans_weno.pdf'
-url_code: 'https://github.com/CliMA/CalibrateEmulateSample.jl'
+url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.21105/joss.06372'
+url_DOI: 'https://doi.org/10.1029/2023MS004130'
 url_project: ''
 url_slides: ''
 url_source: ''
