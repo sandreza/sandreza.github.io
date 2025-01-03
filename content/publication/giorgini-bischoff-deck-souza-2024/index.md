@@ -6,18 +6,18 @@ authors:
 - Tobias Bischoff
 - Andre N. Souza
 date: "2024-06-07T00:00:00Z"
-doi: 'https://doi.org/10.48550/arXiv.2402.01029'
+doi: 'https://doi.org/10.1103/PhysRevLett.133.267302'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-06-01T00:00:00Z"
+publishDate: "2024-12-31T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: '*Phys. Rev. Lett., 133(26), 267302*'
 publication_short: ""
 
 abstract: We introduce an approach for analyzing the responses of dynamical systems to external perturbations that combines score-based generative modeling with the Fluctuation-Dissipation Theorem (FDT). The methodology enables accurate estimation of system responses, especially for systems with non-Gaussian statistics, often encountered in dynamical systems far from equilibrium. Such cases often present limitations for conventional approximate methods. We numerically validate our approach using time-series data from a stochastic partial differential equation where the score function is available analytically. Furthermore, we demonstrate the improved accuracy of our methodology over conventional methods and its potential as a versatile tool for understanding complex dynamical systems. Applications span disciplines from climate science and finance to neuroscience.
@@ -25,7 +25,10 @@ abstract: We introduce an approach for analyzing the responses of dynamical syst
 summary: 
 
 tags:
-- Source Themes
+  - Response Theory
+  - Generative Score Modeling
+  - Complex Systems
+  - Physics
 featured: false
 
 links:
@@ -34,7 +37,7 @@ links:
 url_pdf: /files/response_prl.pdf
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.48550/arXiv.2402.01029'
+url_DOI: 'https://doi.org/10.1103/PhysRevLett.133.267302'
 url_poster: ''
 url_project: ''
 url_slides: ''
