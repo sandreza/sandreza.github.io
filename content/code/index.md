@@ -13,6 +13,11 @@ The following is a code I have developed for conditional diffusion models:
 
 * [JaxDiffusion](https://github.com/sandreza/JaxDiffusion)
 
+The following is a code I have developed for Transformer models: 
+
+* [SymbolicMemory](https://github.com/sandreza/SymbolicMemory)
+
+
 ## Research Code (Julia)
 The following is a list of codes that I have developed (or am developing) for research in using extendend dynamic mode decomposition (EDMD) and related methods for dynamical systems:
 

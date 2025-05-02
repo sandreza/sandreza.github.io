@@ -22,13 +22,13 @@ publishDate: '2024-05-01T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Authorea, Inc.*'
+publication: '*JAMES*'
 publication_short: ''
 
-abstract: This preprint presents a GPU-based ocean dynamical core designed for routine mesoscale-resolving climate simulations. The core leverages GPU acceleration to provide high-resolution, efficient simulations of ocean dynamics, making it suitable for large-scale climate models. The development and performance evaluation of this core are discussed, demonstrating its ability to resolve mesoscale processes and improve the accuracy of climate simulations while reducing computational costs.
+abstract: We describe an ocean hydrostatic dynamical core implemented in Oceananigans optimized for Graphical Processing Unit (GPU) architectures. On 64 A100 GPUs, equivalent to 16 computational nodes in current state-of-the-art supercomputers, our dynamical core can simulate a decade of near-global ocean dynamics per wall-clock day at an 8-km horizontal resolution; a resolution adequate to resolve the ocean's mesoscale eddy field. Such efficiency, achieved with relatively modest hardware resources, suggests that climate simulations on GPUs can incorporate fully eddy-resolving ocean models. This removes a major source of systematic bias in current IPCC coupled model projections, the parameterization of ocean eddies, and represents a major advance in climate modeling. We discuss the computational strategies, focusing on GPU-specific optimization and numerical implementation details that enable such high performance.
 
 # Summary. An optional shortened abstract.
 summary: 

@@ -13,7 +13,7 @@ authors:
   - R. Ferrari
 
 date: '2023-06-01T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2306.13204'
+doi: 'https://doi.org/10.1029/2024MS004522'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-06-01T00:00:00Z'
@@ -22,13 +22,13 @@ publishDate: '2023-06-01T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv preprint arXiv:2306.13204*'
+publication: '*JAMES*'
 publication_short: ''
 
-abstract: This paper presents the formulation and calibration of CATKE, a one-equation parameterization designed for modeling microscale ocean mixing. CATKE aims to improve the accuracy of ocean models by better representing the small-scale mixing processes that are crucial for large-scale ocean dynamics. The paper details the development of the model, its theoretical foundations, and the calibration process. CATKE is evaluated against observational data and applied in global climate models to demonstrate its effectiveness in capturing microscale mixing phenomena.
+abstract: We describe CATKE, a parameterization for fluxes associated with small-scale or “microscale” ocean turbulent mixing on scales between 1 and 100 m. CATKE uses a downgradient formulation that depends on a prognostic turbulent kinetic energy (TKE) variable and a diagnostic mixing length scale that includes a dynamic convective adjustment (CA) component. With its dynamic convective mixing length, CATKE predicts not just the depth spanned by convective plumes but also the characteristic convective mixing timescale, an important aspect of turbulent convection not captured by simpler static CA schemes. As a result, CATKE can describe the competition between convection and other processes such as shear-driven mixing and baroclinic restratification. To calibrate CATKE, we use Ensemble Kalman Inversion to minimize the error between 21 large eddy simulations (LESs) and predictions of the LES data by CATKE-parameterized single column simulations at three different vertical resolutions. We find that CATKE makes accurate predictions of both idealized and realistic LES compared to microscale turbulence parameterizations commonly used in climate models.
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -47,7 +47,7 @@ featured: false
 url_pdf: '/files/gregke.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.48550/arXiv.2306.13204'
+url_DOI: 'https://doi.org/10.1029/2024MS004522'
 url_project: ''
 url_slides: ''
 url_source: ''
