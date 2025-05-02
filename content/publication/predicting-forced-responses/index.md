@@ -18,7 +18,7 @@ publishDate: '2025-04-20T00:00:00Z'
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv preprint arXiv:2504.13333*'
+publication: '*arXiv*'
 publication_short: ''
 
 abstract: We present a novel data-driven framework for estimating the response of higher-order moments of nonlinear stochastic systems to small external perturbations. The classical Generalized Fluctuation-Dissipation Theorem (GFDT) links the unperturbed steady-state distribution to the system's linear response. Standard implementations rely on Gaussian approximations, which can often accurately predict the mean response but usually introduce significant biases in higher-order moments, such as variance, skewness, and kurtosis. To address this limitation, we combine GFDT with recent advances in score-based generative modeling, which enable direct estimation of the score function from data without requiring full density reconstruction. Our method is validated on three reduced-order stochastic models relevant to climate dynamics: a scalar stochastic model for low-frequency climate variability, a slow-fast triad model mimicking key features of the El Nino-Southern Oscillation (ENSO), and a six-dimensional stochastic barotropic model capturing atmospheric regime transitions. In all cases, the approach captures strongly nonlinear and non-Gaussian features of the system's response, outperforming traditional Gaussian approximations.
