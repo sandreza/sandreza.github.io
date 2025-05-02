@@ -12,11 +12,11 @@ authors:
   - J. Marshall
   - R. Ferrari
 
-date: '2025-06-01T00:00:00Z'
+date: '2025-04-01T00:00:00Z'
 doi: 'https://doi.org/10.1029/2024MS004522'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-06-01T00:00:00Z'
+publishDate: '2025-04-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,7 +28,7 @@ publication_types: ['article-journal']
 publication: '*JAMES*'
 publication_short: ''
 
-abstract: We describe CATKE, a parameterization for fluxes associated with small-scale or “microscale” ocean turbulent mixing on scales between 1 and 100 m. CATKE uses a downgradient formulation that depends on a prognostic turbulent kinetic energy (TKE) variable and a diagnostic mixing length scale that includes a dynamic convective adjustment (CA) component. With its dynamic convective mixing length, CATKE predicts not just the depth spanned by convective plumes but also the characteristic convective mixing timescale, an important aspect of turbulent convection not captured by simpler static CA schemes. As a result, CATKE can describe the competition between convection and other processes such as shear-driven mixing and baroclinic restratification. To calibrate CATKE, we use Ensemble Kalman Inversion to minimize the error between 21 large eddy simulations (LESs) and predictions of the LES data by CATKE-parameterized single column simulations at three different vertical resolutions. We find that CATKE makes accurate predictions of both idealized and realistic LES compared to microscale turbulence parameterizations commonly used in climate models.
+abstract: We describe CATKE, a parameterization for fluxes associated with small-scale or “microscale” ocean turbulent mixing on scales between 1 and 100 m.
 
 # Summary. An optional shortened abstract.
 summary: 
