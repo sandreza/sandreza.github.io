@@ -12,11 +12,11 @@ authors:
   - J. C. Marshall
   - R. Ferrari
 
-date: '2024-05-01T00:00:00Z'
+date: '2025-05-01T00:00:00Z'
 doi: 'https://doi.org/10.22541/essoar.171708158.82342448/v1'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-05-01T00:00:00Z'
+publishDate: '2025-05-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -37,7 +37,6 @@ tags:
   - GPU-based Ocean Core
   - Mesoscale-resolving Simulations
   - Climate Modeling
-  - Preprint
 featured: false
 
 # links:
