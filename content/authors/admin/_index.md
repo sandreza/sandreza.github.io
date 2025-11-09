@@ -10,11 +10,11 @@ last_name: Souza
 superuser: true
 
 # Role/position
-role: Research Scientist at MIT
+role: Visiting Scientist at MIT and HPC Engineer (Data and AI) at Rescale
 
 # Organizations/Affiliations
 organizations:
-  - name: MIT
+  - name: MIT and Rescale
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -66,4 +66,4 @@ user_groups:
   - Researchers
 ---
 
-Andre Souza is a research scientist and MIT. His research interests include generative AI and scientific machine learning. He received his PhD in Applied and Interdisciplinary Mathematics from the University of Michigan in 2016.
+Andre Souza is a visiting scientist at MIT and an HPC Engineer (Data and AI) at Rescale. His research interests include generative AI and scientific machine learning. He received his PhD in Applied and Interdisciplinary Mathematics from the University of Michigan in 2016.

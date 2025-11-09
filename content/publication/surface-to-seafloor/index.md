@@ -9,7 +9,7 @@ authors:
   - G. R. Flierl
 
 date: '2025-04-29T00:00:00Z'
-doi: 'https://arxiv.org/abs/2504.15308'
+doi: 'https://doi.org/10.48550/arXiv.2504.15308'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-04-29T00:00:00Z'
@@ -43,7 +43,7 @@ featured: false
 url_pdf: '/files/s2s.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://arxiv.org/abs/2504.15308'
+url_DOI: 'https://doi.org/10.48550/arXiv.2504.15308'
 url_project: ''
 url_slides: ''
 url_source: ''
