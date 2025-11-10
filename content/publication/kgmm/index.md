@@ -6,7 +6,7 @@ authors:
   - A. N. Souza
 
 date: '2025-03-26T00:00:00Z'
-doi: 'https://arxiv.org/abs/2503.18054'
+doi: 'https://doi.org/10.48550/arXiv.2503.18054'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-03-26T00:00:00Z'
@@ -40,7 +40,7 @@ featured: false
 url_pdf: '/files/kgmm.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://arxiv.org/abs/2503.18054'
+url_DOI: 'https://doi.org/10.48550/arXiv.2503.18054'
 url_project: ''
 url_slides: ''
 url_source: ''
