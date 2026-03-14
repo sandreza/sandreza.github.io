@@ -15,6 +15,9 @@
 Gemfile.lock
 **/vendor/bundle
 
+# New articles 
+new_articles/
+
 # Node.js and NPM
 node_modules
 npm-debug.log*

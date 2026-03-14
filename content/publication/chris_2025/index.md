@@ -1,5 +1,5 @@
 ---
-title: 'A framework for assessing and understanding sources of error in Earth System Model emulation'
+title: 'A theoretical framework to understand sources of error in Earth System Model emulation'
 authors:
   - C. B. Womack
   - G. Flierl
@@ -9,21 +9,21 @@ authors:
   - S. D. Eastham
   - N. E. Selin
 
-date: '2025-11-10T00:00:00Z'
-doi: 'https://doi.org/10.5194/egusphere-2025-3792'
+date: '2026-01-01T00:00:00Z'
+doi: 'https://doi.org/10.5194/esd-17-107-2026'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-11-10T00:00:00Z'
+publishDate: '2026-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*EGUsphere*'
-publication_short: ''
+publication: 'Earth System Dynamics'
+publication_short: 'Earth Syst. Dynam.'
 
 abstract: 
 
@@ -32,9 +32,8 @@ summary:
 
 tags:
   - Model Emulation
-  - Uncertainty Analysis
+  - Error Analysis
   - Earth System Models
-  - Preprint
 featured: false
 
 # links:
@@ -43,10 +42,10 @@ featured: false
 url_pdf: '/files/chris_2025.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.5194/egusphere-2025-3792'
+url_DOI: 'https://doi.org/10.5194/esd-17-107-2026'
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://esd.copernicus.org/articles/17/107/2026/'
 url_video: ''
 
 # Featured image

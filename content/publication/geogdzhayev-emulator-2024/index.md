@@ -1,26 +1,26 @@
 ---
-title: 'A Statistical Emulator Design for Averaged Climate Fields'
+title: 'An EOF-Based Emulator of Means and Covariances of Monthly Climate Fields'
 authors:
   - G. Geogdzhayev
   - A. N. Souza
   - R. Ferrari
   - G. R. Flierl
 
-date: '2024-10-01T00:00:00Z'
-doi: 'https://doi.org/10.22541/essoar.172779540.09973901/v1'
+date: '2026-01-01T00:00:00Z'
+doi: 'https://doi.org/10.5194/esd-17-235-2026'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-10-01T00:00:00Z'
+publishDate: '2026-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*Authorea, Inc.*'
-publication_short: ''
+publication: 'Earth System Dynamics'
+publication_short: 'Earth Syst. Dynam.'
 
 abstract: This preprint introduces a statistical emulator designed to represent averaged climate fields. The emulator aims to efficiently replicate climate model outputs, enabling faster computations while preserving accuracy in climate predictions. The method is particularly useful for scenarios where detailed climate simulations are computationally expensive. This work demonstrates the emulator's effectiveness and provides a foundation for future improvements in climate modeling and statistical representation.
 
@@ -30,8 +30,8 @@ summary:
 tags:
   - Statistical Emulator
   - Climate Modeling
-  - Averaged Climate Fields
-  - Preprint
+  - Monthly Climate Fields
+  - EOF
 featured: false
 
 # links:
@@ -40,10 +40,10 @@ featured: false
 url_pdf: '/files/gosha_statistical_emulator.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.22541/essoar.172779540.09973901/v1'
+url_DOI: 'https://doi.org/10.5194/esd-17-235-2026'
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://esd.copernicus.org/articles/17/235/2026/'
 url_video: ''
 
 # Featured image
