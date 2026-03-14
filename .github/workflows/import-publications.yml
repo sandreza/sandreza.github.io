@@ -6,13 +6,9 @@ permissions:
   contents: write
   pull-requests: write
 
-# Run workflow when a `.bib` file is added or updated in the `data/` folder
+# Manual maintenance workflow. Regular site deploys import publications in
+# `publish.yml` so Pages builds do not depend on this workflow finishing first.
 on:
-  push:
-    branches: ['main']
-    paths: ['publications.bib']
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
