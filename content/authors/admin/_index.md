@@ -10,7 +10,7 @@ last_name: Souza
 superuser: true
 
 # Role/position
-role: Visiting Scientist at MIT and HPC Engineer (Data and AI) at Rescale
+role: Visiting Scientist at MIT and Senior HPC Engineer (Data and AI) at Rescale
 
 # Organizations/Affiliations
 organizations:
