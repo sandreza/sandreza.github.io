@@ -6,8 +6,8 @@ permissions:
   contents: write
   pull-requests: write
 
-# Manual maintenance workflow. Regular site deploys import publications in
-# `publish.yml` so Pages builds do not depend on this workflow finishing first.
+# Manual maintenance workflow. Regular site deploys build the checked-in
+# `content/publication/` pages directly.
 on:
   workflow_dispatch:
 
