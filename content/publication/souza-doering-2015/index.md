@@ -5,7 +5,7 @@ authors:
   - C. R. Doering
 
 date: '2015-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physd.2015.05.009'
+doi: "10.1016/j.physd.2015.05.009"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2015-01-01T00:00:00Z'

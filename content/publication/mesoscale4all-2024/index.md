@@ -12,11 +12,11 @@ authors:
   - J. C. Marshall
   - R. Ferrari
 
-date: '2025-05-01T00:00:00Z'
-doi: 'https://doi.org/10.22541/essoar.171708158.82342448/v1'
+date: '2025-04-21T00:00:00Z'
+doi: "10.1029/2024MS004465"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-05-01T00:00:00Z'
+publishDate: '2025-04-21T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,8 +25,8 @@ publishDate: '2025-05-01T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: '*JAMES*'
-publication_short: ''
+publication: '*Journal of Advances in Modeling Earth Systems, 17(4), e2024MS004465*'
+publication_short: 'JAMES'
 
 abstract: We describe an ocean hydrostatic dynamical core implemented in Oceananigans optimized for Graphical Processing Unit (GPU) architectures. On 64 A100 GPUs, equivalent to 16 computational nodes in current state-of-the-art supercomputers, our dynamical core can simulate a decade of near-global ocean dynamics per wall-clock day at an 8-km horizontal resolution; a resolution adequate to resolve the ocean's mesoscale eddy field. Such efficiency, achieved with relatively modest hardware resources, suggests that climate simulations on GPUs can incorporate fully eddy-resolving ocean models. This removes a major source of systematic bias in current IPCC coupled model projections, the parameterization of ocean eddies, and represents a major advance in climate modeling. We discuss the computational strategies, focusing on GPU-specific optimization and numerical implementation details that enable such high performance.
 
@@ -45,10 +45,10 @@ featured: false
 url_pdf: '/files/mesoscale_for_all.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.22541/essoar.171708158.82342448/v1'
+url_DOI: 'https://doi.org/10.1029/2024MS004465'
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://doi.org/10.22541/essoar.171708158.82342448/v1'
 url_video: ''
 
 # Featured image

@@ -7,11 +7,11 @@ authors:
   - P. Cvitanović
   - P. Schmid
 
-date: '2025-02-05T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physd.2025.134865'
+date: '2025-11-01T00:00:00Z'
+doi: "10.1016/j.physd.2025.134865"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-02-05T00:00:00Z'
+publishDate: '2025-11-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,7 +20,7 @@ publishDate: '2025-02-05T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Physica D: Nonlinear Phenomena'
+publication: '*Physica D: Nonlinear Phenomena, 481, 134865*'
 publication_short: 'Physica D'
 
 abstract: This paper establishes a novel theoretical connection between the operator-theoretic description of a dynamical system and its local geometric properties. We demonstrate that the local Jacobian determinant, which governs state-space expansion and contraction, can be directly related to the entries of the transition matrix that approximates the system’s Perron–Frobenius operator. Specifically, we derive expressions that link measures of local instability and dissipation to the matrix elements, revealing that these geometric features are intrinsically encoded in the statistical operator. We illustrate the validity of this relationship through numerical experiments on several one- and two-dimensional chaotic maps, where these derived measures are validated against the exact analytical Jacobians of these test systems. This work establishes a direct, quantitative link between the global, statistical view of dynamics provided by the Perron–Frobenius operator and the local, geometric perspective described by the Jacobian.
@@ -33,7 +33,7 @@ tags:
   - Instability Fields
   - Dissipation Learning
   - Perron-Frobenius Operator
-  - Preprint
+  - Published
 featured: false
 
 # links:

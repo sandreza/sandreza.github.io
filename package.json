@@ -1,0 +1,17 @@
+{
+  "name": "andre-souza-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:react": "esbuild src/portfolio/index.jsx --bundle --jsx=automatic --minify --loader:.jsx=jsx --outfile=static/js/react-portfolio.js",
+    "watch:react": "esbuild src/portfolio/index.jsx --bundle --jsx=automatic --loader:.jsx=jsx --outfile=static/js/react-portfolio.js --watch",
+    "build": "npm run build:react && hugo --minify"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

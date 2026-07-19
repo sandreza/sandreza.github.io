@@ -5,7 +5,7 @@ authors:
   - C. R. Doering
 
 date: '2015-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physleta.2014.10.050'
+doi: "10.1016/j.physleta.2014.10.050"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2015-01-01T00:00:00Z'

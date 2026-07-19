@@ -6,7 +6,7 @@ authors:
   - C. R. Doering
 
 date: '2020-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/jfm.2020.42'
+doi: "10.1017/jfm.2020.42"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'

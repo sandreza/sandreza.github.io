@@ -8,7 +8,7 @@ authors:
   - S. B. Hansen
 
 date: '2014-02-01T00:00:00Z'
-doi: 'https://doi.org/10.1103/PhysRevE.89.023108'
+doi: "10.1103/PhysRevE.89.023108"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2014-02-01T00:00:00Z'

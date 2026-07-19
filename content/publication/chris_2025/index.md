@@ -10,7 +10,7 @@ authors:
   - N. E. Selin
 
 date: '2026-01-01T00:00:00Z'
-doi: 'https://doi.org/10.5194/esd-17-107-2026'
+doi: "10.5194/esd-17-107-2026"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2026-01-01T00:00:00Z'

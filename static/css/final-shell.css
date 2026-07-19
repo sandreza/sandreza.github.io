@@ -1,0 +1,131 @@
+:root {
+  color-scheme: dark;
+  --lab-height: 0px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html.portfolio-final {
+  height: 100%;
+  overflow: hidden;
+}
+
+body.portfolio-final {
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+body,
+button,
+input,
+textarea { font-family: Arial, Helvetica, sans-serif; }
+
+a { color: inherit; text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+
+button:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--psb-cyan, #55dfff);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px var(--psb-space, #070b1a);
+}
+
+img { display: block; max-width: 100%; }
+[hidden] { display: none !important; }
+
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 12px;
+  left: 12px;
+  padding: 12px 16px;
+  color: #070b1a;
+  background: #55dfff;
+  font-weight: 800;
+  transform: translateY(-160%);
+  transition: transform 160ms ease;
+}
+
+.skip-link:focus { transform: translateY(0); }
+.portfolio-view { min-height: 100vh; overflow: clip; }
+
+.react-loading,
+.no-script-note {
+  position: fixed;
+  z-index: 900;
+  right: 20px;
+  bottom: 20px;
+  max-width: 420px;
+  padding: 12px 16px;
+  color: #f5f7ff;
+  border: 1px solid rgb(199 210 240 / 0.24);
+  background: #141c37;
+  font: 650 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.signature-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.signature-wordmark::before {
+  display: block;
+  width: 2.15rem;
+  height: 2.65rem;
+  flex: 0 0 auto;
+  background-image: url("/media/initials-mark.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.signature-wordmark--inverse::before { filter: invert(1); }
+
+.phase-instrument {
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 1;
+}
+
+.phase-instrument::before {
+  position: absolute;
+  inset: 5%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(85 223 255 / 0.1), transparent 62%);
+  content: "";
+  filter: blur(20px);
+}
+
+.phase-lorenz-instrument { margin: 0; }
+.phase-lorenz-instrument > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.phase-lorenz-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 38%;
+  height: 38%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(85 223 255 / 0.11), transparent 68%);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .skip-link { transition: none; }
+}

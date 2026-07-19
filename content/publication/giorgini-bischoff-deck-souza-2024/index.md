@@ -6,7 +6,7 @@ authors:
 - Tobias Bischoff
 - Andre N. Souza
 date: "2024-06-07T00:00:00Z"
-doi: 'https://doi.org/10.1103/PhysRevLett.133.267302'
+doi: "10.1103/PhysRevLett.133.267302"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-31T00:00:00Z"

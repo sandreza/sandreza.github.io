@@ -6,7 +6,7 @@ authors:
 
 
 date: '2024-04-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/jfm.2024.302'
+doi: "10.1017/jfm.2024.302"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-04-01T00:00:00Z'

@@ -15,7 +15,7 @@ authors:
   - R. Ferrari
 
 date: '2020-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1029/2020MS002108'
+doi: "10.1029/2020MS002108"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
