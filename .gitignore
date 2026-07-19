@@ -39,7 +39,6 @@ _site
 /resources/
 /tmp/
 /assets/jsconfig.json
-/static/js/react-portfolio.js
 /static/js/react-portfolio.js.map
 /static/js/react-portfolio-lab.js
 /static/js/react-portfolio-lab.js.map

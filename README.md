@@ -64,6 +64,6 @@ Then open `http://localhost:1313/`.
 - `layouts/partials/portfolio/document.html` - the Hugo document shell and content-data bridge
 - `static/css/final-shell.css` - production resets, accessibility, signature, and Lorenz shell styles
 - `static/css/navigation-phase.css` - Navigator persistent navigation and phase-space visual system
-- `static/js/react-portfolio.js` - generated React browser bundle (built in CI and not committed)
+- `static/js/react-portfolio.js` - generated production React browser bundle committed for GitHub Pages
 - `content/publication/` - publication archive
 - `static/files/andre-souza-cv.pdf` - downloadable CV
