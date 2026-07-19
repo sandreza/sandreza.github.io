@@ -6,7 +6,7 @@ authors:
   - R. Ferrari
 
 date: '2024-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physd.2024.134107'
+doi: "10.1016/j.physd.2024.134107"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-01-01T00:00:00Z'

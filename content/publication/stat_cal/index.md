@@ -1,12 +1,12 @@
 ---
-title: 'Statistical Parameter Calibration with the Generalized Fluctuation Dissipation Theorem and Generative Modeling'
+title: 'Statistical Parameter Calibration via the Generalized Fluctuation Dissipation Theorem and Generative Modeling'
 authors:
   - L. T. Giorgini
   - T. Bischoff
   - A. N. Souza
 
 date: '2025-11-10T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2509.19660'
+doi: "10.48550/arXiv.2509.19660"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-11-10T00:00:00Z'
@@ -15,7 +15,7 @@ publishDate: '2025-11-10T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['preprint']
 
 # Publication name and optional abbreviated publication name.
 publication: '*arXiv preprint arXiv:2509.19660*'
@@ -66,4 +66,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides:
 --- 
-

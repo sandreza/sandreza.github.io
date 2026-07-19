@@ -1,5 +1,5 @@
 ---
-title: Code
+title: Scientific Software
 permalink: /code/
 layout: single # splash
 toc: true
@@ -8,23 +8,30 @@ author_profile: true
 ---
 
 
-## Research Code (Jax)
-The following is a code I have developed for conditional diffusion models:
+I build performance-minded research software for scientific machine learning, uncertainty quantification, dynamical systems, and physical simulation. Selected public work includes:
 
-* [JaxDiffusion](https://github.com/sandreza/JaxDiffusion)
+## Machine Learning and Generative Modeling
 
-The following is a code I have developed for Transformer models: 
+**[JaxDiffusion](https://github.com/sandreza/JaxDiffusion)**<br>
+Conditional diffusion models implemented in JAX for scientific applications.
 
-* [SymbolicMemory](https://github.com/sandreza/SymbolicMemory)
+**[SymbolicMemory](https://github.com/sandreza/SymbolicMemory)**<br>
+Transformer-oriented experimentation for structured and symbolic sequence modeling.
 
+## Dynamical Systems and Reduced-Order Modeling
 
-## Research Code (Julia)
-The following is a list of codes that I have developed (or am developing) for research in using extendend dynamic mode decomposition (EDMD) and related methods for dynamical systems:
+**[MarkovChainHammer.jl](https://github.com/sandreza/MarkovChainHammer.jl)**<br>
+Julia tools for transfer operators, state-space partitions, and reduced Markov representations of dynamical systems.
 
-* [MarkovChainHammer.jl](https://github.com/sandreza/MarkovChainHammer.jl)
+**[StateSpacePartitions.jl](https://github.com/sandreza/StateSpacePartitions.jl)**<br>
+State-space partitioning methods for representing turbulent statistics and complex dynamics.
 
-* [StateSpacePartitions.jl](https://github.com/sandreza/StateSpacePartitions.jl)
+## Scientific Computing Contributions
 
+**[Oceananigans.jl](https://github.com/CliMA/Oceananigans.jl)**<br>
+Contributor and coauthor on GPU-native geophysical fluid dynamics and high-resolution ocean modeling work.
 
+**[CalibrateEmulateSample.jl](https://github.com/CliMA/CalibrateEmulateSample.jl)**<br>
+Contributor and coauthor on accelerated parametric uncertainty quantification workflows in Julia.
 
 

@@ -7,7 +7,7 @@ authors:
   - G. R. Flierl
 
 date: '2026-01-01T00:00:00Z'
-doi: 'https://doi.org/10.5194/esd-17-235-2026'
+doi: "10.5194/esd-17-235-2026"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2026-01-01T00:00:00Z'
@@ -22,7 +22,7 @@ publication_types: ['article-journal']
 publication: 'Earth System Dynamics'
 publication_short: 'Earth Syst. Dynam.'
 
-abstract: This preprint introduces a statistical emulator designed to represent averaged climate fields. The emulator aims to efficiently replicate climate model outputs, enabling faster computations while preserving accuracy in climate predictions. The method is particularly useful for scenarios where detailed climate simulations are computationally expensive. This work demonstrates the emulator's effectiveness and provides a foundation for future improvements in climate modeling and statistical representation.
+abstract: This published article introduces a statistical emulator designed to represent averaged climate fields. The emulator aims to efficiently replicate climate model outputs, enabling faster computations while preserving accuracy in climate predictions. The method is particularly useful for scenarios where detailed climate simulations are computationally expensive. This work demonstrates the emulator's effectiveness and provides a foundation for future improvements in climate modeling and statistical representation.
 
 # Summary. An optional shortened abstract.
 summary: 

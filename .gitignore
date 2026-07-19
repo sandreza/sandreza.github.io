@@ -2,7 +2,7 @@
 *~
 *.sw[p_]
 
-# Cursor 
+# Cursor
 *cursor*
 
 # Sublime Text
@@ -15,13 +15,12 @@
 Gemfile.lock
 **/vendor/bundle
 
-# New articles 
+# New articles
 new_articles/
 
 # Node.js and NPM
 node_modules
 npm-debug.log*
-package-lock.json
 codekit-config.json
 
 # macOS
@@ -33,3 +32,13 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Hugo generated files
+.hugo_build.lock
+/public/
+/resources/
+/tmp/
+/assets/jsconfig.json
+/static/js/react-portfolio.js.map
+/static/js/react-portfolio-lab.js
+/static/js/react-portfolio-lab.js.map

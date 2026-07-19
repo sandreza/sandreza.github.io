@@ -5,7 +5,7 @@ authors:
   - S. Silvestri
 
 date: '2026-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physd.2026.135173'
+doi: "10.1016/j.physd.2026.135173"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2026-01-01T00:00:00Z'

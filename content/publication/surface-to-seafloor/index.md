@@ -9,7 +9,7 @@ authors:
   - G. R. Flierl
 
 date: '2025-04-29T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.2504.15308'
+doi: "10.48550/arXiv.2504.15308"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-04-29T00:00:00Z'
@@ -18,7 +18,7 @@ publishDate: '2025-04-29T00:00:00Z'
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['preprint']
 
 # Publication name and optional abbreviated publication name.
 publication: '*arXiv preprint arXiv:2504.15308*'

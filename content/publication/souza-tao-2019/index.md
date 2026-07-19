@@ -5,7 +5,7 @@ authors:
   - M. Tao
 
 date: '2019-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/S0956792518000414'
+doi: "10.1017/S0956792518000414"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2019-01-01T00:00:00Z'

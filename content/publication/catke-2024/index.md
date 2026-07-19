@@ -13,7 +13,7 @@ authors:
   - R. Ferrari
 
 date: '2025-04-01T00:00:00Z'
-doi: 'https://doi.org/10.1029/2024MS004522'
+doi: "10.1029/2024MS004522"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2025-04-01T00:00:00Z'

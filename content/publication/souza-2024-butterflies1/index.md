@@ -4,7 +4,7 @@ authors:
   - A. N. Souza
 
 date: '2024-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/jfm.2024.658'
+doi: "10.1017/jfm.2024.658"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-01-01T00:00:00Z'

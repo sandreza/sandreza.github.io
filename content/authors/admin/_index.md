@@ -10,20 +10,22 @@ last_name: Souza
 superuser: true
 
 # Role/position
-role: Visiting Scientist at MIT and Senior HPC Engineer (Data and AI) at Rescale
+role: Senior HPC Engineer, Data and AI at Rescale
 
 # Organizations/Affiliations
 organizations:
-  - name: MIT and Rescale
-    url: ''
+  - name: Rescale
+    url: 'https://rescale.com'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include generative AI and scientific machine learning.
+bio: Scientific machine learning and AI Physics engineer building production-oriented systems for industrial simulation.
 
 interests:
-  - Generative Artificial Intelligence
-  - Scientific Computing
+  - AI Physics and Surrogate Modeling
   - Scientific Machine Learning
+  - Generative Modeling
+  - GPU and HPC Scientific Computing
+  - Uncertainty Quantification
 
 education:
   courses:
@@ -38,7 +40,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:sandre@mit.edu'
+    link: 'mailto:andrenogueirasouza@gmail.com'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/AndreSo21198743
@@ -48,6 +50,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/sandreza
+  - icon: cv
+    icon_pack: ai
+    link: /files/andre-souza-cv.pdf
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +71,4 @@ user_groups:
   - Researchers
 ---
 
-Andre Souza is a visiting scientist at MIT and a Senior HPC Engineer (Data and AI) at Rescale. His research interests include generative AI and scientific machine learning. He received his PhD in Applied and Interdisciplinary Mathematics from the University of Michigan in 2016.
+Andre Souza is a scientific machine learning and AI Physics engineer with a PhD in applied mathematics and 10+ years of experience across physical simulation, generative modeling, uncertainty quantification, and GPU/HPC computing. At Rescale, he builds production-oriented AI-for-engineering workflows for industrial simulation data. Previously, as a research scientist at MIT, he developed generative and reduced-order methods for complex physical systems and published across PNAS, Physical Review Letters, Journal of Fluid Mechanics, JAMES, and related venues.

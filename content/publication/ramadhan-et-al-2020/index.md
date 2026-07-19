@@ -13,7 +13,7 @@ authors:
   - J. Marshall
 
 date: '2020-01-01T00:00:00Z'
-doi: 'https://doi.org/10.21105/joss.02018'
+doi: "10.21105/joss.02018"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'

@@ -6,7 +6,7 @@ authors:
   - G. R. Flierl
 
 date: '2023-05-01T00:00:00Z'
-doi: 'https://doi.org/10.1017/jfm.2023.467'
+doi: "10.1017/jfm.2023.467"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-06-01T00:00:00Z'

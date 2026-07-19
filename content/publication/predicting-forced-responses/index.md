@@ -5,11 +5,11 @@ authors:
   - F. Falasca
   - A. N. Souza
 
-date: '2025-04-20T00:00:00Z'
-doi: 'https://doi.org/10.1073/pnas.2509578122'
+date: '2025-10-08T00:00:00Z'
+doi: "10.1073/pnas.2509578122"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-20T00:00:00Z'
+publishDate: '2025-10-08T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,7 +18,7 @@ publishDate: '2025-04-20T00:00:00Z'
 publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
-publication: 'Proceedings of the National Academy of Sciences'
+publication: '*Proceedings of the National Academy of Sciences, 122(41), e2509578122*'
 publication_short: 'PNAS'
 
 abstract: >
@@ -32,7 +32,7 @@ tags:
   - Generative Modeling
   - Probability Distributions
   - Machine Learning
-  - Preprint
+  - Published
 featured: false
 
 # links:
@@ -67,4 +67,4 @@ projects: []
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides:
---- 
+---

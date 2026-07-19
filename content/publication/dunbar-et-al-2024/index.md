@@ -11,7 +11,7 @@ authors:
   - N. Efrat-Henrici
 
 date: '2024-01-01T00:00:00Z'
-doi: 'https://doi.org/10.21105/joss.06372'
+doi: "10.21105/joss.06372"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-01-01T00:00:00Z'

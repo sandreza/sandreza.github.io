@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="portfolio-final">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b1a">
+  <meta name="description" content="Andre Souza is an applied mathematician and scientific machine learning engineer working on physical simulation data, generative modeling, and high-performance scientific computing.">
+  <meta name="author" content="Andre Nogueira de Souza">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Andre Souza | Scientific ML &amp; AI Physics Engineer">
+  <meta property="og:description" content="Applied mathematics, scientific machine learning, physical simulation, and high-performance computing.">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ "og.png" | absURL }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Andre Souza - Scientific ML, AI Physics, and HPC">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Andre Souza | Scientific ML &amp; AI Physics Engineer">
+  <meta name="twitter:description" content="Applied mathematics, scientific machine learning, physical simulation, and high-performance computing.">
+  <meta name="twitter:image" content="{{ "og.png" | absURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" href="/media/initials-mark.png?v=1" type="image/png">
+  <link rel="stylesheet" href="/css/final-shell.css?v=18.13.0">
+  <link rel="stylesheet" href="/css/navigation-phase.css?v=18.13.0">
+  <script>
+    (() => {
+      const localHosts = new Set(["localhost", "127.0.0.1", "::1"]);
+      const params = new URLSearchParams(window.location.search);
+      const labEnabled = localHosts.has(window.location.hostname) && params.get("lab") === "1";
+      window.__portfolioLabEnabled = labEnabled;
+      if (!labEnabled) return;
+      document.documentElement.classList.remove("portfolio-final");
+      [
+        "portfolio.css",
+        "react-interactions.css",
+        "templates-alpha.css",
+        "templates-beta.css",
+        "rescale-artifacts.css",
+        "palettes.css",
+        "navigation-alpha.css",
+        "navigation-beta.css",
+        "navigation-phase.css",
+        "navigation-phase-lab.css",
+      ].forEach((name) => {
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = `/css/${name}?v=local-lab`;
+        document.head.appendChild(link);
+      });
+    })();
+  </script>
+  <title>Andre Souza | Scientific ML &amp; Applied Mathematics</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andre Nogueira de Souza",
+    "url": "{{ .Permalink }}",
+    "jobTitle": "Senior HPC Engineer, Data and AI",
+    "homeLocation": "Cambridge, Massachusetts",
+    "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Michigan"},
+    "sameAs": [
+      "https://github.com/sandreza",
+      "https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en"
+    ]
+  }
+  </script>
+</head>
+<body class="portfolio-site portfolio-final" data-design="phase-switchboard" data-palette="cobalt">
+  <script>if (window.__portfolioLabEnabled) document.body.classList.remove("portfolio-final");</script>
+  <a class="skip-link" href="#portfolio-content">Skip to content</a>
+
+  <div id="portfolio-content" tabindex="-1">
+    <div id="portfolio-root"><p class="react-loading">Loading portfolio&hellip;</p></div>
+  </div>
+
+  <script id="portfolio-data" type="application/json">{{ .Site.Data.portfolio | jsonify | safeHTML }}</script>
+  <noscript><p class="no-script-note">This portfolio uses React for its interactive presentation. The <a href="https://scholar.google.com/citations?user=FoK_ufEAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">full publication record on Google Scholar</a> and <a href="/files/andre-souza-cv.pdf">CV</a> remain available without JavaScript.</p></noscript>
+  <script>
+    (() => {
+      const script = document.createElement("script");
+      script.src = window.__portfolioLabEnabled
+        ? "/js/react-portfolio-lab.js?v=local-lab"
+        : "/js/react-portfolio.js?v=18.13.0";
+      script.defer = true;
+      document.body.appendChild(script);
+    })();
+  </script>
+</body>
+</html>

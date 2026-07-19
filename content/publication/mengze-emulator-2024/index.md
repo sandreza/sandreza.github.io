@@ -6,17 +6,17 @@ authors:
   - R. Ferrari
   - T. Sapsis
 
-date: '2024-10-01T00:00:00Z'
-doi: 'https://doi.org/10.22541/essoar.172858084.46299070/v1'
+date: '2025-04-01T00:00:00Z'
+doi: "10.22541/essoar.172858084.46299070/v2"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-10-01T00:00:00Z'
+publishDate: '2025-04-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ['preprint']
 
 # Publication name and optional abbreviated publication name.
 publication: '*Authorea, Inc.*'
@@ -41,7 +41,7 @@ featured: false
 url_pdf: '/files/mengze_statistical_emulator.pdf'
 url_code: ''
 url_dataset: ''
-url_DOI: 'https://doi.org/10.22541/essoar.172858084.46299070/v1'
+url_DOI: 'https://doi.org/10.22541/essoar.172858084.46299070/v2'
 url_project: ''
 url_slides: ''
 url_source: ''
@@ -68,4 +68,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-

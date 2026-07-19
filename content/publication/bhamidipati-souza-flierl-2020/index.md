@@ -6,7 +6,7 @@ authors:
   - G. R. Flierl
 
 date: '2020-01-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.ocemod.2020.101615'
+doi: "10.1016/j.ocemod.2020.101615"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-01-01T00:00:00Z'
