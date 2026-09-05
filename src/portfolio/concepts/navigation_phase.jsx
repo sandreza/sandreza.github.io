@@ -490,6 +490,7 @@ function Papers({ data }) {
                           <strong>{paper.title}</strong>
                           {paper.authors ? <em>{paper.authors}</em> : null}
                           {paper.venue ? <b>{paper.venue} · {paper.citation}</b> : null}
+                          {paper.version ? <b>{paper.version}</b> : null}
                           {paper.summary ? (
                             <details className="psb-paper-summary">
                               <summary>About this paper<span className="psb-sr-only">: {paper.title}</span></summary>
@@ -499,6 +500,7 @@ function Papers({ data }) {
                         </div>
                         <div aria-label={`Actions for ${paper.title}`} className="psb-paper-actions" role="group">
                           <a href={paper.pdf} {...externalProps}>PDF</a>
+                          {paper.supplement ? <a href={paper.supplement} {...externalProps}>Supplement</a> : null}
                           <button onClick={(event) => { citationTriggerRef.current = event.currentTarget; setCitationPaper(paper); }} type="button">Cite</button>
                           <a href={paper.doi || paper.url} {...externalProps}>DOI</a>
                         </div>
@@ -532,7 +534,7 @@ function Work({ data }) {
       <header className="psb-section-heading psb-section-heading--single">
         <h2 id="psb-work-title">Selected work</h2>
       </header>
-      <p className="psb-section-lede psb-section-lede--single">Research, software, and applied AI work across academic and industrial settings.</p>
+      <p className="psb-section-lede psb-section-lede--single">Methods for learning from physical systems, modeling their statistics, and building scientific software—from research to engineering applications.</p>
       <WorkStories stories={data.stories} />
     </section>
   );

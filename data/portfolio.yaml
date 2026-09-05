@@ -121,199 +121,440 @@ rescale_artifacts:
         url: "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0618-ai-virtual-labs.html"
 
 stories:
-  - id: "mclaren-gtc"
-    number: "01"
-    category: "Current work"
-    nav_title: "McLaren + GTC"
-    relationship: "Rescale | Public customer and partner material"
-    year: "2026"
-    title: "McLaren: AI physics and agentic engineering for automotive simulation"
-    summary: "A public record of how McLaren, Rescale, and NVIDIA are bringing AI physics and agent-assisted workflows into automotive engineering."
-    body:
-      - "At Rescale, I work on AI Physics methods for industrial simulation data, spanning model selection, training, validation, inference, visualization, and product integration."
-      - "This story brings together the McLaren customer feature and supporting Rescale, NVIDIA, and NAFEMS material released during my tenure."
-    tags: ["AI Physics", "Agentic engineering", "Automotive", "Simulation"]
-    links:
-      - label: "Watch the McLaren customer story"
-        source: "Rescale | Primary story"
-        description: "McLaren leaders discuss AI-enhanced simulation, design, and manufacturing workflows."
-        url: "https://rescale.com/resources/mclaren-automotive-operationalizing-ai-physics-agentic-engineering/"
-        primary: true
-      - label: "Read the GTC 2026 recap"
-        source: "Rescale"
-        description: "Company recap of GTC themes, partner announcements, and demonstrations."
-        url: "https://rescale.com/blog/rescale-gtc-2026-agentic-era-begins-nvidia-mclaren-leading-way/"
-      - label: "Read NVIDIA’s GTC coverage"
-        source: "NVIDIA"
-        description: "NVIDIA’s coverage of McLaren, Rescale, and accelerated engineering."
-        url: "https://blogs.nvidia.com/blog/gtc-2026-news/"
-      - label: "Read the McLaren announcement"
-        source: "NAFEMS"
-        description: "Independent industry coverage of the McLaren, Rescale, and NVIDIA collaboration."
-        url: "https://www.nafems.org/about-us/media/news/industrynews1003/mclaren-accelerates-future-product-development-through-ai-enhanced-engineering-with-rescale-powered-by-nvidia/"
-      - label: "Watch the agentic-engineering demo"
-        source: "Rescale"
-        description: "A short GTC demonstration of agents managing simulation and R&D workflows."
-        url: "https://rescale.com/resources/rescale-agentic-engineering-demo-gtc-2026/"
-      - label: "Watch the NVIDIA GTC session"
-        source: "NVIDIA"
-        description: "An official session on accelerated computing, AI physics, and agentic engineering."
-        url: "https://www.nvidia.com/en-us/on-demand/session/gtc26-s82017/"
-      - label: "Explore the product showcase"
-        source: "Rescale"
-        description: "A product overview spanning simulation-native agents, AI physics, and compute economics."
-        url: "https://rescale.com/blog/spring-2026-product-showcase/"
-  - id: "gm-virtual-engineering"
-    number: "02"
-    category: "Industry context"
-    nav_title: "General Motors"
-    relationship: "Automotive engineering | Related public examples"
-    year: "2026"
-    title: "AI-assisted design and virtual engineering at General Motors"
-    summary: "A related view of how virtual wind tunnels, AI-assisted design, and simulation are moving earlier in automotive product development."
-    body:
-      - "General Motors’ public examples show how engineering organizations are joining visualization, simulation, and AI-assisted exploration in a virtual-first workflow."
-    tags: ["Virtual engineering", "Automotive", "Simulation", "AI-assisted design"]
-    links:
-      - label: "Watch the NBC News segment"
-        source: "NBC News"
-        description: "An interview with GM CEO Mary Barra on AI, vehicle production, and the changing automotive market."
-        url: "https://www.youtube.com/watch?v=ywoqE6qdfYM"
-      - label: "Read GM’s AI design story"
-        source: "General Motors"
-        description: "GM’s account of AI-assisted concept design and a virtual wind-tunnel workflow."
-        url: "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/apr/0416-designers-AI-creative-vision.html"
-      - label: "Read GM’s virtual-engineering story"
-        source: "General Motors"
-        description: "GM’s overview of virtual engineering across design, simulation, and manufacturing."
-        url: "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0618-ai-virtual-labs.html"
-  - id: "distribution-response"
-    number: "03"
-    category: "Research note"
-    nav_title: "Distribution shifts"
-    relationship: "Physical Review Letters → PNAS"
-    year: "2024-2025"
-    title: "From Mean Response to Distribution Shifts"
-    summary: "Two papers connect fluctuation-dissipation theory with score-based generative modeling, first for mean response and then for changes across an entire probability distribution."
-    body:
-      - "The fluctuation-dissipation theorem relates a system’s unperturbed behavior to its response under a small perturbation. Its practical obstacle is the score function—the gradient of the system’s log probability density. In our Physical Review Letters paper, we learned that score from data and recovered response functions in Gaussian, modified Allen-Cahn, and Navier-Stokes examples."
-      - "Those estimates agreed with responses measured from directly perturbed simulations, while also exposing an important limit: a learned score is reliable on states represented by its training distribution and should not be assumed accurate far outside it."
-      - "The PNAS follow-up extends the framework beyond the mean to changes in variance, skewness, kurtosis, and distribution tails. For lower-dimensional systems we estimate the score with KGMM; for a high-dimensional two-dimensional Navier-Stokes flow we use a U-Net."
-      - "In both settings, the generative approach improves substantially on the usual Gaussian approximation when the response is strongly non-Gaussian. For climate applications, that matters because forcing can change variability and extremes even when a mean shift tells only part of the story."
-    tags: ["Generative modeling", "Response theory", "Distribution shifts", "Climate extremes"]
-    media:
-      - type: "image"
-        src: "/media/stories/response-prl.png"
-        alt: "Response estimates for three stochastic systems comparing generative, analytical, Gaussian, and directly simulated results"
-        caption: "Mean-response estimates from the Physical Review Letters study"
-      - type: "image"
-        src: "/media/stories/distribution-shifts.png"
-        alt: "Predicted changes in a probability density and its moments under forcing"
-        caption: "Distribution-response results from the PNAS study"
-    links:
-      - label: "Read the PNAS article"
-        source: "Proceedings of the National Academy of Sciences"
-        description: "Predicting forced responses of full probability distributions."
-        url: "https://doi.org/10.1073/pnas.2509578122"
-        primary: true
-      - label: "Open the paper PDF"
-        source: "PDF"
-        description: "A direct copy of the article."
-        url: "/files/higher_response.pdf"
-      - label: "Read the earlier Physical Review Letters article"
-        source: "Physical Review Letters"
-        description: "The mean-response result that this work extends."
-        url: "https://doi.org/10.1103/PhysRevLett.133.267302"
-      - label: "Open the earlier paper PDF"
-        source: "PDF"
-        description: "A direct copy of the Physical Review Letters article."
-        url: "/files/Response_PRL.pdf"
-  - id: "statistical-nonlocality"
-    number: "04"
-    category: "Research note"
-    nav_title: "Statistical nonlocality"
-    relationship: "Journal of Fluid Mechanics | Focus on Fluids"
-    year: "2023"
-    title: "Statistical Nonlocality and Ineffective Diffusivity"
-    summary: "Our paper on nonlocal passive-scalar transport was selected for a Focus on Fluids commentary in the Journal of Fluid Mechanics."
-    body:
-      - "A central problem in passive-scalar transport is how to represent unresolved flow fluctuations. A local effective diffusivity is a common choice, but many proposed closures connect the advective flux only to gradients of the mean concentration."
-      - "We introduced a stochastic framework that replaces local effective diffusivity with an exact effective-diffusivity operator. Computing that operator in several examples quantifies departures from the local approximation and points toward improved closure models."
-      - "The accompanying Focus on Fluids article, Ineffective Diffusivity, places the result in the broader history of turbulent-transport parametrization."
-    tags: ["Turbulence", "Nonlocal transport", "Closure modeling", "Fluid mechanics"]
-    media:
-      - type: "image"
-        src: "/media/stories/statistical-nonlocality.jpg"
-        alt: "Side-by-side empirical and equation-derived transport structures with streamfunction and source fields"
-        caption: "Empirical and equation-derived transport structures from the Statistical Nonlocality study"
-    links:
-      - label: "Read the Journal of Fluid Mechanics article"
-        source: "Journal of Fluid Mechanics"
-        description: "The peer-reviewed article on statistical nonlocality and coherent structures."
-        url: "https://doi.org/10.1017/jfm.2023.467"
-        primary: true
-      - label: "Read the Focus on Fluids commentary"
-        source: "Journal of Fluid Mechanics"
-        description: "Ineffective Diffusivity, a commentary highlighting the paper."
-        url: "https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/ineffective-diffusivity/39DECD8500BBA78F6EFCA769E9C79112"
-      - label: "Open the paper PDF"
-        source: "PDF"
-        description: "A direct copy of the article."
-        url: "/files/statistical-non-locality-of-dynamically-coherent-structures.pdf"
-  - id: "climate-visualization"
-    number: "05"
-    category: "Research and software"
-    nav_title: "Climate models + visualization"
-    relationship: "MIT | BC3 | Climate Modeling Alliance"
-    year: "2019-2025"
-    title: "Climate models, open tools, and scientific visualization"
-    summary: "Collaborative climate research paired mathematical modeling and open scientific software with interactive ways to explore high-dimensional simulation output."
-    body:
-      - "At MIT, I worked across Bringing Computation to the Climate Challenge (BC3) and the Climate Modeling Alliance on climate-model emulation, uncertainty quantification, and computational fluid dynamics."
-      - "This work included Julia-based workflows for exploring and communicating atmospheric simulations. Makie’s official site credits the GLMakie visualization below from the dry-atmosphere study to A. N. Souza."
-      - "The adjacent interactive dashboard shows a volume rendering together with adjustable slices and distribution summaries from the same broader visualization workflow."
-    tags: ["Climate modeling", "Julia", "Scientific visualization", "Open software"]
-    media:
-      - type: "image"
-        src: "/media/stories/glmakie-dry-atmosphere.png"
-        alt: "GPU-rendered three-dimensional dry-convection temperature field with vertical profiles of mean and turbulent statistics"
-        caption: "GLMakie visualization from the dry-atmosphere study, credited by Makie to A. N. Souza"
-        url: "https://doi.org/10.1029/2022MS003527"
-        link_label: "Read the flux-differencing discontinuous Galerkin paper"
-      - type: "video"
-        src: "/media/stories/makie-climate-volume.mp4"
-        alt: "Interactive volume, slice, and distribution dashboard for atmospheric simulation output"
-        caption: "Interactive GLMakie volume and slice dashboard from my research"
-    links:
-      - label: "Read the flux-differencing discontinuous Galerkin paper"
-        source: "Journal of Advances in Modeling Earth Systems"
-        description: "The dry-atmosphere study associated with the GLMakie visualization."
-        url: "https://doi.org/10.1029/2022MS003527"
-        primary: true
-      - label: "View the Makie showcase"
-        source: "Makie"
-        description: "The official Makie site featuring and crediting visual material from this research."
-        url: "https://makie.org/website/"
-      - label: "Visit BC3"
-        source: "MIT"
-        description: "Bringing Computation to the Climate Challenge: climate projections and fast emulators."
-        url: "https://bc3.mit.edu/"
-      - label: "Explore the visualization code"
-        source: "GitHub"
-        description: "Public Julia scripts used to reproduce figures for the dry-atmosphere study."
-        url: "https://github.com/sandreza/DryAtmosphereFluxDifferencingVisualization"
-      - label: "Read the CliMA researcher profile"
-        source: "Climate Modeling Alliance"
-        description: "An official profile of my cross-disciplinary work at MIT and CliMA."
-        url: "https://clima.caltech.edu/2020/09/04/bridging-the-gap-between-disciplines-at-clima/"
-      - label: "Read the CliMA uncertainty article"
-        source: "Climate Modeling Alliance"
-        description: "A collaborative account of parameter and structural uncertainty in climate modeling."
-        url: "https://clima.caltech.edu/2021/05/13/quantifying-parameter-and-structural-uncertainty-in-climate-modeling/"
-      - label: "Browse public software on GitHub"
-        source: "GitHub"
-        description: "Public code and research software."
-        url: "https://github.com/sandreza"
+- id: ai-physics
+  group: Industry
+  category: Industry
+  nav_title: AI Physics
+  relationship: Rescale | Scientific machine learning
+  year: 2025–present
+  title: 'AI Physics: from simulation data to engineering tools'
+  summary: Turning expensive physics simulations into fast, useful models requires scientific judgment, scalable
+    computation, and software that engineers can trust.
+  body:
+  - AI Physics brings machine learning into the modeling and simulation workflow. Surrogate models learn relationships
+    among geometry, boundary conditions, material properties, and physical fields, allowing engineers to explore
+    more designs before committing to expensive simulations or experiments.
+  - 'My work at Rescale spans model selection, training, validation, inference, visualization, and product
+    integration for industrial simulation data. The technical challenge runs through the whole process: representing
+    meshes and fields, using GPU resources efficiently, choosing meaningful evaluation cases, and making predictions
+    useful in an engineering workflow.'
+  - A model needs to be judged against the decisions it supports. That means checking field structure and engineering
+    quantities, testing on held-out geometries and operating conditions, and understanding where the training
+    data provide enough coverage. Fast inference becomes valuable when its accuracy and limitations are clear.
+  - Rescale’s AI Physics software is a concrete realization of this approach, connecting simulation datasets,
+    model training and evaluation, versioning, deployment, and inference. The McLaren and General Motors examples
+    show how these ideas fit into broader product-development workflows.
+  tags:
+  - Scientific ML
+  - Surrogate models
+  - GPU / HPC
+  - Validation
+  - Product engineering
+  links:
+  - label: Explore Rescale AI Physics
+    source: Rescale | Platform
+    description: The software workflow for creating and deploying simulation surrogate models.
+    url: https://rescale.com/platform/ai-physics/
+    primary: true
+  - label: See the AI Physics workflow
+    source: Rescale | Documentation
+    description: Dataset preparation, model training, validation, and inference.
+    url: https://rescale.com/documentation/ai-physics/
+  - label: Read the AI Physics OS release
+    source: Rescale | Product release
+    description: How data, models, compute, and deployment come together in the product.
+    url: https://rescale.com/release-notes/introducing-the-ai-physics-operating-system/
+  number: '01'
+- id: mclaren-gtc
+  number: '02'
+  category: Industry
+  nav_title: McLaren + GTC
+  relationship: Rescale | Customer and partner example
+  year: '2026'
+  title: 'McLaren: connecting AI Physics to the engineering loop'
+  summary: A public example of bringing simulation data, surrogate models, and workflow automation into automotive
+    development.
+  body:
+  - McLaren’s collaboration with Rescale and NVIDIA illustrates how AI Physics can become part of an established
+    engineering process. Simulation data support models that accelerate design exploration, while engineers
+    use physics-based analysis to evaluate promising candidates.
+  - 'The GTC material connects this modeling work with agentic engineering: software that helps coordinate
+    simulation tasks and their results. Surrogate prediction and workflow orchestration play complementary
+    roles, with validation and engineering judgment guiding the resulting decisions.'
+  - These public customer and partner resources give context for the kind of software I work on at Rescale,
+    from training and evaluating models to integrating inference into practical engineering tools.
+  tags:
+  - AI Physics
+  - Agentic engineering
+  - Automotive
+  - Simulation
+  links:
+  - label: Watch the McLaren customer story
+    source: Rescale | Primary story
+    description: McLaren leaders discuss AI-enhanced simulation, design, and manufacturing workflows.
+    url: https://rescale.com/resources/mclaren-automotive-operationalizing-ai-physics-agentic-engineering/
+    primary: true
+  - label: Read the GTC 2026 recap
+    source: Rescale
+    description: Company recap of GTC themes, partner announcements, and demonstrations.
+    url: https://rescale.com/blog/rescale-gtc-2026-agentic-era-begins-nvidia-mclaren-leading-way/
+  - label: Watch the agentic-engineering demo
+    source: Rescale
+    description: A short GTC demonstration of agents managing simulation and R&D workflows.
+    url: https://rescale.com/resources/rescale-agentic-engineering-demo-gtc-2026/
+  - label: Watch the NVIDIA GTC session
+    source: NVIDIA
+    description: An official session on accelerated computing, AI physics, and agentic engineering.
+    url: https://www.nvidia.com/en-us/on-demand/session/gtc26-s82017/
+  group: Industry
+- id: gm-virtual-engineering
+  number: '03'
+  category: Industry example
+  nav_title: General Motors
+  relationship: Automotive engineering | Public industry example
+  year: '2026'
+  title: 'General Motors: bringing simulation into design'
+  summary: AI-assisted concepts and virtual wind tunnels connect early design choices with physical performance.
+  body:
+  - General Motors’ public design examples show how AI-assisted exploration and aerodynamic simulation can
+    inform one another. Designers can develop candidate shapes, evaluate them in a virtual wind tunnel, and
+    use that feedback to guide the next iteration.
+  - The broader virtual-engineering workflow connects design, analysis, and manufacturing. It illustrates the
+    value of making simulation results accessible early enough to influence a decision, with a clear path from
+    an exploratory concept to more detailed engineering checks.
+  - 'These examples provide industry context for simulation and AI software: the useful output is a better-informed
+    engineering decision, supported by models, data, and an efficient iteration loop.'
+  tags:
+  - Virtual engineering
+  - Automotive
+  - Simulation
+  - AI-assisted design
+  links:
+  - label: Watch the NBC News segment
+    source: NBC News
+    description: An interview with GM CEO Mary Barra on AI, vehicle production, and the changing automotive
+      market.
+    url: https://www.youtube.com/watch?v=ywoqE6qdfYM
+  - label: Read GM’s AI design story
+    source: General Motors
+    description: GM’s account of AI-assisted concept design and a virtual wind-tunnel workflow.
+    url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/apr/0416-designers-AI-creative-vision.html
+  - label: Read GM’s virtual-engineering story
+    source: General Motors
+    description: GM’s overview of virtual engineering across design, simulation, and manufacturing.
+    url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jun/0618-ai-virtual-labs.html
+  group: Industry
+- id: distribution-response
+  group: Research
+  category: Research theme
+  nav_title: GFDT
+  relationship: Response theory | Generative modeling | Inverse problems
+  year: 2024–2026
+  title: Generalized fluctuation–dissipation theory
+  summary: Learning how a system fluctuates provides a way to predict how its statistics respond to forcing—and
+    to calibrate the parameters that shape those statistics.
+  body:
+  - The generalized fluctuation–dissipation theorem (GFDT) connects small perturbations to correlations measured
+    in an unperturbed system. Its practical bottleneck is the score, the gradient of the log probability density.
+    Our work uses learned scores to estimate response when the underlying statistics are strongly non-Gaussian.
+  - The 2024 Physical Review Letters paper establishes this connection using spatial Ornstein–Uhlenbeck, stochastic
+    Allen–Cahn, and two-dimensional Navier–Stokes systems. The 2025 PNAS paper extends the target from mean
+    response to changes in probability distributions, including variance, asymmetry, and tails. Together they
+    show why the response of a mean can leave important changes in variability unseen.
+  - The 24-page PRL supplement is a useful starting point for implementing the method. It develops the GFDT
+    derivation, including state-dependent perturbations, then works through score corrections, normalization,
+    denoising score matching, network architecture and training, and numerical PDE solvers. Its validation
+    examples also explain how response estimates can fail when the learned score is evaluated outside the training
+    distribution.
+  - 'The parameter-calibration preprint brings GFDT to an inverse problem: adjusting drift and diffusion parameters
+    to match observed long-time statistics. The April 2026 revision derives statistical Jacobians from time-correlation
+    integrals along baseline dynamics and tests calibration through stochastic Lorenz–96 examples. This offers
+    sensitivities without separate perturbation ensembles or an adjoint model, within the assumptions of linear
+    response.'
+  - Related work develops the tools and scope of the approach. KGMM estimates scores using clustered Gaussian
+    mixtures; the cyclo-stationary preprint builds score-based reduced models for periodically varying statistics,
+    including the seasonal cycle. Our framework for Earth system model emulation examines how response methods
+    interact with memory, hidden variables, noise, and nonlinearity.
+  - 'Across these papers, the technical thread is the same: connect a statistical identity to an estimator
+    that can be implemented, benchmarked, and used for prediction. Theory, score estimation, stochastic dynamics,
+    and numerical validation all have to agree.'
+  tags:
+  - GFDT
+  - Score estimation
+  - Statistical sensitivity
+  - Inverse problems
+  - Stochastic dynamics
+  links:
+  - label: Response Theory via Generative Score Modeling
+    source: Physical Review Letters | 2024
+    description: The connection between learned scores and response functions.
+    url: https://doi.org/10.1103/PhysRevLett.133.267302
+    primary: true
+  - label: Download the 2024 PRL supplementary material
+    source: Supplement | 24-page PDF
+    description: Derivations, score corrections, training details, numerical methods, and validation.
+    url: /files/response_prl_supplement.pdf
+  - label: Predicting forced responses of probability distributions via the fluctuation-dissipation theorem
+      and generative modeling
+    source: Proceedings of the National Academy of Sciences | 2025
+    description: Extending response estimates to full distributions and their higher moments.
+    url: https://doi.org/10.1073/pnas.2509578122
+  - label: Read the parameter-calibration preprint
+    source: arXiv | v2 · April 1, 2026
+    description: Statistical Jacobians and parameter updates from unperturbed dynamics.
+    url: https://arxiv.org/abs/2509.19660v2
+  - label: Download parameter calibration, v2
+    source: PDF | April 2026 revision
+    description: The updated 28-page manuscript, including derivations and calibration experiments.
+    url: /files/stat_cal.pdf
+  - label: 'KGMM: A K-means clustering approach to Gaussian mixture modeling for score function estimation'
+    source: 'Physica D: Nonlinear Phenomena | 2026'
+    description: A clustering-based approach to non-Gaussian score estimation.
+    url: https://doi.org/10.1016/j.physd.2026.135274
+  - label: Reduced-Order Modeling of Cyclo-Stationary Time Series Using Score-Based Generative Methods
+    source: arXiv preprint | 2025
+    description: Reduced stochastic models with periodically varying distributions and correlations.
+    url: https://doi.org/10.48550/arXiv.2508.19448
+  - label: A theoretical framework to understand sources of error in Earth System Model emulation
+    source: Earth System Dynamics | 2026
+    description: A response-theoretic perspective on emulator error and model assumptions.
+    url: https://doi.org/10.5194/esd-17-107-2026
+  media:
+  - type: image
+    src: /media/stories/response-prl.png
+    alt: Response estimates for three stochastic systems comparing generative, analytical, Gaussian, and directly
+      simulated results
+    caption: Mean-response estimates from the Physical Review Letters study
+  - type: image
+    src: /media/stories/distribution-shifts.png
+    alt: Predicted changes in a probability density and its moments under forcing
+    caption: Distribution-response results from the PNAS study
+  number: '04'
+- id: statistical-nonlocality
+  group: Research
+  category: Research theme
+  nav_title: Statistical fluid mechanics
+  relationship: Turbulent transport | State-space models | Transfer operators
+  year: 2023–2026
+  title: Statistical fluid mechanics
+  summary: Representing fluid dynamics through distributions, correlations, and transport operators makes statistical
+    structure a direct modeling target.
+  body:
+  - Turbulent flows quickly lose predictability at the level of individual trajectories, yet their distributions
+    and transport statistics can remain reproducible. My approach treats those statistics as objects to model
+    directly, connecting fluid mechanics with stochastic processes and operator methods.
+  - The two papers on statistical nonlocality ask how unresolved motion transports a passive scalar. The 2023
+    study constructs an effective-diffusivity operator for stochastically switching coherent flows; the 2024
+    follow-up describes turbulent fluxes as a functional of mean gradients across space and time. This identifies
+    when a local diffusivity is a reasonable approximation and when spatial coupling or memory matters. The
+    first paper was highlighted in the Journal of Fluid Mechanics Focus on Fluids commentary, “Ineffective
+    diffusivity.”
+  - 'The two Partitions of State Space papers take a complementary route: discretize the evolution of probability
+    over flow states. Part 1 builds a data-driven finite-volume approximation to the Liouville or Fokker–Planck
+    generator, including uncertainty from finite samples. Part 2 applies it to the rotating, compressible Euler
+    equations on a sphere, recovering selected distributions and autocorrelations and exposing global Koopman
+    modes.'
+  - The modified bisecting K-means work supplies a practical way to build and refine those partitions. Recursive
+    clustering creates a hierarchy of data-informed cells while controlling sampling across clusters; observed
+    transitions then define a transfer-operator approximation. Tests on Lorenz and Kuramoto–Sivashinsky dynamics
+    measure how invariant statistics, modes, and correlations change with resolution.
+  - 'Reduced Markovian Models explores a further step: grouping states to retain dynamics at chosen timescales.
+    Together, these methods connect interpretable state-space geometry, scalable estimation, and fluid-mechanical
+    observables, with explicit checks of what a reduced model preserves.'
+  tags:
+  - Fluid mechanics
+  - Nonlocal closure
+  - Transfer operators
+  - Markov models
+  - Bisecting K-means
+  links:
+  - label: Statistical Nonlocality of Dynamically Coherent Structures
+    source: Journal of Fluid Mechanics | 2023
+    description: An operator description of transport by dynamically coherent structures.
+    url: https://doi.org/10.1017/jfm.2023.467
+    primary: true
+  - label: On the non-local nature of turbulent fluxes of passive scalars
+    source: Journal of Fluid Mechanics | 2024
+    description: Spatial and temporal nonlocality in passive-scalar fluxes.
+    url: https://doi.org/10.1017/jfm.2024.302
+  - label: Read “Ineffective diffusivity”
+    source: Journal of Fluid Mechanics | Focus on Fluids
+    description: The invited commentary highlighting the 2023 nonlocality paper.
+    url: https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/ineffective-diffusivity/39DECD8500BBA78F6EFCA769E9C79112
+  - label: Representing turbulent statistics with partitions of state space. Part 1. Theory and methodology
+    source: Journal of Fluid Mechanics | 2024
+    description: 'Part 1: generator estimation, statistical uncertainty, and a Lorenz demonstration.'
+    url: https://doi.org/10.1017/jfm.2024.658
+  - label: Representing turbulent statistics with partitions of state space. Part 2. The compressible Euler
+      equations
+    source: Journal of Fluid Mechanics | 2024
+    description: 'Part 2: statistical modeling of a high-dimensional atmospheric flow.'
+    url: https://doi.org/10.1017/jfm.2024.657
+  - label: A modified bisecting K-means for approximating transfer operators
+    source: 'Physica D: Nonlinear Phenomena | 2026'
+    description: Hierarchical partitions and convergence of transfer-operator estimates.
+    url: https://doi.org/10.1016/j.physd.2026.135173
+  - label: Reduced Markovian Models of Dynamical Systems
+    source: 'Physica D: Nonlinear Phenomena | 2024'
+    description: Coarse-graining statistical dynamics across timescales.
+    url: https://doi.org/10.1016/j.physd.2024.134393
+  media:
+  - type: image
+    src: /media/stories/statistical-nonlocality.jpg
+    alt: Side-by-side empirical and equation-derived transport structures with streamfunction and source fields
+    caption: Empirical and equation-derived transport structures from the Statistical Nonlocality study
+  number: '05'
+- id: climate-visualization
+  group: Research
+  category: Research theme
+  nav_title: Climate modeling
+  relationship: Oceananigans | MIT | Climate Modeling Alliance
+  year: 2020–2026
+  title: Climate modeling on GPUs
+  summary: Climate simulation brings together numerical methods, physical parameterizations, and high-performance
+    software—from turbulent mixing to ocean circulation.
+  body:
+  - At MIT and the Climate Modeling Alliance, I worked on computational fluid dynamics, ocean parameterizations,
+    and uncertainty quantification. Oceananigans connects these areas through Julia software that runs fluid
+    simulations on GPUs, with an interface designed for both experimentation and large-scale computation.
+  - The Oceananigans papers span the original GPU modeling framework, a WENO-based momentum-advection scheme,
+    and a dynamical core for routine mesoscale-resolving ocean simulations. The high-level interface preprint
+    explains how simple finite-volume numerics, GPU performance, and programmable model configurations work
+    together across scales. The HPC challenge is to make physically useful resolution affordable while retaining
+    a codebase that scientists can extend.
+  - Performance and model fidelity have to be developed together. Advection methods influence numerical mixing,
+    while unresolved turbulence requires closures that behave sensibly across forcing conditions and resolutions.
+    The KPP uncertainty-quantification study examines calibration and parameter uncertainty for penetrative
+    convection; CATKE develops a calibrated one-equation mixing model; NORi combines a physical foundation
+    with learned corrections for missing boundary-layer processes.
+  - 'The atmospheric work uses a flux-differencing discontinuous Galerkin method for a fully compressible dry
+    atmosphere. The visualizations below come from that research: interactive volume renderings, slices, and
+    statistical profiles make high-dimensional output easier to inspect and help connect numerical behavior
+    with physical interpretation.'
+  - This work combines numerical analysis, GPU/HPC workflows, physical modeling, calibration, and scientific
+    visualization. The goal is a simulation tool that is fast enough to explore, accurate enough to learn from,
+    and transparent enough to improve.
+  tags:
+  - Climate modeling
+  - GPU / HPC
+  - Julia
+  - Numerical PDEs
+  - Ocean mixing
+  - Uncertainty quantification
+  links:
+  - label: 'Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs'
+    source: Journal of Open Source Software | 2020
+    description: The original Julia framework for geophysical fluid dynamics on GPUs.
+    url: https://doi.org/10.21105/joss.02018
+    primary: true
+  - label: A GPU-Based Ocean Dynamical Core for Routine Mesoscale-Resolving Climate Simulations
+    source: Journal of Advances in Modeling Earth Systems | 2025
+    description: GPU performance and numerics for mesoscale-resolving ocean simulations.
+    url: https://doi.org/10.1029/2024MS004465
+  - label: High-level, high-resolution ocean modeling at all scales with Oceananigans
+    source: arXiv preprint | 2025
+    description: Preprint on the interface, governing equations, numerics, and modeling across scales.
+    url: https://doi.org/10.48550/arXiv.2502.14148
+  - label: A New WENO-Based Momentum Advection Scheme for Simulations of Ocean Mesoscale Turbulence
+    source: Journal of Advances in Modeling Earth Systems | 2024
+    description: Momentum advection designed for ocean mesoscale turbulence.
+    url: https://doi.org/10.1029/2023MS004130
+  - label: 'Uncertainty Quantification of Ocean Parameterizations: Application to the K-Profile-Parameterization
+      for Penetrative Convection'
+    source: Journal of Advances in Modeling Earth Systems | 2020
+    description: Parameter calibration and uncertainty in KPP penetrative-convection modeling.
+    url: https://doi.org/10.1029/2020MS002108
+  - label: Formulation and Calibration of CATKE, a One-Equation Parameterization for Microscale Ocean Mixing
+    source: Journal of Advances in Modeling Earth Systems | 2025
+    description: Formulation and calibration of the CATKE ocean-mixing closure.
+    url: https://doi.org/10.1029/2024MS004522
+  - label: 'NORi: An ML-Augmented Ocean Boundary Layer Parameterization'
+    source: Journal of Advances in Modeling Earth Systems | 2026
+    description: A physics-and-ML parameterization of ocean boundary-layer mixing.
+    url: https://doi.org/10.1029/2025MS005667
+  - label: The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic
+      Dry Atmosphere
+    source: Journal of Advances in Modeling Earth Systems | 2023
+    description: The dry-atmosphere numerical methods behind the visualizations.
+    url: https://doi.org/10.1029/2022MS003527
+  - label: Explore Oceananigans
+    source: GitHub | Open-source software
+    description: Source code, examples, and documentation for GPU ocean modeling.
+    url: https://github.com/CliMA/Oceananigans.jl
+  - label: Explore the visualization code
+    source: GitHub | Julia
+    description: Scripts used to reproduce figures from the dry-atmosphere study.
+    url: https://github.com/sandreza/DryAtmosphereFluxDifferencingVisualization
+  - label: View the Makie showcase
+    source: Makie
+    description: The scientific visualization framework featuring this work.
+    url: https://makie.org/website/
+  media:
+  - type: image
+    src: /media/stories/glmakie-dry-atmosphere.png
+    alt: GPU-rendered three-dimensional dry-convection temperature field with vertical profiles of mean and
+      turbulent statistics
+    caption: GLMakie visualization from the dry-atmosphere study, credited by Makie to A. N. Souza
+    url: https://doi.org/10.1029/2022MS003527
+    link_label: Read the flux-differencing discontinuous Galerkin paper
+  - type: video
+    src: /media/stories/makie-climate-volume.mp4
+    alt: Interactive volume, slice, and distribution dashboard for atmospheric simulation output
+    caption: Interactive GLMakie volume and slice dashboard from my research
+  number: '06'
+- id: probabilistic-inference
+  group: Research
+  category: Research theme
+  nav_title: Probabilistic inference
+  relationship: Conditional distributions | Generative models | Uncertainty
+  year: 2025–2026
+  title: Probabilistic inference from available information
+  summary: Modeling ρ(y | x) makes the available information—and the uncertainty that remains—part of the prediction.
+  body:
+  - 'A deterministic model y = f(x) returns one answer for each input. Many scientific problems admit several
+    outcomes consistent with the same information: a warming level supports many possible climate realizations,
+    and surface observations leave parts of the ocean interior unresolved. A conditional distribution ρ(y |
+    x) describes those possibilities and their relative likelihoods.'
+  - With Shahine Bouabid and Raffaele Ferrari, I developed score-based generative emulation of impact-relevant
+    Earth system model outputs. The model generates monthly temperature, precipitation, humidity, and wind
+    fields conditioned on warming information. Modeling them jointly lets us evaluate spatial structure, cross-variable
+    dependence, tails, and forced changes across three parent climate models.
+  - Surface to Seafloor applies the same probabilistic perspective to ocean state estimation. In an idealized
+    double-gyre simulation, a diffusion model infers three-dimensional velocity and buoyancy fields from surface
+    information. Ensembles represent possible interiors, and the experiments show how inference skill changes
+    with depth and the resolution of the surface data.
+  - The central question is what the available information actually constrains. Evaluation therefore goes beyond
+    the error of an ensemble mean to examine variability, correlations, and uncertainty. The climate-emulation
+    study identifies failures under strong seasonal regime shifts, while Surface to Seafloor makes the loss
+    of information with depth explicit.
+  - These projects bring together conditional modeling, score-based diffusion, physical data representations,
+    and statistical evaluation. They turn incomplete information into ensembles that can be interrogated for
+    both scientific quantities and the uncertainty surrounding them.
+  tags:
+  - Conditional inference
+  - Score-based diffusion
+  - Joint distributions
+  - State estimation
+  - Uncertainty
+  links:
+  - label: Score-Based Generative Emulation of Impact-Relevant Earth System Model Outputs
+    source: Journal of Advances in Modeling Earth Systems | 2026
+    description: Joint generative emulation of monthly climate fields and a detailed diagnostic framework.
+    url: https://doi.org/10.1029/2025MS005558
+    primary: true
+  - label: Download the climate-emulation paper
+    source: PDF
+    description: The paper with Shahine Bouabid and Raffaele Ferrari.
+    url: /files/shahine_2025.pdf
+  - label: 'Surface to Seafloor: A Generative AI Framework for Decoding the Ocean Interior State'
+    source: arXiv preprint | 2025
+    description: A preprint on inferring possible ocean interiors from surface information.
+    url: https://doi.org/10.48550/arXiv.2504.15308
+  - label: Download Surface to Seafloor
+    source: PDF | Preprint
+    description: Experiments on surface-conditioned velocity, buoyancy, and uncertainty.
+    url: /files/s2s.pdf
+  number: '07'
 
 capabilities:
   - title: "Models"
@@ -420,6 +661,7 @@ published:
     topic: "Generative AI / statistical physics"
     selected: true
     pdf: "/files/Response_PRL.pdf"
+    supplement: "/files/response_prl_supplement.pdf"
     cite: "/publication/giorgini-bischoff-deck-souza-2024/cite.bib"
     summary: >-
       This paper connects score-based generative modeling to the problem of predicting how a dynamical system responds to an external perturbation.
@@ -807,13 +1049,14 @@ preprints:
     url: "https://doi.org/10.48550/arXiv.2509.19660"
     topic: "Parameter calibration / generative modeling"
     pdf: "/files/stat_cal.pdf"
+    version: "arXiv v2, April 1, 2026"
     authors: "L. T. Giorgini, T. Bischoff, A. N. Souza"
     cite: "/publication/stat_cal/cite.bib"
     summary: >-
       This preprint develops a response-theory approach to tuning model parameters so that simulated statistics agree with observations.
       The generalized fluctuation-dissipation theorem relates small changes in parameters to changes in statistics of chosen observables.
       Score estimates support the calculation of these sensitivities, which can then be used in Newton-type or regularized least-squares updates.
-      Examples ranging from linear systems to nonlinear and multiscale stochastic models examine changes to both deterministic drift and stochastic diffusion.
+      The April 2026 revision tests sensitivities of drift and diffusion parameters on analytically tractable processes and stochastic Lorenz–96 models.
       Readers get a principled way to construct statistical parameter sensitivities without adjoint models or separate perturbation ensembles, together with the limits imposed by linear response.
   - title: "Reduced-Order Modeling of Cyclo-Stationary Time Series Using Score-Based Generative Methods"
     year: "2025"

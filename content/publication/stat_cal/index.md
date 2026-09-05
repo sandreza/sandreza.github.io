@@ -28,7 +28,7 @@ summary: >-
   This preprint develops a response-theory approach to tuning model parameters so that simulated statistics agree with observations.
   The generalized fluctuation-dissipation theorem relates small changes in parameters to changes in statistics of chosen observables.
   Score estimates support the calculation of these sensitivities, which can then be used in Newton-type or regularized least-squares updates.
-  Examples ranging from linear systems to nonlinear and multiscale stochastic models examine changes to both deterministic drift and stochastic diffusion.
+  The April 2026 revision tests sensitivities of drift and diffusion parameters on analytically tractable processes and stochastic Lorenz–96 models.
   Readers get a principled way to construct statistical parameter sensitivities without adjoint models or separate perturbation ensembles, together with the limits imposed by linear response.
 
 tags:
@@ -38,9 +38,10 @@ tags:
   - Preprint
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links:
+  - name: "arXiv v2 (April 2026)"
+    url: https://arxiv.org/abs/2509.19660v2
+lastmod: '2026-04-01T00:00:00Z'
 url_pdf: '/files/stat_cal.pdf'
 url_code: ''
 url_dataset: ''

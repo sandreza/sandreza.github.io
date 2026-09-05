@@ -70,6 +70,24 @@ function StoryMedia({ media, reducedMotion }) {
 
 function StorySignal({ story }) {
   const diagrams = {
+    "ai-physics": {
+      label: "Simulation data feeds model training and validation, followed by deployment into engineering workflows",
+      kicker: "From data to deployed models",
+      stages: [
+        { label: "Simulation data", detail: "Geometry · fields · conditions" },
+        { label: "Train and validate", detail: "Models · benchmarks · compute" },
+        { label: "Deploy and evaluate", detail: "Inference · engineering decisions" },
+      ],
+    },
+    "probabilistic-inference": {
+      label: "Available information x constrains a conditional distribution rho of y given x, producing ensembles of possible outcomes y",
+      kicker: "Conditional probabilistic modeling",
+      stages: [
+        { label: "Information, x", detail: "Surface observations · warming" },
+        { label: "ρ(y | x)", detail: "Learn a conditional distribution" },
+        { label: "Possible outcomes, y", detail: "Ocean interiors · climate fields" },
+      ],
+    },
     "mclaren-gtc": {
       label: "AI Physics workflow from simulation data to engineering decisions",
       kicker: "AI Physics workflow",
@@ -100,13 +118,13 @@ function StorySignal({ story }) {
       <header><span>{diagram.kicker}</span><i aria-hidden="true" /></header>
       <div className="psb-story-signal__flow">
         {diagram.stages.map((stage, index) => (
-          <div className={index === 1 ? "is-core" : undefined} key={stage.label}>
+          <div key={stage.label}>
+            <span aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
             <strong>{stage.label}</strong>
             {stage.detail ? <em>{stage.detail}</em> : null}
           </div>
         ))}
       </div>
-      <footer aria-hidden="true">{story.tags.map((tag) => <i key={tag}>{tag}</i>)}</footer>
     </div>
   );
 }
@@ -152,33 +170,41 @@ export function WorkStories({ stories = [] }) {
 
   return (
     <div className="psb-story-browser">
-      <nav className="psb-story-index" aria-label="Selected work stories">
-        <header><span>Story index</span><strong>{stories.length} stories</strong></header>
-        <div className="psb-story-tabs" role="tablist" aria-label="Choose a story" aria-orientation="horizontal">
-          {stories.map((story, index) => {
-            const isActive = activeStory.id === story.id;
-            const tabId = `${panelId}-tab-${story.id}`;
-            return (
-              <button
-                aria-controls={panelId}
-                aria-selected={isActive}
-                className="psb-glow-surface"
-                id={tabId}
-                key={story.id}
-                onClick={() => chooseStory(story.id)}
-                onKeyDown={(event) => moveToStory(event, index)}
-                ref={(element) => { tabRefs.current[index] = element; }}
-                role="tab"
-                tabIndex={isActive ? 0 : -1}
-                type="button"
-              >
-                <span>{story.number}</span>
-                <small>{story.category}</small>
-                <strong>{story.nav_title || story.title}</strong>
-                <i className="psb-sr-only">{isActive ? "Currently selected" : "Open story"}</i>
-              </button>
-            );
-          })}
+      <nav className="psb-story-index" aria-label="Selected work topics">
+        <header><span>Explore selected work</span><strong>Industry and research</strong></header>
+        <div className="psb-story-tabs" role="tablist" aria-label="Choose a work topic" aria-orientation="horizontal">
+          {["Industry", "Research"].map((group) => (
+            <div className="psb-story-group" key={group} role="presentation">
+              <p aria-hidden="true">{group === "Research" ? "Research themes" : "Industry applications"}</p>
+              <div className="psb-story-group__tabs" role="presentation" style={{ "--story-columns": stories.filter((story) => story.group === group).length }}>
+                {stories.filter((story) => story.group === group).map((story) => {
+                  const index = stories.indexOf(story);
+                  const isActive = activeStory.id === story.id;
+                  const tabId = `${panelId}-tab-${story.id}`;
+                  return (
+                    <button
+                      aria-controls={panelId}
+                      aria-selected={isActive}
+                      className="psb-glow-surface"
+                      id={tabId}
+                      key={story.id}
+                      onClick={() => chooseStory(story.id)}
+                      onKeyDown={(event) => moveToStory(event, index)}
+                      ref={(element) => { tabRefs.current[index] = element; }}
+                      role="tab"
+                      tabIndex={isActive ? 0 : -1}
+                      type="button"
+                    >
+                      <span>{story.number}</span>
+                      <small>{story.category}</small>
+                      <strong>{story.nav_title || story.title}</strong>
+                      <i className="psb-sr-only">{isActive ? "Currently selected" : "Open topic"}</i>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </nav>
 
@@ -204,7 +230,7 @@ export function WorkStories({ stories = [] }) {
         </div>
 
         <section className="psb-story-evidence" aria-labelledby={`${panelId}-evidence`}>
-          <header><span>Evidence and sources</span><h4 id={`${panelId}-evidence`}>{activeStory.links.length} public links</h4></header>
+          <header><span>{activeStory.group === "Research" ? "Papers and resources" : "Explore the work"}</span><h4 id={`${panelId}-evidence`}>{activeStory.links.length} links</h4></header>
           <ul>
             {activeStory.links.map((link) => (
               <li className={link.primary ? "is-primary" : undefined} key={link.url}>

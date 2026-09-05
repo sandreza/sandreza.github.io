@@ -37,8 +37,8 @@ tags:
 featured: false
 
 links:
-# - name: Custom Link
-#   url: https://doi.org/10.48550/arXiv.2402.01029
+  - name: Supplement
+    url: /files/response_prl_supplement.pdf
 url_pdf: /files/Response_PRL.pdf
 url_code: ''
 url_dataset: ''
