@@ -31,7 +31,12 @@ publication_short: ''
 abstract: Oceananigans.jl is a Julia package designed for fast and user-friendly simulations of geophysical fluid dynamics on GPUs. The package leverages the power of modern GPU hardware to provide high-performance simulations, making it accessible and efficient for researchers. This tool is particularly valuable for studying oceanographic and atmospheric phenomena, offering a combination of speed and ease of use.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This software paper introduces Oceananigans as a Julia framework for geophysical fluid simulations on CPUs and GPUs.
+  It combines a high-level scripting interface with numerical methods for incompressible, stratified, rotating flow.
+  Users can specify model configurations and diagnostics while sharing a common code base across hardware architectures.
+  The paper describes performance benchmarks, verification practices, and applications such as ocean boundary-layer turbulence.
+  Readers get a concise introduction to the software's original capabilities and design, helping them assess it as a platform for numerical experiments.
 
 tags:
   - Geophysical Fluid Dynamics

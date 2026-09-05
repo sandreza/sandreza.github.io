@@ -1,30 +1,12 @@
 import React, { useEffect, useId, useMemo, useState } from "react";
 
-function derivative([x, y, z]) {
-  const sigma = 10;
-  const rho = 28;
-  const beta = 8 / 3;
-  return [sigma * (y - x), x * (rho - z) - y, x * y - beta * z];
-}
-
-function rk4(point, step) {
-  const k1 = derivative(point);
-  const p2 = point.map((value, index) => value + (step * k1[index]) / 2);
-  const k2 = derivative(p2);
-  const p3 = point.map((value, index) => value + (step * k2[index]) / 2);
-  const k3 = derivative(p3);
-  const p4 = point.map((value, index) => value + step * k3[index]);
-  const k4 = derivative(p4);
-  return point.map(
-    (value, index) => value + (step / 6) * (k1[index] + 2 * k2[index] + 2 * k3[index] + k4[index]),
-  );
-}
+import { derivatives, rk4Step, periodicTrajectory } from "./dynamics.js";
 
 function integrate(initial, step, count, discard = 0, sampleEvery = 1) {
   let point = initial;
   const points = [];
   for (let index = 0; index < count + discard; index += 1) {
-    point = rk4(point, step);
+    point = rk4Step(point, step, derivatives.lorenz);
     if (index >= discard && (index - discard) % sampleEvery === 0) points.push(point);
   }
   return points;
@@ -54,9 +36,7 @@ export function LorenzAttractor({ onOriginActivate }) {
 
   const trajectories = useMemo(() => {
     const attractor = integrate([0.1, 0, 0], 0.006, 7900, 2400, 2);
-    const period = 1.55865222;
-    const steps = 720;
-    const orbit = integrate([13.76361068, 19.57875194, 27], period / steps, steps + 1);
+    const orbit = periodicTrajectory("lorenz");
     return { attractor, orbit };
   }, []);
 

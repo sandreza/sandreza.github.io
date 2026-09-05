@@ -22,7 +22,12 @@ publication_short: ''
 abstract: This work introduces a novel theoretical framework for representing turbulent statistics through partitions of the state space. Part 1 focuses on the development of the theory and methodology behind this approach. The method provides a systematic way to partition the state space, offering a more structured and refined representation of turbulence. The resulting framework is a powerful tool for analyzing turbulent flows and could pave the way for improved statistical modeling techniques.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper develops a way to represent a chaotic system through transitions between regions of its state space.
+  Time-series data define a finite-volume approximation of the equation governing probability, producing a continuous-time Markov model.
+  The method accommodates flexible partitions, noisy observations, and uncertainty caused by finite data.
+  The Lorenz equations provide a worked example of recovering statistical behavior without trying to track an individual chaotic trajectory indefinitely.
+  Readers get the mathematical construction and practical methodology behind a statistical reduced-order model, with the companion paper extending it to atmospheric flow.
 
 tags:
   - Turbulent Statistics

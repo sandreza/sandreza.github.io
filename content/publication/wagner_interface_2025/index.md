@@ -35,7 +35,12 @@ publication_short: ''
 abstract: This paper presents the vision, user interface, governing equations, and numerical methods that underpin Oceananigans, a new high-resolution ocean modeling software. Developed by the Climate Modeling Alliance, Oceananigans is part of a broader initiative to create a trainable climate model with quantifiable uncertainty. The model is designed to balance accuracy, computational efficiency, and accessibility. It features a simple finite volume algorithm optimized for high-resolution GPU-based simulations and a high-level, expressive user interface in Julia. The paper highlights the software’s capabilities through example simulations ranging from classroom demonstrations to realistic global ocean simulations that resolve all scales of oceanic fluid motion. Additionally, it discusses advances in parameterization, numerical methods, and computational efficiency that make Oceananigans a powerful tool for Earth system modeling.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This preprint describes the scientific vision, user interface, governing equations, and numerical methods behind Oceananigans.
+  It brings together relatively simple finite-volume methods, GPU-oriented implementation, and an expressive Julia scripting interface.
+  Examples span classroom-scale fluid problems, small-scale turbulence, and realistic global ocean circulation.
+  The discussion connects software accessibility and extensibility to advances in parameterizations, numerical methods, and computational performance.
+  Readers get a broad technical guide to the model and a rationale for how its software design supports experiments across very different ocean scales.
 
 tags:
   - Ocean Modeling

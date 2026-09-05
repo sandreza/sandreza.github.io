@@ -9,6 +9,7 @@ profile:
   bridge: "At Rescale, I work on AI Physics methods for industrial simulation data. Previously, I was a research scientist at MIT working on fluid dynamics, climate physics, generative modeling, and uncertainty quantification."
   cv: "/files/andre-souza-cv.pdf"
   scholar: "https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en"
+  linkedin: "https://www.linkedin.com/in/andre-souza-8363144b/"
   github: "https://github.com/sandreza"
   twitter: "https://twitter.com/AndreSo21198743"
 
@@ -226,7 +227,7 @@ stories:
       - label: "Open the earlier paper PDF"
         source: "PDF"
         description: "A direct copy of the Physical Review Letters article."
-        url: "/files/response_prl.pdf"
+        url: "/files/Response_PRL.pdf"
   - id: "statistical-nonlocality"
     number: "04"
     category: "Research note"
@@ -348,6 +349,21 @@ experience:
     url: "https://deepblue.lib.umich.edu/items/ecd15dc4-5a2d-40b7-b987-6f9cff36f89f"
 
 published:
+  - title: "NORi: An ML-Augmented Ocean Boundary Layer Parameterization"
+    authors: "X. K. Lee, A. Ramadhan, A. Souza, G. L. Wagner, S. Silvestri, J. Marshall, and R. Ferrari"
+    venue: "Journal of Advances in Modeling Earth Systems"
+    citation: "18(9), e2025MS005667"
+    year: "2026"
+    doi: "https://doi.org/10.1029/2025MS005667"
+    topic: "Ocean modeling / machine learning"
+    pdf: "/files/nori.pdf"
+    cite: "/publication/nori/cite.bib"
+    summary: >-
+      NORi combines a physics-based ocean boundary-layer mixing scheme with neural networks that learn the entrainment missing from a local diffusive closure.
+      It trains against the evolution of temperature and salinity in large-eddy simulations while conserving tracers by construction.
+      Tests examine unfamiliar forcing conditions and seasonal mixing at Ocean Weather Station Papa, where performance is comparable to established closures.
+      An idealized double-gyre experiment remains numerically stable for 100 years despite training on two-day trajectories, although this does not establish accuracy in a realistic global ocean.
+      Readers get a detailed example of designing, training, and evaluating a hybrid physics-and-ML parameterization that targets missing processes while retaining a simple physical foundation.
   - title: "Predicting forced responses of probability distributions via the fluctuation-dissipation theorem and generative modeling"
     authors: "L. T. Giorgini, F. Falasca, and A. N. Souza"
     venue: "Proceedings of the National Academy of Sciences"
@@ -358,6 +374,12 @@ published:
     selected: true
     pdf: "/files/higher_response.pdf"
     cite: "/publication/predicting-forced-responses/cite.bib"
+    summary: >-
+      This paper asks how a small external forcing changes an entire probability distribution, including its variance, asymmetry, and tails.
+      It combines the generalized fluctuation-dissipation theorem with score functions learned from unperturbed data.
+      Clustering handles systems with a compact state-space representation, while a neural score model extends the approach to spatially distributed turbulence.
+      Tests on stochastic models and two-dimensional Navier-Stokes flow show why Gaussian approximations can miss important changes in higher-order statistics.
+      Readers get a practical framework for estimating distributional responses within the small-forcing regime, together with examples that connect response theory to generative modeling.
   - title: "Score-Based Generative Emulation of Impact-Relevant Earth System Model Outputs"
     authors: "S. Bouabid, A. N. Souza, and R. Ferrari"
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -368,6 +390,12 @@ published:
     selected: true
     pdf: "/files/shahine_2025.pdf"
     cite: "/publication/shahine_2025/cite.bib"
+    summary: >-
+      This paper develops a generative emulator for monthly climate fields used in impact assessments, including temperature, precipitation, humidity, and wind.
+      A score-based diffusion model on a spherical mesh learns their joint distribution from Earth system model output.
+      The evaluation checks spatial and cross-variable relationships, distribution tails, and the emergence of forced changes across three climate models.
+      The results reproduce many key statistics but also expose failures when seasonal behavior changes strongly between climate regimes.
+      Readers get both an approach to generating inexpensive climate ensembles and a detailed set of diagnostics for judging whether an emulator is useful for impacts research.
   - title: "KGMM: A K-means clustering approach to Gaussian mixture modeling for score function estimation"
     authors: "L. T. Giorgini, T. Bischoff, and A. N. Souza"
     venue: "Physica D: Nonlinear Phenomena"
@@ -377,6 +405,12 @@ published:
     topic: "Score estimation / clustering"
     pdf: "/files/kgmm.pdf"
     cite: "/publication/kgmm/cite.bib"
+    summary: >-
+      This paper introduces KGMM, a method for estimating the score function that describes how probability density changes across state space.
+      It combines bisecting K-means clustering, a Gaussian mixture representation, and neural interpolation of the resulting score estimates.
+      The construction addresses noise amplification that can make conventional Gaussian mixture scores unreliable when component covariances are small.
+      Examples involving potential systems and chaotic Lorenz-type models show that the estimated scores can support stochastic models with accurate long-term distributions.
+      Readers get a concrete score-estimation workflow and an understanding of when clustering can provide a useful foundation for generative reduced-order models.
   - title: "Response Theory via Generative Score Modeling"
     authors: "L. T. Giorgini, K. Deck, T. Bischoff, and A. Souza"
     venue: "Physical Review Letters"
@@ -385,8 +419,14 @@ published:
     doi: "https://doi.org/10.1103/PhysRevLett.133.267302"
     topic: "Generative AI / statistical physics"
     selected: true
-    pdf: "/files/response_prl.pdf"
+    pdf: "/files/Response_PRL.pdf"
     cite: "/publication/giorgini-bischoff-deck-souza-2024/cite.bib"
+    summary: >-
+      This paper connects score-based generative modeling to the problem of predicting how a dynamical system responds to an external perturbation.
+      The generalized fluctuation-dissipation theorem expresses that response using fluctuations in the unperturbed system and the score of its stationary distribution.
+      Learning the score from time-series data removes the need to approximate that distribution as Gaussian.
+      Tests on a spatial Ornstein-Uhlenbeck process, a stochastic Allen-Cahn equation, and two-dimensional Navier-Stokes flow demonstrate improved response estimates.
+      Readers get the central theoretical connection and a data-driven recipe for predicting small-perturbation responses in systems with complicated statistics.
   - title: "Representing turbulent statistics with partitions of state space. Part 1. Theory and methodology"
     authors: "A. Souza"
     venue: "Journal of Fluid Mechanics"
@@ -397,6 +437,12 @@ published:
     selected: true
     pdf: "/files/butterflies_1.pdf"
     cite: "/publication/souza-2024-butterflies1/cite.bib"
+    summary: >-
+      This paper develops a way to represent a chaotic system through transitions between regions of its state space.
+      Time-series data define a finite-volume approximation of the equation governing probability, producing a continuous-time Markov model.
+      The method accommodates flexible partitions, noisy observations, and uncertainty caused by finite data.
+      The Lorenz equations provide a worked example of recovering statistical behavior without trying to track an individual chaotic trajectory indefinitely.
+      Readers get the mathematical construction and practical methodology behind a statistical reduced-order model, with the companion paper extending it to atmospheric flow.
   - title: "Representing turbulent statistics with partitions of state space. Part 2. The compressible Euler equations"
     authors: "A. Souza"
     venue: "Journal of Fluid Mechanics"
@@ -406,6 +452,12 @@ published:
     topic: "Compressible flow / state-space methods"
     pdf: "/files/butterflies_2.pdf"
     cite: "/publication/souza-2024-butterflies2/cite.bib"
+    summary: >-
+      This paper applies state-space partitioning to an atmospheric system governed by the compressible Euler equations with gravity and rotation on a thin spherical shell.
+      Representative flow states and their observed transitions form a finite-state approximation of the system's probability dynamics.
+      The resulting model recovers selected stationary distributions and temporal correlations and identifies global Koopman modes.
+      Two partitioning strategies reveal how choices about grouping high-dimensional states affect the statistics that are retained.
+      Readers get a worked example of taking the theory from the first paper into a large fluid simulation, including its successes and limits as a statistical approximation.
   - title: "Learning dissipation and instability fields from chaotic dynamics"
     authors: "L. T. Giorgini, A. N. Souza, D. Lippolis, P. Cvitanovic, and P. Schmid"
     venue: "Physica D: Nonlinear Phenomena"
@@ -415,6 +467,12 @@ published:
     topic: "Dynamical systems / operator learning"
     pdf: "/files/pf_jacobian.pdf"
     cite: "/publication/giorgini_jacobian_2025/cite.bib"
+    summary: >-
+      This paper asks whether the local stretching and contraction of chaotic dynamics can be inferred from a statistical transition model.
+      It estimates the Jacobian of a discrete-time system from a matrix approximating the Perron-Frobenius transfer operator.
+      The approach links transitions between state-space regions to local instability and dissipation without requiring explicit governing equations.
+      Numerical experiments on one- and two-dimensional chaotic maps illustrate the reconstruction and its dependence on the available representation.
+      Readers get a method for extracting local dynamical information from transfer operators and a clear starting point for assessing its use in sensitivity analysis.
   - title: "The Flux-Differencing Discontinuous Galerkin Method Applied to an Idealized Fully Compressible Nonhydrostatic Dry Atmosphere"
     authors: "A. N. Souza et al."
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -424,6 +482,12 @@ published:
     topic: "Atmospheric simulation / numerical methods"
     pdf: "/files/flux-differencing.pdf"
     cite: "/publication/souza-et-al-2023/cite.bib"
+    summary: >-
+      This paper investigates a flux-differencing discontinuous Galerkin method for simulating a fully compressible, nonhydrostatic dry atmosphere.
+      The formulation combines high-order accuracy with numerical dissipation that helps control unresolved motion.
+      It is tested on dry atmospheric boundary-layer convection and the Held-Suarez global circulation benchmark.
+      In these experiments, the method remains stable without adding filters, divergence damping, explicit diffusion, hyperdiffusion, or sponge layers.
+      Readers get the numerical formulation and benchmark evidence needed to understand its tradeoff between accuracy and stability in atmospheric modeling.
   - title: "Statistical Nonlocality of Dynamically Coherent Structures"
     authors: "A. N. Souza, T. L. Lutz, and G. R. Flierl"
     venue: "Journal of Fluid Mechanics"
@@ -434,6 +498,12 @@ published:
     selected: true
     pdf: "/files/statistical-non-locality-of-dynamically-coherent-structures.pdf"
     cite: "/publication/souza-lutz-flierl-2023/cite.bib"
+    summary: >-
+      This paper studies how persistent flow structures make turbulent tracer transport depend on conditions at other locations and earlier times.
+      It conditions the tracer equation on the flow state and describes changes between flow states with continuous-time Markov processes.
+      That construction produces a transport operator whose form depends on the spectrum of the flow statistics.
+      The familiar local diffusivity tensor emerges as a limiting case, while progressively richer Markov descriptions approximate more complicated transport.
+      Readers get a theoretical route from coherent flow dynamics to nonlocal mixing closures and a precise account of the assumptions behind ordinary eddy diffusivity.
   - title: "Wall-to-wall optimal transport in two dimensions"
     authors: "A. N. Souza, I. Tobasco, and C. R. Doering"
     venue: "Journal of Fluid Mechanics"
@@ -443,6 +513,12 @@ published:
     topic: "Optimal transport / fluid mechanics"
     pdf: "/files/wall-to-wall-optimal-transport-in-two-dimensions.pdf"
     cite: "/publication/souza-tobasco-doering-2020/cite.bib"
+    summary: >-
+      This paper asks which two-dimensional incompressible flows transfer the most heat between two fixed-temperature, no-slip walls for a prescribed flow intensity.
+      Gradient-ascent methods search for velocity fields that maximize the Nusselt number under a constraint on their rate of strain.
+      The computed optima develop organized structures and show a high-intensity transport scaling close to a power of 0.54 in the Péclet number.
+      A separable approximation to those structures yields a conditional upper bound with a closely matching exponent.
+      Readers get optimization methods for designing efficient transport and an example of how numerical discoveries can motivate analytical bounds for convection.
   - title: "Reduced Markovian Models of Dynamical Systems"
     authors: "L. T. Giorgini, A. N. Souza, and P. J. Schmid"
     venue: "Physica D: Nonlinear Phenomena"
@@ -452,6 +528,12 @@ published:
     topic: "Reduced-order modeling"
     pdf: "/files/reduced_markovian_models.pdf"
     cite: "/publication/giorgini-souza-schmid-2024/cite.bib"
+    summary: >-
+      This paper develops smaller statistical models from a finite-state Markov representation of a dynamical system.
+      A modified community-detection method groups states to isolate the dynamics most relevant to a chosen timescale.
+      A complementary construction estimates a continuous-time generator that represents transitions across a wider range of timescales.
+      The methods are demonstrated on stochastic and chaotic examples, the Kuramoto-Sivashinsky equations, and experimental fluid-flow measurements.
+      Readers get tools for choosing the complexity of a reduced model and evaluating whether it preserves the temporal statistics that matter for their application.
   - title: "CalibrateEmulateSample.jl: Accelerated Parametric Uncertainty Quantification"
     authors: "O. R. A. Dunbar et al."
     venue: "Journal of Open Source Software"
@@ -461,6 +543,12 @@ published:
     topic: "Open-source UQ / Julia"
     pdf: "/files/10.21105.joss.06372.pdf"
     cite: "/publication/dunbar-et-al-2024/cite.bib"
+    summary: >-
+      This software paper introduces a Julia implementation of the Calibrate, Emulate, Sample workflow for Bayesian parameter uncertainty quantification.
+      The calibration stage selects informative model evaluations near parameter values that are consistent with observations.
+      Statistical emulators then approximate the expensive parameter-to-observation map so that posterior sampling becomes cheaper.
+      The package provides modular components for linking a user's simulator, prior information, calibration tools, emulators, and sampling methods.
+      Readers get an overview of the workflow and software interfaces needed to assess whether this approach can make uncertainty quantification feasible for their own model.
   - title: "The Evolving Butterfly: Statistics in a Changing Attractor"
     authors: "M. G. Geogdzhayeva, A. N. Souza, and R. Ferrari"
     venue: "Physica D: Nonlinear Phenomena"
@@ -470,6 +558,12 @@ published:
     topic: "Nonstationary dynamics / climate"
     pdf: "/files/evolving_butterfly.pdf"
     cite: "/publication/geogdzhayev-souza-ferrari-2024/cite.bib"
+    summary: >-
+      This paper examines what can be learned from a single trajectory when the statistical behavior of a chaotic system changes over time.
+      It uses the Lorenz equations with a time-varying parameter as a simplified setting for questions that arise in a changing climate.
+      Temporal averages along one realization are compared with ensemble averages across many realizations.
+      The comparisons show that time averages can remain informative when the parameter produces sufficiently slow and smooth changes in the dynamics.
+      Readers get a concrete way to think about nonstationary statistics and the conditions under which a moving average can meaningfully represent an evolving distribution.
   - title: "Metastable transitions in inertial Langevin systems: What can be different from the overdamped case?"
     authors: "A. N. Souza and M. Tao"
     venue: "European Journal of Applied Mathematics"
@@ -479,6 +573,12 @@ published:
     topic: "Stochastic dynamics"
     pdf: "/files/souza_tao_2019.pdf"
     cite: "/publication/souza-tao-2019/cite.bib"
+    summary: >-
+      This paper studies rare transitions between metastable states in Langevin systems that retain inertia.
+      It shows that weak damping can change transition pathways and connections between states in ways that an overdamped approximation misses.
+      The analysis rewrites the Freidlin-Wentzell action using time-reversed dynamics and adapts the string method to locate likely transition paths.
+      The approach also treats velocity-dependent friction, where a conventional overdamped limit may not exist.
+      Readers get both examples of when neglecting inertia changes the qualitative physics and computational tools for finding rare-event pathways in such systems.
   - title: "Maximal transport in the Lorenz equations"
     authors: "A. N. Souza and C. R. Doering"
     venue: "Physics Letters A"
@@ -488,6 +588,12 @@ published:
     topic: "Optimal control / convection"
     pdf: "/files/souza_doering_2014.pdf"
     cite: "/publication/souza-doering-2014/cite.bib"
+    summary: >-
+      This paper establishes rigorous upper limits on time-averaged transport in the Lorenz equations.
+      The bounds do not require an assumption of statistical stationarity and are attained by nonzero steady solutions, even when those solutions are unstable.
+      An optimal-control formulation then allows the flow variable to vary in time while retaining the relevant mean energy balance.
+      The analysis proves that this broader class of flow protocols cannot exceed the transport already achieved by the steady states.
+      Readers get a sharp result separating chaotic motion from maximal transport and a compact introduction to using control ideas to bound physical quantities.
   - title: "Predictions of x-ray scattering spectra for warm dense matter"
     authors: "A. N. Souza et al."
     venue: "Physical Review E"
@@ -497,6 +603,12 @@ published:
     topic: "High-energy-density physics"
     pdf: "/files/souza-et-al-2014.pdf"
     cite: "/publication/souza-et-al-2014/cite.bib"
+    summary: >-
+      This paper predicts x-ray scattering spectra for warm dense matter using a self-consistent description of ionic and electronic structure.
+      The model determines the spectrum from plasma conditions and experimental parameters without introducing adjustable fitting parameters.
+      It is first checked against room-temperature solid beryllium and then applied to warm dense beryllium and aluminum experiments.
+      The comparisons show broad agreement alongside discrepancies that expose challenges in interpreting dense-plasma measurements.
+      Readers get a physically grounded framework for connecting scattering data to plasma properties and for assessing which aspects of an experiment can distinguish competing models.
   - title: "A theoretical framework to understand sources of error in Earth System Model emulation"
     authors: "C. B. Womack, G. Flierl, S. Bouabid, A. N. Souza, P. Giani, S. D. Eastham, and N. E. Selin"
     venue: "Earth System Dynamics"
@@ -506,6 +618,12 @@ published:
     topic: "Climate AI / emulator error"
     pdf: "/files/chris_2025.pdf"
     cite: "/publication/chris_2025/cite.bib"
+    summary: >-
+      This paper develops a common theoretical framework for understanding why climate emulators make errors.
+      It connects pattern scaling, response functions, dynamic mode decomposition, and fluctuation-dissipation approaches through their treatment of the underlying dynamics.
+      Simple box models and a modified Lorenz system isolate the effects of memory, hidden variables, noise, and nonlinear behavior.
+      Response-function emulators perform best across the scenarios tested, while the analysis explains tradeoffs that broader applications must consider.
+      Readers get practical implementation guidance and a basis for choosing an emulator and training experiments according to the sources of error they need to control.
   - title: "An EOF-Based Emulator of Means and Covariances of Monthly Climate Fields"
     authors: "G. Geogdzhayev, A. N. Souza, G. R. Flierl, and R. Ferrari"
     venue: "Earth System Dynamics"
@@ -515,6 +633,12 @@ published:
     topic: "Climate emulation / uncertainty"
     pdf: "/files/gosha_statistical_emulator.pdf"
     cite: "/publication/geogdzhayev-emulator-2024/cite.bib"
+    summary: >-
+      This paper introduces a fast emulator for the means and covariances of spatially resolved monthly climate fields.
+      It projects climate-model output onto empirical orthogonal functions and learns how the reduced statistics depend on global mean surface temperature.
+      Transforming back to physical space allows the emulator to estimate changes in regional averages and their variability.
+      Examples with surface temperature and relative humidity show how it can generate inexpensive projections for warming scenarios absent from training.
+      Readers get an interpretable approach to emulating spatial climate uncertainty, including the assumptions that come with a reduced basis and a global-temperature predictor.
   - title: "A modified bisecting K-means for approximating transfer operators"
     authors: "A. N. Souza and S. Silvestri"
     venue: "Physica D: Nonlinear Phenomena"
@@ -524,6 +648,12 @@ published:
     topic: "Transfer operators / clustering"
     pdf: "/files/bisecting.pdf"
     cite: "/publication/souza-silvestri-2024/cite.bib"
+    summary: >-
+      This paper investigates how state-space partitions affect data-driven approximations of transfer operators for chaotic systems.
+      A modified bisecting K-means algorithm builds a hierarchy of regions while keeping the number of samples in each region more balanced.
+      Tests on the Lorenz and Kuramoto-Sivashinsky systems track the convergence of stationary statistics, Koopman eigenfunctions, and temporal correlations as the partition is refined.
+      The results reveal different convergence rates across the two systems and show that the irreversible part of the operator can better approximate some temporal correlations.
+      Readers get a practical partitioning strategy and evidence for deciding whether additional states improve a statistical model enough to justify their cost.
   - title: "A GPU-Based Ocean Dynamical Core for Routine Mesoscale-Resolving Climate Simulations"
     authors: "S. Silvestri et al."
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -533,6 +663,12 @@ published:
     topic: "GPU ocean simulation / scientific software"
     pdf: "/files/mesoscale_for_all.pdf"
     cite: "/publication/mesoscale4all-2024/cite.bib"
+    summary: >-
+      This paper presents an ocean dynamical core in Oceananigans designed to make mesoscale-resolving simulations practical on GPUs.
+      It describes the hydrostatic formulation, numerical implementation, and hardware-aware strategies behind the model's performance.
+      A near-global simulation at 8-kilometer horizontal resolution advances about a decade per day on 64 NVIDIA A100 GPUs.
+      That result illustrates how improved computational efficiency can reduce reliance on approximate representations of ocean eddies.
+      Readers get concrete performance benchmarks and implementation lessons for building and evaluating high-resolution ocean simulations on modern GPU systems.
   - title: "Formulation and Calibration of CATKE, a One-Equation Parameterization for Microscale Ocean Mixing"
     authors: "G. L. Wagner et al."
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -542,6 +678,12 @@ published:
     topic: "Ocean turbulence / parameterization"
     pdf: "/files/gregke.pdf"
     cite: "/publication/catke-2024/cite.bib"
+    summary: >-
+      This paper introduces CATKE, a parameterization for small-scale ocean mixing that predicts turbulent kinetic energy and diagnoses a mixing length.
+      Its convective-adjustment component represents both the depth reached by convective plumes and the time required for them to mix the water column.
+      This allows the model to represent competition between convection, shear-driven mixing, and processes that restore stratification.
+      Ensemble Kalman inversion calibrates the scheme against large-eddy simulations at several vertical resolutions, followed by tests on idealized and realistic cases.
+      Readers get the closure formulation and calibration strategy for a relatively economical mixing model, together with evidence of its performance against established alternatives.
   - title: "On the non-local nature of turbulent fluxes of passive scalars"
     authors: "G. R. Flierl and A. N. Souza"
     venue: "Journal of Fluid Mechanics"
@@ -551,6 +693,12 @@ published:
     topic: "Turbulence / transport"
     pdf: "/files/on-the-non-local-nature-of-turbulent-fluxes-of-passive-scalars.pdf"
     cite: "/publication/flierl-souza-2024/cite.bib"
+    summary: >-
+      This paper examines why turbulent tracer fluxes can depend on gradients elsewhere in space and earlier in time.
+      It develops a formal expression for that dependence as a nonlocal functional of the mean tracer gradient.
+      Two-dimensional turbulence simulations, stochastic velocity fields, and iterated maps reveal the extent and structure of the resulting transport kernels.
+      The analysis identifies circumstances in which a local eddy diffusivity is a reasonable approximation and cases where it misses important transport effects.
+      Readers get a framework for diagnosing nonlocality and using it to guide the design of physically informed, data-driven mixing parameterizations.
   - title: "A New WENO-Based Momentum Advection Scheme for Simulations of Ocean Mesoscale Turbulence"
     authors: "S. Silvestri et al."
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -560,6 +708,12 @@ published:
     topic: "Ocean simulation / numerical methods"
     pdf: "/files/oceananigans_weno.pdf"
     cite: "/publication/silvestri-et-al-2024/cite.bib"
+    summary: >-
+      This paper develops a momentum-advection scheme for ocean models using weighted essentially non-oscillatory reconstruction.
+      The scheme works with the vector-invariant formulation of momentum advection and supplies dissipation through upwinding.
+      New smoothness indicators help remove grid-scale artifacts without excessively damping the kinetic energy and enstrophy of resolved motion.
+      Tests in two-dimensional turbulence and three-dimensional baroclinic equilibration show stable solutions and improved effective resolution compared with the tested conventional schemes.
+      Readers get the numerical construction and benchmark comparisons needed to understand how advection choices influence stability and resolved ocean turbulence.
   - title: "Turbulent mixing of a passive scalar in the ocean mixed layer"
     authors: "N. Bhamidipati, A. N. Souza, and G. R. Flierl"
     venue: "Ocean Modelling"
@@ -569,6 +723,12 @@ published:
     topic: "Ocean turbulence / parameterization"
     pdf: "/files/Neeraja2020.pdf"
     cite: "/publication/bhamidipati-souza-flierl-2020/cite.bib"
+    summary: >-
+      This paper studies passive-tracer mixing in an idealized, convecting ocean mixed layer.
+      A two-dimensional direct numerical simulation is used to compute an eddy-diffusivity kernel relating the mean vertical flux at one depth to tracer gradients at other depths.
+      The kernel captures local and nonlocal contributions within a single transport representation.
+      The experiment shows how multiple passive tracers can diagnose that representation directly from the simulated flow.
+      Readers get a concrete method for measuring nonlocal mixing and a physical explanation of why a diffusivity defined only at the local depth can be insufficient.
   - title: "Oceananigans.jl: Fast and friendly geophysical fluid dynamics on GPUs"
     authors: "A. Ramadhan et al."
     venue: "Journal of Open Source Software"
@@ -578,6 +738,12 @@ published:
     topic: "GPU ocean simulation / open source"
     pdf: "/files/oceananigans.pdf"
     cite: "/publication/ramadhan-et-al-2020/cite.bib"
+    summary: >-
+      This software paper introduces Oceananigans as a Julia framework for geophysical fluid simulations on CPUs and GPUs.
+      It combines a high-level scripting interface with numerical methods for incompressible, stratified, rotating flow.
+      Users can specify model configurations and diagnostics while sharing a common code base across hardware architectures.
+      The paper describes performance benchmarks, verification practices, and applications such as ocean boundary-layer turbulence.
+      Readers get a concise introduction to the software's original capabilities and design, helping them assess it as a platform for numerical experiments.
   - title: "Uncertainty Quantification of Ocean Parameterizations: Application to the K-Profile-Parameterization for Penetrative Convection"
     authors: "A. N. Souza et al."
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -587,6 +753,12 @@ published:
     topic: "Uncertainty quantification / ocean modeling"
     pdf: "/files/kpp_uq_2020.pdf"
     cite: "/publication/souza-et-al-2020/cite.bib"
+    summary: >-
+      This paper presents a Bayesian approach to calibrating and evaluating parameterizations of unresolved ocean turbulence.
+      It uses large-eddy simulations of penetrative convection to constrain parameters in the convective limit of the K-Profile Parameterization.
+      The resulting uncertainty estimates help distinguish poorly constrained parameter values from deficiencies in the model's underlying structure.
+      The analysis identifies shortcomings in the existing scaling and proposes an alternative that improves its representation of convection.
+      Readers get a worked example of using high-resolution simulations for parameter inference, uncertainty quantification, and physically motivated model improvement.
   - title: "Transport bounds for a truncated model of Rayleigh-Bénard convection"
     authors: "A. N. Souza and C. R. Doering"
     venue: "Physica D: Nonlinear Phenomena"
@@ -596,6 +768,12 @@ published:
     topic: "Optimal control / convection"
     pdf: "/files/souza_doering_2015.pdf"
     cite: "/publication/souza-doering-2015/cite.bib"
+    summary: >-
+      This paper derives upper bounds on heat transport in an eight-mode model of Rayleigh-Bénard convection.
+      It uses both the background method and an optimal-control formulation in which the velocity field acts as a control variable.
+      The two approaches lead to the same transport estimate and extend ideas previously applied to the three-variable Lorenz system.
+      Unlike the Lorenz case, the best bound obtained does not always appear to correspond to an exact trajectory of the original equations.
+      Readers get a comparison of two bounding techniques and an explanation of why a mathematically admissible transport limit need not be dynamically attainable.
 
 preprints:
   - title: "Surface to Seafloor: A Generative AI Framework for Decoding the Ocean Interior State"
@@ -603,37 +781,66 @@ preprints:
     url: "https://doi.org/10.48550/arXiv.2504.15308"
     topic: "Generative AI / ocean state inference"
     pdf: "/files/s2s.pdf"
+    authors: "A. N. Souza, S. Silvestri, K. Deck, T. Bischoff, R. Ferrari, G. R. Flierl"
     cite: "/publication/surface-to-seafloor/cite.bib"
+    summary: >-
+      This preprint explores how observations of the ocean surface can constrain currents and buoyancy deep below it.
+      A score-based diffusion model generates three-dimensional interior states conditioned on surface information.
+      The method is evaluated in an idealized double-gyre simulation with 15 vertical levels, testing both mean circulation and mesoscale variability.
+      Its reconstructions include uncertainty estimates, with skill decreasing as observations become coarser or the target depth increases.
+      Readers get a probabilistic approach to an underdetermined ocean-observation problem and a controlled demonstration of its potential before application to real-world observations.
   - title: "Stochastic Emulators of Spatially Resolved Extreme Temperatures of Earth System Models"
     year: "2025"
     url: "https://doi.org/10.22541/essoar.172858084.46299070/v2"
     topic: "Climate extremes / stochastic emulation"
     pdf: "/files/mengze_statistical_emulator.pdf"
+    authors: "M. Wang, A. N. Souza, R. Ferrari, T. Sapsis"
     cite: "/publication/mengze-emulator-2024/cite.bib"
+    summary: >-
+      This preprint develops a stochastic emulator for the evolving distribution of local daily maximum temperatures in climate models.
+      Empirical orthogonal functions provide fixed spatial patterns, while their coefficients separate seasonal changes from day-to-day fluctuations.
+      The seasonal component depends on global mean temperature, and Gaussian stochastic processes represent correlated daily variability.
+      Tests using CMIP6 simulations assess local distributions, changing extremes, and uncertainty arising from internal variability in unseen scenarios.
+      Readers get an interpretable workflow for generating inexpensive spatial temperature ensembles and evaluating the statistical assumptions behind their extreme-temperature estimates.
   - title: "Statistical Parameter Calibration via the Generalized Fluctuation Dissipation Theorem and Generative Modeling"
     year: "2025"
     url: "https://doi.org/10.48550/arXiv.2509.19660"
     topic: "Parameter calibration / generative modeling"
     pdf: "/files/stat_cal.pdf"
+    authors: "L. T. Giorgini, T. Bischoff, A. N. Souza"
     cite: "/publication/stat_cal/cite.bib"
+    summary: >-
+      This preprint develops a response-theory approach to tuning model parameters so that simulated statistics agree with observations.
+      The generalized fluctuation-dissipation theorem relates small changes in parameters to changes in statistics of chosen observables.
+      Score estimates support the calculation of these sensitivities, which can then be used in Newton-type or regularized least-squares updates.
+      Examples ranging from linear systems to nonlinear and multiscale stochastic models examine changes to both deterministic drift and stochastic diffusion.
+      Readers get a principled way to construct statistical parameter sensitivities without adjoint models or separate perturbation ensembles, together with the limits imposed by linear response.
   - title: "Reduced-Order Modeling of Cyclo-Stationary Time Series Using Score-Based Generative Methods"
     year: "2025"
     url: "https://doi.org/10.48550/arXiv.2508.19448"
     topic: "Reduced-order modeling / time series"
     pdf: "/files/cyclo.pdf"
+    authors: "L. T. Giorgini, T. Bischoff, A. N. Souza"
     cite: "/publication/cyclo/cite.bib"
-  - title: "NORi: An ML-Augmented Ocean Boundary Layer Parameterization"
-    year: "2025"
-    url: "https://doi.org/10.48550/arXiv.2512.04452"
-    topic: "Ocean modeling / machine learning"
-    pdf: "/files/nori.pdf"
-    cite: "/publication/nori/cite.bib"
+    summary: >-
+      This preprint builds reduced-order stochastic models for time series whose statistics vary periodically, as in the annual climate cycle.
+      It uses score-based generative methods to reproduce probability distributions while also representing temporal dependence.
+      A demonstration with the Planet Simulator climate model uses the 20 leading principal components of surface temperature.
+      Validation examines marginal and joint distributions, autocorrelations, and spatial coherence, with synthetic centuries generated far faster than full simulations.
+      Readers get a framework for emulating periodically forced systems and examples of the checks needed to judge statistical and temporal fidelity.
   - title: "High-level, high-resolution ocean modeling at all scales with Oceananigans"
     year: "2025"
     url: "https://doi.org/10.48550/arXiv.2502.14148"
     topic: "GPU ocean simulation / scientific software"
     pdf: "/files/oceananigans_interface.pdf"
+    authors: "G. L. Wagner, S. Silvestri, N. C. Constantinou, A. Ramadhan, J.-M. Campin, C. Hill, T. Chor, J. Strong-Wright, X. K. Lee, F. Poulin, A. N. Souza, K. J. Burns, J. Marshall, R. Ferrari"
     cite: "/publication/wagner_interface_2025/cite.bib"
+    summary: >-
+      This preprint describes the scientific vision, user interface, governing equations, and numerical methods behind Oceananigans.
+      It brings together relatively simple finite-volume methods, GPU-oriented implementation, and an expressive Julia scripting interface.
+      Examples span classroom-scale fluid problems, small-scale turbulence, and realistic global ocean circulation.
+      The discussion connects software accessibility and extensibility to advances in parameterizations, numerical methods, and computational performance.
+      Readers get a broad technical guide to the model and a rationale for how its software design supports experiments across very different ocean scales.
 
 fit:
   - "AI Physics and surrogate modeling"

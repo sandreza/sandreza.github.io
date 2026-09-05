@@ -2,6 +2,7 @@ import React, { useEffect, useId, useMemo, useRef, useState } from "react";
 import { CitationDialog } from "../CitationDialog.jsx";
 import { WorkStories } from "../WorkStories.jsx";
 import { LorenzAttractor } from "../LorenzAttractor.jsx";
+import { derivatives, rk4Step, periodicTrajectory, periodicOrbits } from "../dynamics.js";
 
 const ROUTES = [
   { id: "overview", label: "Overview", cue: "Start in phase space" },
@@ -24,33 +25,31 @@ function positionPointerGlow(event) {
   surface.style.setProperty("--psb-glow-y", `${((event.clientY - bounds.top) / bounds.height) * 100}%`);
 }
 
+const ATTRACTOR_BOX = { x: 0, y: 9, width: 350, height: 142 };
+
 const ATTRACTOR_SYSTEMS = {
   rossler: {
     title: "Rössler chaotic attractor",
-    description: "A numerically integrated Rössler trajectory.",
+    description: "A numerically integrated Rössler trajectory with a numerically solved periodic orbit highlighted.",
     initial: [0.1, 0, 0],
     dt: 0.01,
     discard: 5000,
-    retain: 6000,
-    stride: 3,
-    box: { x: 790, y: 9, width: 350, height: 142 },
-    derivative: ([x, y, z]) => [-y - z, x + 0.2 * y, 0.2 + z * (x - 5.7)],
+    retain: 24000,
+    stride: 6,
+    box: ATTRACTOR_BOX,
+    derivative: derivatives.rossler,
     project: ([x, y]) => [x, y],
   },
   thomas: {
     title: "Thomas cyclically symmetric attractor",
-    description: "A numerically integrated Thomas trajectory with a highlighted close recurrence.",
+    description: "A numerically integrated Thomas trajectory with a numerically solved periodic orbit highlighted.",
     initial: [1.1, 1.1, -0.01],
     dt: 0.02,
-    discard: 6000,
-    retain: 8000,
-    stride: 4,
-    box: { x: 60, y: 9, width: 350, height: 142 },
-    derivative: ([x, y, z]) => [
-      Math.sin(y) - 0.208186 * x,
-      Math.sin(z) - 0.208186 * y,
-      Math.sin(x) - 0.208186 * z,
-    ],
+    discard: 20000,
+    retain: 60000,
+    stride: 12,
+    box: ATTRACTOR_BOX,
+    derivative: derivatives.thomas,
     project: ([x, y, z]) => {
       const yaw = 35 * Math.PI / 180;
       const pitch = 22 * Math.PI / 180;
@@ -59,27 +58,19 @@ const ATTRACTOR_SYSTEMS = {
       return [projectedX, Math.cos(pitch) * z - Math.sin(pitch) * depth];
     },
   },
+  chen: {
+    title: "Chen chaotic attractor",
+    description: "A numerically integrated Chen trajectory with a numerically solved periodic orbit highlighted; a = 35, b = 3, c = 28.",
+    initial: [-10, 0, 37],
+    dt: 0.002,
+    discard: 8000,
+    retain: 16000,
+    stride: 6,
+    box: ATTRACTOR_BOX,
+    derivative: derivatives.chen,
+    project: ([x, y, z]) => [0.85 * x - 0.3 * y, z + 0.15 * y],
+  },
 };
-
-function addScaled(point, vectors) {
-  return point.map((value, index) => value + vectors.reduce(
-    (sum, { vector, scale }) => sum + vector[index] * scale,
-    0,
-  ));
-}
-
-function rk4Step(point, dt, derivative) {
-  const k1 = derivative(point);
-  const k2 = derivative(addScaled(point, [{ vector: k1, scale: dt / 2 }]));
-  const k3 = derivative(addScaled(point, [{ vector: k2, scale: dt / 2 }]));
-  const k4 = derivative(addScaled(point, [{ vector: k3, scale: dt }]));
-  return addScaled(point, [
-    { vector: k1, scale: dt / 6 },
-    { vector: k2, scale: dt / 3 },
-    { vector: k3, scale: dt / 3 },
-    { vector: k4, scale: dt / 6 },
-  ]);
-}
 
 function integrateAttractor(spec) {
   const points = [];
@@ -92,28 +83,6 @@ function integrateAttractor(spec) {
   }
 
   return points;
-}
-
-function recurrentSegment(points) {
-  if (points.length < 220) return points;
-  const ranges = [0, 1, 2].map((axis) => {
-    const values = points.map((point) => point[axis]);
-    return Math.max(...values) - Math.min(...values) || 1;
-  });
-  let best = { start: 0, end: 180, distance: Number.POSITIVE_INFINITY };
-
-  for (let start = 0; start < points.length - 220; start += 8) {
-    const maxEnd = Math.min(points.length - 1, start + 680);
-    for (let end = start + 100; end <= maxEnd; end += 8) {
-      const distance = points[start].reduce((sum, value, axis) => {
-        const delta = (value - points[end][axis]) / ranges[axis];
-        return sum + delta * delta;
-      }, 0);
-      if (distance < best.distance) best = { start, end, distance };
-    }
-  }
-
-  return points.slice(best.start, best.end + 1);
 }
 
 function fitAttractor(points, spec, bounds) {
@@ -144,21 +113,22 @@ function AttractorDivider({ system }) {
   const titleId = `psb-${system}-${useId().replace(/:/g, "")}`;
   const geometry = useMemo(() => {
     const points = integrateAttractor(spec);
-    const bounds = points.map(spec.project);
+    const orbit = periodicTrajectory(system);
+    const bounds = [...points, ...orbit].map(spec.project);
     return {
       path: fitAttractor(points, spec, bounds),
-      recurrence: fitAttractor(recurrentSegment(points), spec, bounds),
+      orbit: fitAttractor(orbit, spec, bounds),
     };
-  }, [spec]);
+  }, [spec, system]);
 
   return (
-    <figure className="psb-attractor-divider" data-system={system}>
-      <svg aria-labelledby={`${titleId}-title ${titleId}-description`} role="img" viewBox="0 0 1200 160">
+    <figure className="psb-attractor-divider" data-system={system} title={`${spec.title} · periodic orbit T ≈ ${periodicOrbits[system].period.toFixed(6)}`}>
+      <svg aria-labelledby={`${titleId}-title ${titleId}-description`} role="img" viewBox="0 0 1200 160" preserveAspectRatio="xMinYMid meet">
         <title id={`${titleId}-title`}>{spec.title}</title>
-        <desc id={`${titleId}-description`}>{spec.description}</desc>
+        <desc id={`${titleId}-description`}>{spec.description} Period {periodicOrbits[system].period.toFixed(6)} in model time units.</desc>
         <line className="psb-attractor-divider__baseline" x1="0" x2="1200" y1="159" y2="159" />
         <path className="psb-attractor-divider__trace" d={geometry.path} />
-        <path className="psb-attractor-divider__recurrence" d={geometry.recurrence} />
+        <path className="psb-attractor-divider__orbit" d={geometry.orbit} />
       </svg>
     </figure>
   );
@@ -330,6 +300,7 @@ function PhaseRail({ activeRoute, data, onNavigate }) {
       </nav>
       <footer>
         <strong>{data.profile.location}</strong>
+        <a href={data.profile.linkedin} {...externalProps}>LinkedIn <span aria-hidden="true">↗</span></a>
         <a href={`mailto:${data.profile.email}`}>Reach out <span aria-hidden="true">↗</span></a>
       </footer>
     </aside>
@@ -411,7 +382,7 @@ function Papers({ data }) {
       })
       .filter((paper) => {
         if (!normalizedQuery) return true;
-        return [paper.title, paper.authors, paper.venue, paper.citation, paper.topic, paper.year]
+        return [paper.title, paper.authors, paper.venue, paper.citation, paper.topic, paper.year, paper.summary]
           .filter(Boolean)
           .join(" ")
           .toLocaleLowerCase()
@@ -519,6 +490,12 @@ function Papers({ data }) {
                           <strong>{paper.title}</strong>
                           {paper.authors ? <em>{paper.authors}</em> : null}
                           {paper.venue ? <b>{paper.venue} · {paper.citation}</b> : null}
+                          {paper.summary ? (
+                            <details className="psb-paper-summary">
+                              <summary>About this paper<span className="psb-sr-only">: {paper.title}</span></summary>
+                              <p>{paper.summary}</p>
+                            </details>
+                          ) : null}
                         </div>
                         <div aria-label={`Actions for ${paper.title}`} className="psb-paper-actions" role="group">
                           <a href={paper.pdf} {...externalProps}>PDF</a>
@@ -564,6 +541,7 @@ function Work({ data }) {
 function Background({ data }) {
   return (
     <section className="psb-route psb-background" id="psb-background" aria-labelledby="psb-background-title">
+      <AttractorDivider system="chen" />
       <SectionHeading id="psb-background-title" index="04" title="Experience across research and engineering.">Background</SectionHeading>
       <p className="psb-section-lede">A technical career spanning academic research and applied scientific machine learning.</p>
       <div className="psb-timeline">
@@ -575,7 +553,7 @@ function Background({ data }) {
       </div>
       <section className="psb-contact" aria-labelledby="psb-contact-title">
         <div><span>Contact coordinate</span><h3 id="psb-contact-title">Working on a difficult physical system?</h3><p>{data.positioning.audience}</p></div>
-        <div><a href={`mailto:${data.profile.email}`}>{data.profile.email} <span aria-hidden="true">↗</span></a><nav aria-label="Professional profiles"><a href={data.profile.github} {...externalProps}>GitHub ↗</a><a href={data.profile.scholar} {...externalProps}>Google Scholar ↗</a><a href={data.profile.cv}>Download CV ↓</a></nav></div>
+        <div><a href={`mailto:${data.profile.email}`}>{data.profile.email} <span aria-hidden="true">↗</span></a><nav aria-label="Professional profiles"><a href={data.profile.linkedin} {...externalProps}>LinkedIn ↗</a><a href={data.profile.github} {...externalProps}>GitHub ↗</a><a href={data.profile.scholar} {...externalProps}>Google Scholar ↗</a><a href={data.profile.cv}>Download CV ↓</a></nav></div>
       </section>
       <footer className="psb-footer"><span>© {new Date().getFullYear()} {data.profile.name}</span><span>Scientific ML · AI Physics · Applied mathematics</span></footer>
     </section>

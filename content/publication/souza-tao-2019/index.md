@@ -23,7 +23,12 @@ publication_short: ''
 abstract: Metastable transitions in Langevin dynamics can exhibit rich behaviours that are markedly different from its overdamped limit. In addition to local alterations of the transition path geometry, more fundamental global changes may exist. For instance, when the dissipation is weak, heteroclinic connections that exist in the overdamped limit do not necessarily have a counterpart in the Langevin system, potentially leading to different transition rates. Furthermore, when the friction coefficient depends on the velocity, the overdamped limit no longer exists, but it is still possible to efficiently find instantons. The approach, we employed for these discoveries, was based on (i) a simple rewriting of the Freidlin–Wentzell action in terms of time-reversed dynamics and (ii) an adaptation of the string method, which was originally designed for gradient systems, to this specific non-gradient system.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper studies rare transitions between metastable states in Langevin systems that retain inertia.
+  It shows that weak damping can change transition pathways and connections between states in ways that an overdamped approximation misses.
+  The analysis rewrites the Freidlin-Wentzell action using time-reversed dynamics and adapts the string method to locate likely transition paths.
+  The approach also treats velocity-dependent friction, where a conventional overdamped limit may not exist.
+  Readers get both examples of when neglecting inertia changes the qualitative physics and computational tools for finding rare-event pathways in such systems.
 
 tags:
   - Metastable Transitions

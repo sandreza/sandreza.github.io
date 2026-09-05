@@ -24,7 +24,12 @@ publication_short: 'JAMES'
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper develops a generative emulator for monthly climate fields used in impact assessments, including temperature, precipitation, humidity, and wind.
+  A score-based diffusion model on a spherical mesh learns their joint distribution from Earth system model output.
+  The evaluation checks spatial and cross-variable relationships, distribution tails, and the emergence of forced changes across three climate models.
+  The results reproduce many key statistics but also expose failures when seasonal behavior changes strongly between climate regimes.
+  Readers get both an approach to generating inexpensive climate ensembles and a detailed set of diagnostics for judging whether an emulator is useful for impacts research.
 
 tags:
   - Score-Based Generative Models

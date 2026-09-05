@@ -24,7 +24,12 @@ publication_short: ''
 abstract: This paper investigates the optimal transport problem in two dimensions, specifically focusing on wall-to-wall transport. Using advanced mathematical techniques, the authors derive optimal solutions and provide insights into the nature of transport in fluid dynamics. The findings contribute to a deeper understanding of transport phenomena and offer potential applications in various fields of fluid mechanics.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper asks which two-dimensional incompressible flows transfer the most heat between two fixed-temperature, no-slip walls for a prescribed flow intensity.
+  Gradient-ascent methods search for velocity fields that maximize the Nusselt number under a constraint on their rate of strain.
+  The computed optima develop organized structures and show a high-intensity transport scaling close to a power of 0.54 in the Péclet number.
+  A separable approximation to those structures yields a conditional upper bound with a closely matching exponent.
+  Readers get optimization methods for designing efficient transport and an example of how numerical discoveries can motivate analytical bounds for convection.
 
 tags:
   - Optimal Transport

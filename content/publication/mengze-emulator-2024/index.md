@@ -25,7 +25,12 @@ publication_short: ''
 abstract: This preprint introduces stochastic emulators designed to capture spatially resolved extreme temperature events in Earth System Models. The emulators aim to improve the representation of extreme events, which are often challenging to model accurately in traditional Earth System Models due to their computational complexity. By leveraging stochastic methods, this work provides an efficient tool for analyzing and predicting extreme temperature behavior in climate systems.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This preprint develops a stochastic emulator for the evolving distribution of local daily maximum temperatures in climate models.
+  Empirical orthogonal functions provide fixed spatial patterns, while their coefficients separate seasonal changes from day-to-day fluctuations.
+  The seasonal component depends on global mean temperature, and Gaussian stochastic processes represent correlated daily variability.
+  Tests using CMIP6 simulations assess local distributions, changing extremes, and uncertainty arising from internal variability in unseen scenarios.
+  Readers get an interpretable workflow for generating inexpensive spatial temperature ensembles and evaluating the statistical assumptions behind their extreme-temperature estimates.
 
 tags:
   - Stochastic Emulators

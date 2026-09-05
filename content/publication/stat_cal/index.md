@@ -24,7 +24,12 @@ publication_short: ''
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This preprint develops a response-theory approach to tuning model parameters so that simulated statistics agree with observations.
+  The generalized fluctuation-dissipation theorem relates small changes in parameters to changes in statistics of chosen observables.
+  Score estimates support the calculation of these sensitivities, which can then be used in Newton-type or regularized least-squares updates.
+  Examples ranging from linear systems to nonlinear and multiscale stochastic models examine changes to both deterministic drift and stochastic diffusion.
+  Readers get a principled way to construct statistical parameter sensitivities without adjoint models or separate perturbation ensembles, together with the limits imposed by linear response.
 
 tags:
   - Parameter Calibration

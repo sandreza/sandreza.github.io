@@ -38,7 +38,12 @@ publication_short: ''
 abstract: Dynamical cores used to study the circulation of the atmosphere employ various numerical methods ranging from finite-volume, spectral element, global spectral, and hybrid methods. In this work, we explore the use of Flux-Differencing Discontinuous Galerkin (FDDG) methods to simulate a fully compressible dry atmosphere at various resolutions. We show that the method offers a judicious compromise between high-order accuracy and stability for large-eddy simulations and simulations of the atmospheric general circulation. In particular, filters, divergence damping, diffusion, hyperdiffusion, or sponge-layers are not required to ensure stability; only the numerical dissipation naturally afforded by FDDG is necessary. We apply the method to the simulation of dry convection in an atmospheric boundary layer and in a global atmospheric dynamical core in the standard benchmark of Held and Suarez.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper investigates a flux-differencing discontinuous Galerkin method for simulating a fully compressible, nonhydrostatic dry atmosphere.
+  The formulation combines high-order accuracy with numerical dissipation that helps control unresolved motion.
+  It is tested on dry atmospheric boundary-layer convection and the Held-Suarez global circulation benchmark.
+  In these experiments, the method remains stable without adding filters, divergence damping, explicit diffusion, hyperdiffusion, or sponge layers.
+  Readers get the numerical formulation and benchmark evidence needed to understand its tradeoff between accuracy and stability in atmospheric modeling.
 
 tags:
   - Atmospheric Dynamics

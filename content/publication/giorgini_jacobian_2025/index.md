@@ -26,7 +26,12 @@ publication_short: 'Physica D'
 abstract: This paper establishes a novel theoretical connection between the operator-theoretic description of a dynamical system and its local geometric properties. We demonstrate that the local Jacobian determinant, which governs state-space expansion and contraction, can be directly related to the entries of the transition matrix that approximates the system’s Perron–Frobenius operator. Specifically, we derive expressions that link measures of local instability and dissipation to the matrix elements, revealing that these geometric features are intrinsically encoded in the statistical operator. We illustrate the validity of this relationship through numerical experiments on several one- and two-dimensional chaotic maps, where these derived measures are validated against the exact analytical Jacobians of these test systems. This work establishes a direct, quantitative link between the global, statistical view of dynamics provided by the Perron–Frobenius operator and the local, geometric perspective described by the Jacobian.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper asks whether the local stretching and contraction of chaotic dynamics can be inferred from a statistical transition model.
+  It estimates the Jacobian of a discrete-time system from a matrix approximating the Perron-Frobenius transfer operator.
+  The approach links transitions between state-space regions to local instability and dissipation without requiring explicit governing equations.
+  Numerical experiments on one- and two-dimensional chaotic maps illustrate the reconstruction and its dependence on the available representation.
+  Readers get a method for extracting local dynamical information from transfer operators and a clear starting point for assessing its use in sensitivity analysis.
 
 tags:
   - Chaotic Dynamics

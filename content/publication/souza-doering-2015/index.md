@@ -23,7 +23,12 @@ publication_short: ''
 abstract: We investigate absolute limits on heat transport in a truncated model of Rayleigh--Bénard convection. Two complementary mathematical approaches--a background method analysis and an optimal control formulation--are used to derive upper bounds in a distinguished eight-ODE model proposed by Gluhovsky, Tong, and Agee. In the optimal control approach the flow no longer obeys an equation of motion, but is instead a control variable. Both methods produce the same estimate, but in contrast to the analogous result for the seminal three-ODE Lorenz system, the best upper bound apparently does not always correspond to an exact solution of the equations of motion.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper derives upper bounds on heat transport in an eight-mode model of Rayleigh-Bénard convection.
+  It uses both the background method and an optimal-control formulation in which the velocity field acts as a control variable.
+  The two approaches lead to the same transport estimate and extend ideas previously applied to the three-variable Lorenz system.
+  Unlike the Lorenz case, the best bound obtained does not always appear to correspond to an exact trajectory of the original equations.
+  Readers get a comparison of two bounding techniques and an explanation of why a mathematically admissible transport limit need not be dynamically attainable.
 
 tags:
   - Rayleigh-Bénard Convection

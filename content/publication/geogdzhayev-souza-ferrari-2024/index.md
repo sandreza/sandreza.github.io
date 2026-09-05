@@ -24,7 +24,12 @@ publication_short: ''
 abstract: The Earth system is often modeled as a dynamical system in what has come to be known as Earth System Models. When used to study anthropogenically forced climate change, these models are forced in such a way that they are not in a statistically stationary state. Yet, statistical statements are still made about the Earth climate system using only a single trajectory by taking temporal averages. At each moment in time, one draws a sample from a different distribution, raising questions about the utility of temporal averages, in stark contrast to the utility of temporal averages in ergodic systems. This work follows in the tradition of using a toy model to examine properties present in the Earth climate system. We aim to examine how we can make meaningful statistical statements in non-stationary systems when only dealing with a single trajectory. We use the Lorenz equations with a time-varying parameter as a starting point for comparing ensemble averages to temporal averages. We find that, in so far as the control parameter induces a slow and smooth change in the dynamics, the resulting statistics of ensemble averages compare well to those of temporal averages.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper examines what can be learned from a single trajectory when the statistical behavior of a chaotic system changes over time.
+  It uses the Lorenz equations with a time-varying parameter as a simplified setting for questions that arise in a changing climate.
+  Temporal averages along one realization are compared with ensemble averages across many realizations.
+  The comparisons show that time averages can remain informative when the parameter produces sufficiently slow and smooth changes in the dynamics.
+  Readers get a concrete way to think about nonstationary statistics and the conditions under which a moving average can meaningfully represent an evolving distribution.
 
 tags:
   - Dynamical Systems

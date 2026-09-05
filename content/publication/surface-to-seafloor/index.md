@@ -27,7 +27,12 @@ publication_short: ''
 abstract: This preprint presents a generative AI framework for inferring the interior state of the ocean from surface observations. The method leverages score-based diffusion models to probabilistically reconstruct subsurface temperature, salinity, and velocity fields from satellite data. By learning conditional probability distributions of interior states given surface inputs, the framework enables detailed and uncertainty-aware reconstructions of ocean dynamics from surface information alone. Applications span from scientific analysis to decision-making tools for autonomous underwater operations.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This preprint explores how observations of the ocean surface can constrain currents and buoyancy deep below it.
+  A score-based diffusion model generates three-dimensional interior states conditioned on surface information.
+  The method is evaluated in an idealized double-gyre simulation with 15 vertical levels, testing both mean circulation and mesoscale variability.
+  Its reconstructions include uncertainty estimates, with skill decreasing as observations become coarser or the target depth increases.
+  Readers get a probabilistic approach to an underdetermined ocean-observation problem and a controlled demonstration of its potential before application to real-world observations.
 
 tags:
   - Generative AI

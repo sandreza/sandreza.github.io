@@ -33,7 +33,12 @@ publication_short: ''
 abstract: Parameterizations of unresolved turbulent processes often compromise the fidelity of large-scale ocean models. In this work, we argue for a Bayesian approach to the refinement and evaluation of turbulence parameterizations. Using an ensemble of large eddy simulations of turbulent penetrative convection in the surface boundary layer, we demonstrate the method by estimating the uncertainty of parameters in the convective limit of the popular "K-Profile Parameterization." We uncover structural deficiencies and propose an alternative scaling that overcomes them.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper presents a Bayesian approach to calibrating and evaluating parameterizations of unresolved ocean turbulence.
+  It uses large-eddy simulations of penetrative convection to constrain parameters in the convective limit of the K-Profile Parameterization.
+  The resulting uncertainty estimates help distinguish poorly constrained parameter values from deficiencies in the model's underlying structure.
+  The analysis identifies shortcomings in the existing scaling and proposes an alternative that improves its representation of convection.
+  Readers get a worked example of using high-resolution simulations for parameter inference, uncertainty quantification, and physically motivated model improvement.
 
 tags:
   - Ocean Parameterizations

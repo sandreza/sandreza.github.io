@@ -28,7 +28,12 @@ publication_short: 'Earth Syst. Dynam.'
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper develops a common theoretical framework for understanding why climate emulators make errors.
+  It connects pattern scaling, response functions, dynamic mode decomposition, and fluctuation-dissipation approaches through their treatment of the underlying dynamics.
+  Simple box models and a modified Lorenz system isolate the effects of memory, hidden variables, noise, and nonlinear behavior.
+  Response-function emulators perform best across the scenarios tested, while the analysis explains tradeoffs that broader applications must consider.
+  Readers get practical implementation guidance and a basis for choosing an emulator and training experiments according to the sources of error they need to control.
 
 tags:
   - Model Emulation

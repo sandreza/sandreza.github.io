@@ -31,7 +31,12 @@ publication_short: 'JAMES'
 abstract: We describe an ocean hydrostatic dynamical core implemented in Oceananigans optimized for Graphical Processing Unit (GPU) architectures. On 64 A100 GPUs, equivalent to 16 computational nodes in current state-of-the-art supercomputers, our dynamical core can simulate a decade of near-global ocean dynamics per wall-clock day at an 8-km horizontal resolution; a resolution adequate to resolve the ocean's mesoscale eddy field. Such efficiency, achieved with relatively modest hardware resources, suggests that climate simulations on GPUs can incorporate fully eddy-resolving ocean models. This removes a major source of systematic bias in current IPCC coupled model projections, the parameterization of ocean eddies, and represents a major advance in climate modeling. We discuss the computational strategies, focusing on GPU-specific optimization and numerical implementation details that enable such high performance.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper presents an ocean dynamical core in Oceananigans designed to make mesoscale-resolving simulations practical on GPUs.
+  It describes the hydrostatic formulation, numerical implementation, and hardware-aware strategies behind the model's performance.
+  A near-global simulation at 8-kilometer horizontal resolution advances about a decade per day on 64 NVIDIA A100 GPUs.
+  That result illustrates how improved computational efficiency can reduce reliance on approximate representations of ocean eddies.
+  Readers get concrete performance benchmarks and implementation lessons for building and evaluating high-resolution ocean simulations on modern GPU systems.
 
 tags:
   - GPU-based Ocean Core

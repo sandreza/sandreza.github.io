@@ -22,7 +22,12 @@ publication_short: ''
 abstract: Part 2 of this study applies the framework introduced in Part 1 to the compressible Euler equations, focusing on the representation of turbulent statistics using partitions of the state space. The compressible Euler equations provide a challenging test case for this methodology, and the results demonstrate the effectiveness of state space partitioning in capturing key statistical features of turbulence in compressible flows. This approach offers new insights into the behavior of turbulent systems governed by the Euler equations.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper applies state-space partitioning to an atmospheric system governed by the compressible Euler equations with gravity and rotation on a thin spherical shell.
+  Representative flow states and their observed transitions form a finite-state approximation of the system's probability dynamics.
+  The resulting model recovers selected stationary distributions and temporal correlations and identifies global Koopman modes.
+  Two partitioning strategies reveal how choices about grouping high-dimensional states affect the statistics that are retained.
+  Readers get a worked example of taking the theory from the first paper into a large fluid simulation, including its successes and limits as a statistical approximation.
 
 tags:
   - Turbulent Statistics

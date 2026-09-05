@@ -26,7 +26,12 @@ publication_short: ''
 abstract: This paper presents predictions of x-ray scattering spectra for warm dense matter. The authors use advanced theoretical models to simulate the x-ray scattering spectra and compare them with experimental data. The results provide insights into the properties of warm dense matter and help improve the accuracy of x-ray scattering techniques used in high-energy-density physics.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper predicts x-ray scattering spectra for warm dense matter using a self-consistent description of ionic and electronic structure.
+  The model determines the spectrum from plasma conditions and experimental parameters without introducing adjustable fitting parameters.
+  It is first checked against room-temperature solid beryllium and then applied to warm dense beryllium and aluminum experiments.
+  The comparisons show broad agreement alongside discrepancies that expose challenges in interpreting dense-plasma measurements.
+  Readers get a physically grounded framework for connecting scattering data to plasma properties and for assessing which aspects of an experiment can distinguish competing models.
 
 tags:
   - X-ray Scattering

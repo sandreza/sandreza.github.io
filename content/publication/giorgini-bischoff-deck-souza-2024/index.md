@@ -22,7 +22,12 @@ publication_short: ""
 
 abstract: We introduce an approach for analyzing the responses of dynamical systems to external perturbations that combines score-based generative modeling with the Fluctuation-Dissipation Theorem (FDT). The methodology enables accurate estimation of system responses, especially for systems with non-Gaussian statistics, often encountered in dynamical systems far from equilibrium. Such cases often present limitations for conventional approximate methods. We numerically validate our approach using time-series data from a stochastic partial differential equation where the score function is available analytically. Furthermore, we demonstrate the improved accuracy of our methodology over conventional methods and its potential as a versatile tool for understanding complex dynamical systems. Applications span disciplines from climate science and finance to neuroscience.
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper connects score-based generative modeling to the problem of predicting how a dynamical system responds to an external perturbation.
+  The generalized fluctuation-dissipation theorem expresses that response using fluctuations in the unperturbed system and the score of its stationary distribution.
+  Learning the score from time-series data removes the need to approximate that distribution as Gaussian.
+  Tests on a spatial Ornstein-Uhlenbeck process, a stochastic Allen-Cahn equation, and two-dimensional Navier-Stokes flow demonstrate improved response estimates.
+  Readers get the central theoretical connection and a data-driven recipe for predicting small-perturbation responses in systems with complicated statistics.
 
 tags:
   - Response Theory
@@ -34,7 +39,7 @@ featured: false
 links:
 # - name: Custom Link
 #   url: https://doi.org/10.48550/arXiv.2402.01029
-url_pdf: /files/response_prl.pdf
+url_pdf: /files/Response_PRL.pdf
 url_code: ''
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1103/PhysRevLett.133.267302'

@@ -29,7 +29,12 @@ publication_short: ''
 abstract: The paper presents CalibrateEmulateSample.jl, a Julia package designed to accelerate parametric uncertainty quantification. The package leverages advanced techniques to calibrate, emulate, and sample parameters efficiently, significantly reducing computational costs while maintaining high accuracy. This tool is essential for applications requiring rigorous uncertainty quantification, particularly in fields like climate modeling, engineering, and applied sciences.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This software paper introduces a Julia implementation of the Calibrate, Emulate, Sample workflow for Bayesian parameter uncertainty quantification.
+  The calibration stage selects informative model evaluations near parameter values that are consistent with observations.
+  Statistical emulators then approximate the expensive parameter-to-observation map so that posterior sampling becomes cheaper.
+  The package provides modular components for linking a user's simulator, prior information, calibration tools, emulators, and sampling methods.
+  Readers get an overview of the workflow and software interfaces needed to assess whether this approach can make uncertainty quantification feasible for their own model.
 
 tags:
   - Parametric Uncertainty Quantification

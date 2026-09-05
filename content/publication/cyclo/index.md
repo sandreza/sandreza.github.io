@@ -24,7 +24,12 @@ publication_short: ''
 abstract: 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This preprint builds reduced-order stochastic models for time series whose statistics vary periodically, as in the annual climate cycle.
+  It uses score-based generative methods to reproduce probability distributions while also representing temporal dependence.
+  A demonstration with the Planet Simulator climate model uses the 20 leading principal components of surface temperature.
+  Validation examines marginal and joint distributions, autocorrelations, and spatial coherence, with synthetic centuries generated far faster than full simulations.
+  Readers get a framework for emulating periodically forced systems and examples of the checks needed to judge statistical and temporal fidelity.
 
 tags:
   - Reduced-Order Modeling

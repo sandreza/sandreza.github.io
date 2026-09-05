@@ -23,7 +23,12 @@ publication_short: ''
 
 abstract: The parameterization of fluxes associated with representing unresolved dynamics in turbulent flows, especially in the atmosphere and ocean (which have a vast range of scales), remains a challenging task. This is especially true for Earth system models including complex biogeochemistry and requiring very long simulations. The problem of representing the dependence of the mean flux of a passive tracer in terms of the mean has a very long history; in this study, we take a somewhat different approach. We use a formalism showing that the mean flux will be a functional of the mean gradients, a formalism that can be used to calculate the structure of the functional which is non-local in both space and time. Two-dimensional turbulent simulations are used to explore the weight of nearby (in space or time) gradients. We also use stochastic velocities and iterated maps to show that the results are similar. The functional formalism provides an understanding of when non-locality needs to be considered and when a local eddy diffusivity can be a reasonably good approximation. Furthermore, the formalism provides guidance for the development of data-driven parameterizations.
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper examines why turbulent tracer fluxes can depend on gradients elsewhere in space and earlier in time.
+  It develops a formal expression for that dependence as a nonlocal functional of the mean tracer gradient.
+  Two-dimensional turbulence simulations, stochastic velocity fields, and iterated maps reveal the extent and structure of the resulting transport kernels.
+  The analysis identifies circumstances in which a local eddy diffusivity is a reasonable approximation and cases where it misses important transport effects.
+  Readers get a framework for diagnosing nonlocality and using it to guide the design of physically informed, data-driven mixing parameterizations.
 
 tags:
   - Source Themes

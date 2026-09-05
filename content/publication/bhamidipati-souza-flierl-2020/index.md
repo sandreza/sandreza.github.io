@@ -24,7 +24,12 @@ publication_short: ''
 abstract: We study the 2D turbulent mixing of a passive scalar in the ocean mixed layer. As an example, we examine a steady-state convective mixed layer in which the boundary conditions are chosen so that the system reaches a dynamical equilibrium. In this idealized case, we parameterize the horizontally and temporally averaged fluxes as a functional of the horizontally and temporally averaged property gradients. Here, ⟨w′c′⟩=−∫dz′K(z|z′)∂⟨c⟩/∂z′, where K(z|z′) is the eddy diffusivity kernel which describes the vertical transport by eddies at any vertical location z. The full kernel K(z|z′) is computed by adding passive scalars to a buoyancy-driven flow field in a 2D DNS of the ocean surface layer. This functional form of the eddy diffusivity highlights both local and non-local effects of the mixing of a passive scalar, and is based on an unapproximated representation of the idealized physics. This type of formulation can be further extended to other problems in turbulence concerning the mixing of a passive scalar to determine a parameterization based on an accurate representation of ocean physics.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper studies passive-tracer mixing in an idealized, convecting ocean mixed layer.
+  A two-dimensional direct numerical simulation is used to compute an eddy-diffusivity kernel relating the mean vertical flux at one depth to tracer gradients at other depths.
+  The kernel captures local and nonlocal contributions within a single transport representation.
+  The experiment shows how multiple passive tracers can diagnose that representation directly from the simulated flow.
+  Readers get a concrete method for measuring nonlocal mixing and a physical explanation of why a diffusivity defined only at the local depth can be insufficient.
 
 tags:
   - Mixed Layer

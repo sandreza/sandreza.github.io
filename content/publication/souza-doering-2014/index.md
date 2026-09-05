@@ -23,7 +23,12 @@ publication_short: ''
 abstract: We derive rigorous upper bounds on the transport, for solutions of the Lorenz equations without assuming statistical stationarity. The bounds are saturated by nontrivial steady (albeit often unstable) states, and hence they are sharp. Moreover, using an optimal control formulation we prove that no other flow protocol of the same strength produces higher transport.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper establishes rigorous upper limits on time-averaged transport in the Lorenz equations.
+  The bounds do not require an assumption of statistical stationarity and are attained by nonzero steady solutions, even when those solutions are unstable.
+  An optimal-control formulation then allows the flow variable to vary in time while retaining the relevant mean energy balance.
+  The analysis proves that this broader class of flow protocols cannot exceed the transport already achieved by the steady states.
+  Readers get a sharp result separating chaotic motion from maximal transport and a compact introduction to using control ideas to bound physical quantities.
 
 featured: false
 

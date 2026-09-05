@@ -24,7 +24,12 @@ publication_short: ''
 abstract: Leveraging recent work on data-driven methods for constructing a finite state space Markov process from dynamical systems, this paper addresses two problems for obtaining further reduced statistical representations. The first problem is to extract the most salient reduced-order dynamics for a given timescale by using a modified clustering algorithm from network theory. The second problem is to provide an alternative construction for the infinitesimal generator of a Markov process that respects statistical features over a large range of time scales. The methodology is demonstrated on three low-dimensional dynamical systems with stochastic and chaotic dynamics, as well as two high-dimensional systems the Kuramoto-Sivashinsky equations and fluid-flow data sampled via Particle Image Velocimetry. The presented method offers a robust reduced-order statistical representation of the underlying system.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper develops smaller statistical models from a finite-state Markov representation of a dynamical system.
+  A modified community-detection method groups states to isolate the dynamics most relevant to a chosen timescale.
+  A complementary construction estimates a continuous-time generator that represents transitions across a wider range of timescales.
+  The methods are demonstrated on stochastic and chaotic examples, the Kuramoto-Sivashinsky equations, and experimental fluid-flow measurements.
+  Readers get tools for choosing the complexity of a reduced model and evaluating whether it preserves the temporal statistics that matter for their application.
 
 tags:
   - Dynamical Systems

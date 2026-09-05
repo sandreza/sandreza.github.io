@@ -25,7 +25,12 @@ publication_short: 'Earth Syst. Dynam.'
 abstract: This published article introduces a statistical emulator designed to represent averaged climate fields. The emulator aims to efficiently replicate climate model outputs, enabling faster computations while preserving accuracy in climate predictions. The method is particularly useful for scenarios where detailed climate simulations are computationally expensive. This work demonstrates the emulator's effectiveness and provides a foundation for future improvements in climate modeling and statistical representation.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper introduces a fast emulator for the means and covariances of spatially resolved monthly climate fields.
+  It projects climate-model output onto empirical orthogonal functions and learns how the reduced statistics depend on global mean surface temperature.
+  Transforming back to physical space allows the emulator to estimate changes in regional averages and their variability.
+  Examples with surface temperature and relative humidity show how it can generate inexpensive projections for warming scenarios absent from training.
+  Readers get an interpretable approach to emulating spatial climate uncertainty, including the assumptions that come with a reduced basis and a global-temperature predictor.
 
 tags:
   - Statistical Emulator

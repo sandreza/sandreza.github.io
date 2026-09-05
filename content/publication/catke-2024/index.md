@@ -31,7 +31,12 @@ publication_short: ''
 abstract: We describe CATKE, a parameterization for fluxes associated with small-scale or “microscale” ocean turbulent mixing on scales between 1 and 100 m.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper introduces CATKE, a parameterization for small-scale ocean mixing that predicts turbulent kinetic energy and diagnoses a mixing length.
+  Its convective-adjustment component represents both the depth reached by convective plumes and the time required for them to mix the water column.
+  This allows the model to represent competition between convection, shear-driven mixing, and processes that restore stratification.
+  Ensemble Kalman inversion calibrates the scheme against large-eddy simulations at several vertical resolutions, followed by tests on idealized and realistic cases.
+  Readers get the closure formulation and calibration strategy for a relatively economical mixing model, together with evidence of its performance against established alternatives.
 
 tags:
   - Microscale Ocean Mixing

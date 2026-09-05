@@ -23,7 +23,12 @@ publication_short: 'Physica D'
 abstract: We investigate the convergence behavior of data-driven discretizations of the Perron-Frobenius operator for chaotic systems using a hierarchical partitioning approach based on a modified bisecting K-means algorithm. The operator is constructed using an Ulam-like method with piecewise constant basis functions defined on data-informed Voronoi-like cells. We examine how the resulting operator approximates the invariant measure, Koopman eigenfunctions, and temporal autocorrelations as the number of partitions increases, applying the method to both the Lorenz system and the Kuramoto-Sivashinsky equations. Our results show first-order convergence for steady-state statistics in the Lorenz system and quarter-order convergence for the higher-dimensional Kuramoto-Sivashinsky system. The hierarchical algorithm achieves improved statistical consistency by maintaining uniform sampling across clusters, which results in improved statistical sampling of the overall operator. For the Kuramoto-Sivashinsky equations, we demonstrate that the purely irreversible component of the operator provides superior approximation of temporal autocorrelations at high resolution. These findings clarify how transfer operator estimates behave under refinement for chaotic systems across different dimensional regimes.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper investigates how state-space partitions affect data-driven approximations of transfer operators for chaotic systems.
+  A modified bisecting K-means algorithm builds a hierarchy of regions while keeping the number of samples in each region more balanced.
+  Tests on the Lorenz and Kuramoto-Sivashinsky systems track the convergence of stationary statistics, Koopman eigenfunctions, and temporal correlations as the partition is refined.
+  The results reveal different convergence rates across the two systems and show that the irreversible part of the operator can better approximate some temporal correlations.
+  Readers get a practical partitioning strategy and evidence for deciding whether additional states improve a statistical model enough to justify their cost.
 
 tags:
   - Bisecting K-Means

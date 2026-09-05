@@ -406,10 +406,8 @@ body.design-lab-collapsed .phase-switchboard-view { height: calc(100dvh - 46px);
 
 .psb-attractor-divider svg { display: block; width: 100%; height: 100%; }
 .psb-attractor-divider__baseline { stroke: var(--psb-line); stroke-width: 1; }
-.psb-attractor-divider__trace { fill: none; stroke: var(--psb-cyan); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.05; opacity: 0.32; }
-.psb-attractor-divider__recurrence { fill: none; stroke: var(--psb-warm); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.6; opacity: 0.88; filter: drop-shadow(0 0 7px rgb(var(--psb-warm-rgb) / 0.42)); }
-.psb-attractor-divider[data-system="thomas"] .psb-attractor-divider__trace { stroke: var(--psb-cyan); }
-.psb-attractor-divider[data-system="thomas"] .psb-attractor-divider__recurrence { stroke: var(--psb-warm); filter: drop-shadow(0 0 7px rgb(var(--psb-warm-rgb) / 0.42)); }
+.psb-attractor-divider__trace { fill: none; stroke: var(--psb-cyan); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1; opacity: 0.52; }
+.psb-attractor-divider__orbit { fill: none; stroke: var(--psb-warm); stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.45; opacity: 0.72; filter: drop-shadow(0 0 2px rgb(var(--psb-warm-rgb) / 0.18)); }
 
 /* Papers ------------------------------------------------------------------ */
 
@@ -759,3 +757,10 @@ body.portfolio-final .psb-background {
 body.portfolio-final .psb-rail > footer {
   padding-bottom: max(20px, calc(12px + env(safe-area-inset-bottom, 0px)));
 }
+
+/* Summaries expand within the existing publication rows. */
+.psb-paper-summary { margin-top: 12px; }
+.psb-paper-summary summary { width: fit-content; padding: 5px 0; color: var(--psb-cyan); cursor: pointer; font-size: 0.875rem; font-weight: 650; }
+.psb-paper-summary summary:focus-visible { outline: 2px solid var(--psb-cyan); outline-offset: 4px; }
+.psb-paper-summary[open] summary { color: var(--psb-warm); }
+.psb-paper-summary p { max-width: 76ch; margin: 10px 0 4px; color: var(--psb-muted); font-size: 1rem; font-weight: 400; line-height: 1.7; }

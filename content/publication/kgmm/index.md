@@ -24,7 +24,12 @@ publication_short: 'Physica D'
 abstract: We propose a hybrid method for accurately estimating the score function -- the gradient of the logarithm of a system's steady-state probability density function -- using Gaussian Mixture Model (GMM) in conjunction with a bisecting K-means clustering step. Our approach, which we call KGMM, offers a systematic way to combine statistical density estimation with a neural-network-based interpolation of the score, leveraging the strengths of both. We demonstrate its ability to accurately reconstruct the long-time statistical properties of several paradigmatic systems, including lower-dimensional potential systems and chaotic Lorenz-type models. Numerical experiments show that KGMM yields robust estimates of the score function, even for small values of the covariance amplitude in the GMM, where the standard GMM methods tend to fail because of noise amplification. These accurate estimates allow us to build effective stochastic reduced-order models that reproduce the invariant measures of the target dynamics.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper introduces KGMM, a method for estimating the score function that describes how probability density changes across state space.
+  It combines bisecting K-means clustering, a Gaussian mixture representation, and neural interpolation of the resulting score estimates.
+  The construction addresses noise amplification that can make conventional Gaussian mixture scores unreliable when component covariances are small.
+  Examples involving potential systems and chaotic Lorenz-type models show that the estimated scores can support stochastic models with accurate long-term distributions.
+  Readers get a concrete score-estimation workflow and an understanding of when clustering can provide a useful foundation for generative reduced-order models.
 
 tags:
   - K-means Clustering

@@ -28,7 +28,12 @@ publication_short: ''
 abstract: Current eddy-permitting and eddy-resolving ocean models require dissipation to prevent a spurious accumulation of enstrophy at the grid scale. We introduce a new numerical scheme for momentum advection in large-scale ocean models that involves upwinding through a weighted essentially non-oscillatory (WENO) reconstruction. The new scheme provides implicit dissipation and thereby avoids the need for an additional explicit dissipation that may require calibration of unknown parameters. This approach uses the rotational, vector invariant formulation of the momentum advection operator that is widely employed by global general circulation models. A novel formulation of the WENO smoothness indicators is key for avoiding excessive numerical dissipation of kinetic energy and enstrophy at grid-resolved scales. We test the new advection scheme against a standard approach that combines explicit dissipation with a dispersive discretization of the rotational advection operator in two scenarios (a) two-dimensional turbulence and (b) three-dimensional baroclinic equilibration. In both cases, the solutions are stable, free from dispersive artifacts, and achieve increased effective resolution compared to other approaches commonly used in ocean models. 
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: >-
+  This paper develops a momentum-advection scheme for ocean models using weighted essentially non-oscillatory reconstruction.
+  The scheme works with the vector-invariant formulation of momentum advection and supplies dissipation through upwinding.
+  New smoothness indicators help remove grid-scale artifacts without excessively damping the kinetic energy and enstrophy of resolved motion.
+  Tests in two-dimensional turbulence and three-dimensional baroclinic equilibration show stable solutions and improved effective resolution compared with the tested conventional schemes.
+  Readers get the numerical construction and benchmark comparisons needed to understand how advection choices influence stability and resolved ocean turbulence.
 
 tags:
   - Numerical Modeling
