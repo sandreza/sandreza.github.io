@@ -25,7 +25,7 @@ function positionPointerGlow(event) {
   surface.style.setProperty("--psb-glow-y", `${((event.clientY - bounds.top) / bounds.height) * 100}%`);
 }
 
-const ATTRACTOR_BOX = { x: 0, y: 9, width: 350, height: 142 };
+const ATTRACTOR_BOX = { x: 16, y: 9, width: 318, height: 142 };
 
 const ATTRACTOR_SYSTEMS = {
   rossler: {
@@ -98,7 +98,8 @@ function fitAttractor(points, spec, bounds) {
     spec.box.width / (maxX - minX || 1),
     spec.box.height / (maxY - minY || 1),
   );
-  const offsetX = spec.box.x + (spec.box.width - (maxX - minX) * scale) / 2;
+  // Align the visible geometry, not the center of each differently shaped orbit.
+  const offsetX = spec.box.x;
   const offsetY = spec.box.y + (spec.box.height - (maxY - minY) * scale) / 2;
 
   return projected.map(([x, y], index) => {
@@ -123,10 +124,9 @@ function AttractorDivider({ system }) {
 
   return (
     <figure className="psb-attractor-divider" data-system={system} title={`${spec.title} · periodic orbit T ≈ ${periodicOrbits[system].period.toFixed(6)}`}>
-      <svg aria-labelledby={`${titleId}-title ${titleId}-description`} role="img" viewBox="0 0 1200 160" preserveAspectRatio="xMinYMid meet">
+      <svg aria-labelledby={`${titleId}-title ${titleId}-description`} role="img" viewBox="0 0 350 160" preserveAspectRatio="xMinYMid meet">
         <title id={`${titleId}-title`}>{spec.title}</title>
         <desc id={`${titleId}-description`}>{spec.description} Period {periodicOrbits[system].period.toFixed(6)} in model time units.</desc>
-        <line className="psb-attractor-divider__baseline" x1="0" x2="1200" y1="159" y2="159" />
         <path className="psb-attractor-divider__trace" d={geometry.path} />
         <path className="psb-attractor-divider__orbit" d={geometry.orbit} />
       </svg>
