@@ -499,7 +499,7 @@ function Papers({ data }) {
                           ) : null}
                         </div>
                         <div aria-label={`Actions for ${paper.title}`} className="psb-paper-actions" role="group">
-                          <a href={paper.pdf} {...externalProps}>PDF</a>
+                          <a href={paper.pdf} {...externalProps}>{paper.pdf_label || "PDF"}</a>
                           {paper.supplement ? <a href={paper.supplement} {...externalProps}>Supplement</a> : null}
                           <button onClick={(event) => { citationTriggerRef.current = event.currentTarget; setCitationPaper(paper); }} type="button">Cite</button>
                           <a href={paper.doi || paper.url} {...externalProps}>DOI</a>
@@ -555,7 +555,7 @@ function Background({ data }) {
       </div>
       <section className="psb-contact" aria-labelledby="psb-contact-title">
         <div><span>Contact coordinate</span><h3 id="psb-contact-title">Working on a difficult physical system?</h3><p>{data.positioning.audience}</p></div>
-        <div><a href={`mailto:${data.profile.email}`}>{data.profile.email} <span aria-hidden="true">↗</span></a><nav aria-label="Professional profiles"><a href={data.profile.linkedin} {...externalProps}>LinkedIn ↗</a><a href={data.profile.github} {...externalProps}>GitHub ↗</a><a href={data.profile.scholar} {...externalProps}>Google Scholar ↗</a><a href={data.profile.cv}>Download CV ↓</a></nav></div>
+        <div><a href={`mailto:${data.profile.email}`}>{data.profile.email} <span aria-hidden="true">↗</span></a><nav aria-label="Professional profiles"><a href={data.profile.linkedin} {...externalProps}>LinkedIn ↗</a><a href={data.profile.github} {...externalProps}>GitHub ↗</a><a href={data.profile.scholar} {...externalProps}>Google Scholar ↗</a><a href={data.profile.genealogy} {...externalProps}>Mathematics Genealogy ↗</a><a href={data.profile.cv}>Download CV ↓</a></nav></div>
       </section>
       <footer className="psb-footer"><span>© {new Date().getFullYear()} {data.profile.name}</span><span>Scientific ML · AI Physics · Applied mathematics</span></footer>
     </section>

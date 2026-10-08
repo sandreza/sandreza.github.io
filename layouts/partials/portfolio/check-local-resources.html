@@ -1,0 +1,21 @@
+{{/* Fail the build if a portfolio download or media link is missing. GitHub
+     Actions runs Hugo on Linux, where these paths are case-sensitive. */}}
+{{ if reflect.IsMap . }}
+  {{ range . }}
+    {{ partial "portfolio/check-local-resources.html" . }}
+  {{ end }}
+{{ else if reflect.IsSlice . }}
+  {{ range . }}
+    {{ partial "portfolio/check-local-resources.html" . }}
+  {{ end }}
+{{ else if eq (printf "%T" .) "string" }}
+  {{ if or (hasPrefix . "/files/") (hasPrefix . "/media/") }}
+    {{ if not (fileExists (printf "static%s" .)) }}
+      {{ errorf "Portfolio resource is missing (check filename case): %s" . }}
+    {{ end }}
+  {{ else if and (hasPrefix . "/publication/") (hasSuffix . "/cite.bib") }}
+    {{ if not (fileExists (printf "content%s" .)) }}
+      {{ errorf "Portfolio citation is missing: %s" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}

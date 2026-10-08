@@ -39,7 +39,7 @@ featured: false
 links:
   - name: Supplement
     url: /files/response_prl_supplement.pdf
-url_pdf: /files/Response_PRL.pdf
+url_pdf: /files/response_prl.pdf
 url_code: ''
 url_dataset: ''
 url_DOI: 'https://doi.org/10.1103/PhysRevLett.133.267302'

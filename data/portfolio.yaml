@@ -11,6 +11,7 @@ profile:
   scholar: "https://scholar.google.com/citations?user=FoK_ufEAAAAJ&hl=en"
   linkedin: "https://www.linkedin.com/in/andre-souza-8363144b/"
   github: "https://github.com/sandreza"
+  genealogy: "https://www.genealogy.math.ndsu.nodak.edu/id.php?id=218310"
   twitter: "https://twitter.com/AndreSo21198743"
 
 positioning:
@@ -290,6 +291,10 @@ stories:
     description: The connection between learned scores and response functions.
     url: https://doi.org/10.1103/PhysRevLett.133.267302
     primary: true
+  - label: Download the GFDT response-theory paper
+    source: PDF | Physical Review Letters
+    description: The 2024 article connecting response theory with generative score modeling.
+    url: /files/response_prl.pdf
   - label: Download the 2024 PRL supplementary material
     source: Supplement | 24-page PDF
     description: Derivations, score corrections, training details, numerical methods, and validation.
@@ -519,13 +524,15 @@ stories:
     Earth system model outputs. The model generates monthly temperature, precipitation, humidity, and wind
     fields conditioned on warming information. Modeling them jointly lets us evaluate spatial structure, cross-variable
     dependence, tails, and forced changes across three parent climate models.
-  - Surface to Seafloor applies the same probabilistic perspective to ocean state estimation. In an idealized
+  - Our Journal of Physical Oceanography paper, “A Generative AI Framework for Inferring Consistent Ocean Statistics
+    at Depth Using Sea Surface Data,” applies the same probabilistic perspective to ocean state estimation. First
+    circulated as Surface to Seafloor, it is now available as an early online release. In an idealized
     double-gyre simulation, a diffusion model infers three-dimensional velocity and buoyancy fields from surface
     information. Ensembles represent possible interiors, and the experiments show how inference skill changes
     with depth and the resolution of the surface data.
   - The central question is what the available information actually constrains. Evaluation therefore goes beyond
     the error of an ensemble mean to examine variability, correlations, and uncertainty. The climate-emulation
-    study identifies failures under strong seasonal regime shifts, while Surface to Seafloor makes the loss
+    study identifies failures under strong seasonal regime shifts, while the ocean-inference study makes the loss
     of information with depth explicit.
   - These projects bring together conditional modeling, score-based diffusion, physical data representations,
     and statistical evaluation. They turn incomplete information into ensembles that can be interrogated for
@@ -546,13 +553,13 @@ stories:
     source: PDF
     description: The paper with Shahine Bouabid and Raffaele Ferrari.
     url: /files/shahine_2025.pdf
-  - label: 'Surface to Seafloor: A Generative AI Framework for Decoding the Ocean Interior State'
-    source: arXiv preprint | 2025
-    description: A preprint on inferring possible ocean interiors from surface information.
-    url: https://doi.org/10.48550/arXiv.2504.15308
-  - label: Download Surface to Seafloor
-    source: PDF | Preprint
-    description: Experiments on surface-conditioned velocity, buoyancy, and uncertainty.
+  - label: A Generative AI Framework for Inferring Consistent Ocean Statistics at Depth Using Sea Surface Data
+    source: Journal of Physical Oceanography | 2026
+    description: Early online release on inferring ocean statistics at depth from surface information.
+    url: https://doi.org/10.1175/JPO-D-25-0093.1
+  - label: Download the ocean-inference preprint
+    source: PDF | arXiv version
+    description: The earlier manuscript, titled Surface to Seafloor; retained while the final proofed PDF is pending.
     url: /files/s2s.pdf
   number: '07'
 
@@ -590,6 +597,23 @@ experience:
     url: "https://deepblue.lib.umich.edu/items/ecd15dc4-5a2d-40b7-b987-6f9cff36f89f"
 
 published:
+  - title: A Generative AI Framework for Inferring Consistent Ocean Statistics at Depth Using Sea Surface Data
+    year: '2026'
+    topic: Generative AI / ocean state inference
+    pdf: /files/s2s.pdf
+    authors: A. N. Souza, S. Silvestri, K. Deck, T. Bischoff, G. R. Flierl, and R. Ferrari
+    cite: /publication/surface-to-seafloor/cite.bib
+    summary: This paper explores how observations of the ocean surface can constrain currents and buoyancy deep below
+      it. A score-based diffusion model generates three-dimensional interior states conditioned on surface information.
+      The method is evaluated in an idealized double-gyre simulation with 15 vertical levels, testing both mean circulation
+      and mesoscale variability. Its reconstructions include uncertainty estimates, with skill decreasing as observations
+      become coarser or the target depth increases. Readers get a probabilistic approach to an underdetermined ocean-observation
+      problem and a controlled demonstration of its potential before application to real-world observations.
+    venue: Journal of Physical Oceanography
+    citation: Early online release, 25 September 2026
+    doi: https://doi.org/10.1175/JPO-D-25-0093.1
+    selected: true
+    pdf_label: PDF (arXiv)
   - title: "NORi: An ML-Augmented Ocean Boundary Layer Parameterization"
     authors: "X. K. Lee, A. Ramadhan, A. Souza, G. L. Wagner, S. Silvestri, J. Marshall, and R. Ferrari"
     venue: "Journal of Advances in Modeling Earth Systems"
@@ -660,7 +684,7 @@ published:
     doi: "https://doi.org/10.1103/PhysRevLett.133.267302"
     topic: "Generative AI / statistical physics"
     selected: true
-    pdf: "/files/Response_PRL.pdf"
+    pdf: "/files/response_prl.pdf"
     supplement: "/files/response_prl_supplement.pdf"
     cite: "/publication/giorgini-bischoff-deck-souza-2024/cite.bib"
     summary: >-
@@ -1018,19 +1042,6 @@ published:
       Readers get a comparison of two bounding techniques and an explanation of why a mathematically admissible transport limit need not be dynamically attainable.
 
 preprints:
-  - title: "Surface to Seafloor: A Generative AI Framework for Decoding the Ocean Interior State"
-    year: "2025"
-    url: "https://doi.org/10.48550/arXiv.2504.15308"
-    topic: "Generative AI / ocean state inference"
-    pdf: "/files/s2s.pdf"
-    authors: "A. N. Souza, S. Silvestri, K. Deck, T. Bischoff, R. Ferrari, G. R. Flierl"
-    cite: "/publication/surface-to-seafloor/cite.bib"
-    summary: >-
-      This preprint explores how observations of the ocean surface can constrain currents and buoyancy deep below it.
-      A score-based diffusion model generates three-dimensional interior states conditioned on surface information.
-      The method is evaluated in an idealized double-gyre simulation with 15 vertical levels, testing both mean circulation and mesoscale variability.
-      Its reconstructions include uncertainty estimates, with skill decreasing as observations become coarser or the target depth increases.
-      Readers get a probabilistic approach to an underdetermined ocean-observation problem and a controlled demonstration of its potential before application to real-world observations.
   - title: "Stochastic Emulators of Spatially Resolved Extreme Temperatures of Earth System Models"
     year: "2025"
     url: "https://doi.org/10.22541/essoar.172858084.46299070/v2"
