@@ -525,8 +525,7 @@ stories:
     fields conditioned on warming information. Modeling them jointly lets us evaluate spatial structure, cross-variable
     dependence, tails, and forced changes across three parent climate models.
   - Our Journal of Physical Oceanography paper, “A Generative AI Framework for Inferring Consistent Ocean Statistics
-    at Depth Using Sea Surface Data,” applies the same probabilistic perspective to ocean state estimation. First
-    circulated as Surface to Seafloor, it is now available as an early online release. In an idealized
+    at Depth Using Sea Surface Data,” applies the same probabilistic perspective to ocean state estimation. In an idealized
     double-gyre simulation, a diffusion model infers three-dimensional velocity and buoyancy fields from surface
     information. Ensembles represent possible interiors, and the experiments show how inference skill changes
     with depth and the resolution of the surface data.
@@ -555,11 +554,11 @@ stories:
     url: /files/shahine_2025.pdf
   - label: A Generative AI Framework for Inferring Consistent Ocean Statistics at Depth Using Sea Surface Data
     source: Journal of Physical Oceanography | 2026
-    description: Early online release on inferring ocean statistics at depth from surface information.
+    description: Inferring ocean statistics at depth from surface information.
     url: https://doi.org/10.1175/JPO-D-25-0093.1
-  - label: Download the ocean-inference preprint
-    source: PDF | arXiv version
-    description: The earlier manuscript, titled Surface to Seafloor; retained while the final proofed PDF is pending.
+  - label: Download the ocean-inference paper
+    source: PDF | Published journal version
+    description: The official Journal of Physical Oceanography article, 56(11), 2643–2658.
     url: /files/s2s.pdf
   number: '07'
 
@@ -610,10 +609,9 @@ published:
       become coarser or the target depth increases. Readers get a probabilistic approach to an underdetermined ocean-observation
       problem and a controlled demonstration of its potential before application to real-world observations.
     venue: Journal of Physical Oceanography
-    citation: Early online release, 25 September 2026
+    citation: 56(11), 2643–2658
     doi: https://doi.org/10.1175/JPO-D-25-0093.1
     selected: true
-    pdf_label: PDF (arXiv)
   - title: "NORi: An ML-Augmented Ocean Boundary Layer Parameterization"
     authors: "X. K. Lee, A. Ramadhan, A. Souza, G. L. Wagner, S. Silvestri, J. Marshall, and R. Ferrari"
     venue: "Journal of Advances in Modeling Earth Systems"
